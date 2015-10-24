@@ -1,0 +1,17 @@
+<html> 
+<body> 
+<form> 
+Nama depan:  
+<input type="text" name="namadepan"> 
+<br> 
+Nama belakang:  
+<input type="text" name="namabelakang"> 
+<br> 
+Password:  
+<input type="password" name="password"> 
+</form> 
+<p> 
+Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan. 
+</p> 
+</body> 
+</html>
