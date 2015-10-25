@@ -1,0 +1,259 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+	Nama depan:
+	<input type="text" name="namadepan">
+	<br>
+	Nama belakang:
+	<input type="text" name="namabelakang">
+	<br>
+	Password:
+	<input type="password" name="password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika Anda mengetikkan karakter-
+	karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet
+	saja, bukannya karakter yang diketikkan.
+	</p>
+</body>
+</html>
+
+
+<!-- form : untuk membuat kolom isian
+	     input : untuk menampilkan fungsi masukkan
+	     type dalam input : menentukan jenis inputan
+	     name dalam input : menentukan text yang ditampilkan dalam kolom inputan -->
+	     
+	     
+	 
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+	Saya memiliki sebuah sepeda:
+	<input type="checkbox" name="Sepeda">
+	<br>
+	Saya memiliki sebuah mobil:
+	<input type="checkbox" name="Mobil" value="ON">
+	<br>
+	Jenis kelamin Anda?
+	<br>
+	Pria:
+	<input type="radio" name="Sex" value="pria">
+	<br>
+	Wanita:
+	<input type="radio" name="Sex" value="wanita" checked>
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol
+	tersebut terlihat diberi tanda cek.
+	</p>
+
+</body>
+</html>
+
+
+<!-- form : untuk membuat kolom isian
+	     input : untuk menampilkan fungsi masukkan
+	     type dalam input : menentukan jenis inputan
+	     name dalam input : menentukan text yang ditampilkan dalam kolom inputan
+	     checkbox dalam input : untuk membuat pilihan dalam bentuk kotak
+	     radio dalam input : untuk membuat pilihan dalam bentuk bulat atau lingkaran -->
+	     
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+		<select name="mobil">
+		<option value="volvo">Volvo
+		<option value="peugeot">Peugeot
+		<option value="fiat" selected>Fiat
+		<option value="jaguar">Jaguar
+	</select>
+	</form>
+
+</body>
+</html>
+
+	
+	<!-- select : memberikan nama pilihan
+		 option : pilihan yang tersedia
+		 selected : default yang ada pada pilihan -->
+		 
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Informasi kesehatan:
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+			</form>
+		</fieldset>
+		<p>
+			Bila tidak terlihat border maka browser anda sudah terlalu lama.
+		</p>
+
+</body>
+</html>
+
+
+	<!-- fieldset : menentukan nilai sendiri
+		 legend : menentukan sebuah caption untuk sebuah field
+		 input : untuk menampilkan fungsi masukkan
+		 type dalam input : menentukan jenis inputan
+		 size : menentukan besar kolom inputan -->
+
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+		Masukkan nama depan Anda:
+		<input type="text" name="namadepan" value="Mickey">
+		<br>Masukkan nama belakang Anda:
+		<input type="text" name="namabelakang" value="Mouse">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+	<p>
+	Klik tombol Submit
+	</p>
+
+</body>
+</html>
+
+
+	<!-- action : menentukan halaman proses
+		 input : untuk menampilkan fungsi masukkan
+		 type dalam input : menentukan jenis inputan -->
+
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<form action="@" method="post" encype="text/plain"
+<h3>Mengirim email</h3>
+Nama<br> <input type="text" name="nama" value="Nama Anda" size="20"> </br>
+Mail:<br> <input type="text" name="mail" value="Mail Anda" size="20"> </br>
+Komentar:<br> <input type="text" name="komentar" value="Komentar Anda" size="40"> </br>
+<br></br>
+<input type="submit" value="send">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+
+
+<!-- encype : metode penulisan
+	 input : untuk menampilkan fungsi masukkan
+	 type dalam input : menentukan jenis inputan
+	 name dalam input : menentukan text yang ditampilkan dalam kolom inputan
+	 size : menentukan besar kolom inputan -->
+
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body background="img.jpg">
+</body>
+</html>
+
+<!-- background : setting gambar latar belakang -->
+
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<p>Gambar:
+<img src="img.jpg" align="bottom" width="100" height="50">
+di antara teks
+</p>
+</body>
+</html>
+
+
+<!-- src : menentukan lokasi gambar
+	 align : letak gambar
+	 width : lebar gambar
+	 height : tinggi gambar -->
+	 
+	 
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<img src="img.jpg" alt="Keterangan" width="32" height="32">
+<p>Teks tampil jika ada kursor</p>
+</body>
+</html>
+
+<!-- src : lokasi gambar
+	 alt : alternatif
+	 width : besar gambar
+	 height : tinggi gambar -->
+
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0">
+<p>Nyaman</p>>
+</body>
+</html>
+
+<!-- bgcolor : menentukan warna latar belakang -->
+
+
+
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+<p>Warna kontras</p>>
+</body>
+</html>
+
+<!-- bgcolor : menentukan warna latar belakang
+	 text color dalam body : menampilkan warna teks --> 
