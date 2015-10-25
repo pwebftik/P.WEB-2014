@@ -1,0 +1,262 @@
+<!-- Field teks dan password -->
+
+<html>
+<head>
+	<title>Belajar PW </title>
+</head>
+<body>
+	<form>
+	Nama depan:
+	<input type="text" name="namadepan">
+	<br>
+	Nama belakang:
+	<input type="text" name="namabelakang">
+	<br>
+	Password:
+	<input type="password" name="password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika anda mengetikkan karakter-karakter
+	dalam suatu field password, browser akan menampilkan asterisk atau bullet saja,
+	bukannya karakter yang diketikka.
+	</p>
+</body>
+</html> 
+<!-- Analisis : script ini untuk menampilkan form login nama depan,belakang, password -->
+
+<!-- Checkbox dan tombol radio -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+	Saya memiliki sebuah sepeda :
+	<input type="checkbox" name="Sepeda">
+	<br>
+	Saya memiliki sebuah mobil :
+	<input type="checkbox" name="Mobil" value="ON">
+	<br>
+	Jenis kelamin anda ?
+	<br>
+	Pria :
+	<input type="radio" name="Sex" value="pria">
+	<br>
+	Wanita :
+	<input type="radio" name="Sex" value="wanita" checked>
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radi, tombol tersebut terlihat
+	diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+	</p>
+</body>
+</html>
+<!-- Analisis :  cheackbox untuk inputan lebih dari satu dan boleh kosong, radio inputan hanya boleh 1 inputan -->
+
+<!-- Kotak drop down dengan nilai default -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<from>
+		<select name="mobil">
+			<option value="Volvo">Volvo
+			<option value="peugeot">Peugeot
+			<option value="fiat" selected>Fiat
+			<option value="jaguar">Jaguar
+		</select>
+		</from>
+</body>
+</html>
+<!-- Analisis :  script ini berfungsi untuk memilih merk mobil. -->
+
+<!-- Tombol dan fieldset -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Informasi Kesehatan :
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+		Bila tidak terlihat adanya borde di sekeliling from input, browser anda sudah terlalu lama.
+	</p>
+</body>
+</html>
+<!-- Analisis :  script ini berfungsi untuk menampilkan data informasi keshatan berupa, tinggi dan berat -->
+
+<!-- Form dengan field input dan tombol submit -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form name ="input" action="http://www.w3c.org/from_action.asp" method="get">
+		Masukkan nama depan Anda :
+		<input type="text" name="namadepan" value="Ade">
+		<br>
+		Masukkan nama belakang Anda :
+		<input type="text" name="namabelakang" value="Virgiawan">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+	<p>
+	Bila anda mengklik tombol "submit", anda akan mengirim input yang dimasukkan lewat form di atas ke
+	pemroses yang bernama from_action.asp di situs w3c.
+	</p>
+</body>
+</html>
+<!-- Analisis : script ini menampilkan form memasukkan nama depan anda, nama belakang, dan tombol submit -->
+
+<!-- Mengirim e-mail dari suatu form -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form action="@" method="post" enctype="text/plain">
+		<h3>
+		From ini mengirim sebuah e-mail ke w3c.</h3>
+		<input type="text" name="nama" value="Nama Anda" size="20">
+		<br>
+		Mail:
+		<br>
+		Komentar :
+		<br>
+		<input type="text" name="komentar" value="Komentar Anda" size="40">
+		<br>
+		<br>
+		<input type="submit" value "Send">
+		<input type="reset" value "Reset">
+	</form>
+</body>
+</html>
+<!-- Analisis : scirpt berfungsi untuk mengirim email dari suatu form w3c -->
+
+<!-- Menyisipkan gambar latar belakang dan depan -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+<body background="1.jpg">
+	<h3> Lihatlah, ada gambar latar belakang!</h3>
+	<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+	<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang.</p>
+	<p>
+	Sebuah gambar dari folder lokal:
+	<img src="2.png" widht="144" height="50">
+	</p>
+	<p>
+	Gambar dari folder lain:
+	<img src="3.png" widht="33" height="32">
+	</p>
+	<p>
+	Mengambil gambar dari situs lain :
+	<img src="www.yahoo.com/images/ie.gif" widht="73" height="68">
+	</p>
+</body>
+</html>
+<!-- Analisis : sript berfungsi menyisipkan gambar latar belakang dan depan. -->
+
+<!--Mengatur posisi gambar -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+<body>
+	<p>
+	sebuah gambar
+	<img src ="2.png" align="bottom" widht="100" height="50">
+	diantara teks
+	</p>
+	sebuah gambar
+	<img src ="2.png" align="middle" widht="100" height="50">
+	diantara teks
+	</p>
+	sebuah gambar
+	<img src ="2.png" align="top" widht="100" height="50">
+	diantara teks
+	</p>
+	<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian bawah)</p>
+	sebuah gambar
+	<img src ="2.png" widht="100" height="50">
+	diantara teks
+	</p>
+	<p>
+	<img src ="2.png" widht="100" height="50">
+	sebuah gambar didepan teks
+	</p>
+	<p>
+	sebuah gambar di belakang teks
+	<img src ="2.png" widht="100" height="50">
+	diantara teks
+	</p>
+</body>
+</html>
+<!-- Analisis : script berfungsi untuk mengatur posisi gambar -->
+
+<!-- Analisis : Menampilkan teks alternatif untuk gambar. -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+	<body>
+	<img src="2.png" alt="Keterangan" width="32" height="32">
+	<p>
+	Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu keterangan".
+	ka teks alternatif akan di tampilkan.
+	</p>
+</body>
+</html>
+<!-- Analisis : script berfungsi untuk menampilkan teks alternatif untuk gambar. -->
+
+<!-- Latar belakang dengan warna teks yang sesuai -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0">
+<p>
+paragraf ini terlihat enak di baca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai.
+</p>
+</body>
+</html>
+<!-- Analisis : bgcolor="#d0d0d0" sebagai penentuan kecerahan warna latar belakang pada sebuah halaman web.
+	(dalam script ini latar belakangnya agak gelap)
+	Untuk warna huruf dalam sebuah paragraf dalam script ini berwarna automatis(hitam) -->
+
+
+<!-- Latar belakang dengan warna teks yang buruk -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+<p>
+Paragraf ini terlihat tidak nyaman di baca karena  menggunakan kombinasi warna latar belakang dan 
+warna teks yang tidak sesuai.</p>
+</body>
+</html>
+<!-- Analisis : bgcolor="ffffff" sebagai penentuan kecerahan warna latar belakang pada sebuah halaman web.
+	(dalam script ini latar belakangnya berwrna putih)
+	text="yellow" sebagai warna huruf dalam sebuah paragraf -->
