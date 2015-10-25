@@ -1,0 +1,249 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+      <form>
+      	Nama depan:
+      	<input type="text" name="namadepan">
+      	Nama Belakang:
+      	<input type="text" name="namabelakang">
+      	Password:
+      	<input type="passsword" name="password">
+      </form>
+      <p>
+      	Perhatikan bahwa ketika anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+      </p>
+
+</body>
+</html>
+
+Analisis : Coding akan menampilkan field field berisi tabel form kosong untuk mengisi nama depan, nama belakang, dan password.
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <form>
+    Saya memiliki sebuah sepeda:
+    <input type="checkbox" name="Sepeda">
+    <br>
+    Saya memiliki sebuah mobil:
+    <input type="checkbox" name="Mobil" value="ON">
+    <br>
+    Jenis Kelamin Anda?
+    <br>
+    Pria:
+    <input type="radio" name="Sex" value="pria">
+    <br>
+    Wanita:
+    <input type="radio" name="Sex" value="wanita" checked=>
+    </form>
+    <p>
+    Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda ceknya
+    </p>
+</body>
+</html>
+
+Analsis : Script menampilkan check box (dapat memilih/mencentang 1 atau lebih pilihan checkbox atau dapat dikosongkan) dan tombol radio (dapat memilih hanya 1 pilihan saja)
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <form>
+    	<select name="mobil">
+    	    <option value="volvo">Volvo
+    	    <option value="peugeot">Peugeot
+    	    <option value="fiat" selected>Fiat
+    	    <option value="jaguar">Jaguar
+    </select>
+    </form>
+
+</body>
+</html>
+
+Analsis : Menampilkan kotak drop down dengan pilihan default dan tidak dapat disi/diganti
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <fieldset>
+    	<legend>
+    		Informasi Kesehatan:
+    	</legend>
+    	<form>
+    		Tinggi <input type="text" size="3">
+    		Berat <input type="text" size="3">
+    		<br>
+    	    <input type="button" value="Ada tombol disini">
+    	</form>
+    </fieldset>
+    <p>
+    	Bila tidak terlihat adanya border di sekeliling form input, browser anda sudah terlalu lama.
+    </p>
+
+</body>
+</html>
+
+Analisis : Menampilkan field form kosong dengan pilihan tinggi dan berat dan tombol perintah dibawah form tersebut.
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+    Masukkan nama depan anda:
+    <input type="text" name="namadepan" value="Andi">
+    <br>Masukkan nama belakang anda:
+    <input type="text" name="namadbelakang" value="Rahman">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<p>
+	Bila anda meng-klik tombol "Submit", Anda akan mengirim input yang dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di situs w3c.
+</p>
+
+</body>
+</html>
+
+Analisis : akan menampilka form nama depan dan nama belakang setelah itu bagian submit
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <form action="@" method="post" enctype="text/plain">
+      <h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+      Nama<br>
+      <input type="text" name="nama" value="Nama anda" size="20">
+      <br>
+      Mail:<br>
+      <input type="text" name="mail" value="Mail anda" size="20">
+      <br>
+      Komentar:<br>
+      <input type="text" name="komentar" value="Komentar anda" size="40">
+      <br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
+
+Analisis : Menampilkan form kosong untuk nama, mail dna komentar, stelah itu tombol send dan reset
+
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Belajar PW</title>
+ </head>
+ <body background="bg.jpg">
+     <h3>Lihatlah, ada gambar latar belakang!</h3>
+     <p>Bila file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+     <p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang.</p>
+     <p>
+     	Sebuah gambar dari folder lokal:
+     	<img src="K.png" width="144" height="50">
+     </p>
+     <p>
+     	Sebuah gambar dari folder lain:
+     	<img src="E://kemah.png" width="33" height="32">
+     </p>
+     <p>
+     	Mengambil gambar dari situs lain:
+     	<img src="https://assets-cdn.github.com/images/modules/home/desktop-windows.png" width="73" height="68">
+     </p>
+ </body>
+ </html>
+
+Anlisis : Menampilkan gambar dari folder lokal, folder lain diluar dari file html, dan dari situs lain(jika terkoneksi internet).
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<p>
+	Sebuah gambar
+	<img src="E://kemah.png" align="bottom" width="100" height="50">
+	diantara teks
+</p>
+<p>
+	Sebuah gambar
+	<img src="E://kemah.png" align="middle" width="100" height="50">
+	diantara teks
+</p>
+	Sebuah gambar
+	<img src="E://kemah.png" align="top" width="100" height="50">
+	diantara teks
+	<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan dibagian bawah)</p>
+<p>
+	Sebuah gambar
+	<img src="E://kemah.png" width="100" height="50">
+	diantara teks
+</p>
+<p>
+	<img src="E://kemah.png" width="100" height="
+	50">
+	Sebuah gambar didepan teks
+</p>
+<p>
+    Sebuah gambar dibelakang teks
+	<img src="E://kemah.png" align="bottom" width="100" height="50">
+	</p>
+</body>
+</html>
+
+Anlisis : Bagaimana mengatur posisi gambar diantara teks, didepan dan dibelakang teks yang ditampilkan.
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<img src="E://S3/Praktikum PW/ubuntu.jpg" alt="Ubuntu" width="320" height="320">
+</body>
+</html>
+
+Anlasis : menampilkan teks alternatif pada tampilan gambar
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+<p>Teks ini tidak nyaman dibaca</p>
+
+</body>
+</html>
+
+Analisis :mengatur tampilan teks berwarna kuning dan background color putih sehingga teks tidak nyaman dibaca
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0">
+<p>
+	Nama saya Andi Rahman
+</p>
+
+</body>
+</html>
+
+Analisis : Menampilkan background color gray dan text hitam sehingga text mudah dibaca
