@@ -1,0 +1,285 @@
+<!-- Field teks dan password -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+		<form>
+			Nama depan :
+			<input type="text" name="namdepan">
+			<br>
+			Nama belakang :
+			<input type="text" name="namabelakang">
+			<br>
+			Password :
+			<input type="password" name="password">
+			<br>
+		</form>
+		<p>
+		Perhatikan bahwa ketika Anda mengetikkan karakter-
+		karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet
+		saja, bukannya karakter yang diketikkan.
+		</p>
+</body>
+</html>
+//-- ANALISIS : Script ini untuk menampilkan form input Text yaitu Nama, dan menampilkan form input Password, yaitu Password --//
+
+<!-- Checkbox dan tombol radio -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+		Saya memiliki sebuah sepeda:
+		<input type="checkbox" name="sepeda">
+		<br>
+		Saya memiliki sebuah mobil:
+		<input type="checkbox" name="mobil" value="ON">
+		<br>
+		Jenis Kelamin Anda?
+		<br>
+		Pria :
+		<input type="radio" name="sex" value="pria">
+		<br>
+		Wanita :
+		<input type="radio" name="sex" value="wanita" checked=>
+
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol 
+	tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama ya
+	ng sama akan kehilangan tanda cek-nya.
+	</p>
+	
+</body>
+</html>
+//-- ANALISIS : Cheackbox untuk memilih pilihan lebih dari satu dan boleh kosong, Radio untuk memilih pilihan hanya boleh 1 inputan --//
+
+<!-- Kotak drop down dengan nilai default -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+		<select name="mobil">
+			<option value="volvo"> Volvo </option>
+			<option value="peugeot"> Peugeot </option>
+			<option value="fiat" selected> Flat </option>
+			<option value="jaguar"> Jaguar </option>
+		</select>
+	</form>
+	
+</body>
+</html>
+//-- ANALISIS : Script untuk menampilkan pilihan turun kebawah yaitu nama-nama mobil yang harus dipilih salah satu --//
+
+
+<!-- Tombol dan fieldset -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Infomasi Kesehatan :
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+		Bila tidak terlihat adanya border di sekeliling form input, browser Anda sudah terlalu lama.
+	</p>
+</body>
+</html>
+//-- ANALISIS : Script ini untuk membuat bingkai form beserta judul dengan menggunakan "<fieldset>" sebagai bingkai form dan "<legend>" sebagai --//
+//--            judul dari bingkai form. Dan membuat tombol dengan tipe "button" pada "input"													--//
+
+
+<!-- Form dengan field input dan tombol submit -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+			Masukkan nama depan anda :
+			<input type="text" name="namadepan" value="mickey">
+			<br>
+			<input type="text" name="namabelakang" value="mouse">
+			<br>
+			<input type="submit" value="submit">
+	</form>
+	<p>
+		Bila Anda meng-
+		klik tombol "Submit", anda akan mengirim input yang dimasukkan lewat form diatas k
+		e pemroses yang bernama form_action.asp di situs w3c.
+	</p>
+</body>
+</html>
+//-- ANALISIS : Script ini untuk membuat isi default dari form menggunakan "value" --//
+
+
+<!-- Mengirim e-mail dari suatu form -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form action="@" method="post" enctype="text/plain">
+	<h3>Form ini mengirim sebuah e-mail ke w3c</h3>
+	Nama
+	<br>
+	<input type="text" name="nama" value="Nama Anda" size="20">
+	<br>
+	Mail :
+	<input type="text" name="mail" value="Email Anda" size="20">
+	<br>
+	Komentar :
+	<br>
+	<input type="text" name="komentar" value="Komentar Anda" size="40">
+	<br>
+	<br>
+	<input type="submit" value="send">
+	<input type="reset" value="reset">	
+	</form>
+</body>
+</html>
+//-- ANALISIS : Scirpt untuk mengirim isi dari komentar mengguankan "action="@"" , "method="post"" , "enctype="text/plain"" yg berada didalam form  --//
+//--            dan menggunakan "submit" untuk mengirim, serta "reset" untuk menghapus																--//
+
+
+<!-- Menyisipkan gambar latar belakang dan depan -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body background="SUNSET.jpg">
+	<h3>Lihatlah, ada gambar latar belakang!</h3>
+	<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML</p>
+	<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang</p>
+	<p>
+	Sebuah gambar dari folder lokal :
+	<img src="ANI_TAZ.gif" width="144" height="50">
+	</p>
+	<p>
+	Sebuah gambar dari lain :
+	<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_MARV.GIF" width="33" height="32">
+	</p>
+	<p>
+	Mengambil gambar dari situs lain :
+	<img src="www.google.com/images/air.gif" width="73" height="68">
+	</p>
+</body>
+</html>
+//-- ANALISIS : Sript untuk menampilkan latar belakang yg di ambil dari sumber gambar yg berbeda yg diisikan pada script "src" --//
+
+
+<!--Mengatur posisi gambar -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<p>
+		Sebuah gambar
+		<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_ROAD.GIF"align="bottom" width="100" height="50">
+		di antara teks
+	</p>
+
+	<p>
+		Sebuah gambar
+		<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_ROAD.GIF" align="middle" width="100" height="50">
+		di antara teks
+	</p>
+
+	<p>
+		Sebuah gambar
+		<img src="C:\Users\Hp\Documents\Natural Objects\BUMI.JPG" align="top" width="100" height="50">
+		di antara teks
+	</p>
+	<p>
+		Perhatikan bahwa default pengarutan adalah bottom
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_TWEE.GIF" idth="100" height="50">
+		di antara teks
+	</p>
+	<p>
+		<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_TAZ.GIF" idth="100" height="50">
+		Sebuah gambar di depan teks
+	</p>
+	<p>
+		Sebuah gambar di belakang teks
+		<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_TWEE.GIF" idth="100" height="50">
+	</p>
+</body>
+</html>
+//-- ANALISIS : Script berfungsi untuk mengatur posisi gambar antara posisi di atas, tengah, dan bawah dengan menggunakan "align" --//
+
+
+<!-- Analisis : Menampilkan teks alternatif untuk gambar. -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body>
+	<img src="C:\Users\Hp\Documents\Natural Objects\Disney\ANI_ROAD.GIF" alt="Keterangan" width="32" height="32">
+	<p>
+		Browser text-
+		only hanya akan menampilkan teks dalam atribut "alt", yaitu Keterangan.
+		Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan
+	</p>
+</body>
+</html>
+//-- ANALISIS : Script berfungsi untuk menampilkan teks alternatif untuk gambar dengan menggunakan "alt" --//
+
+
+<!-- Latar belakang dengan warna teks yang sesuai -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0">
+	<p>
+		Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar belakang dan warna teks sesuai.
+	</p>
+</body>
+</html>
+//-- ANALISIS : Script untuk mewarnai latar belakang dengan "bgcolor" yg berada di dalam "<body>" --//
+
+
+<!-- Latar belakang dengan warna teks yang buruk -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+	<p>
+		Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang tidak sesuai
+	</p>
+</body>
+</html>
+//-- ANALISIS : Script untuk mewarnai latar belakang dengan "bgcolor" yg berada di dalam "<body>" dan mewarnai text menggunakan "text" yg berada di dalam  --//
+//--            "body" 																																	   --//
+
+
