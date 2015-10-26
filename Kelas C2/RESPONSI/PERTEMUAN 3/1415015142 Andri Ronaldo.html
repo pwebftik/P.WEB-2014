@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+	<body>
+	<form><!--awal tag untuk inputan-->
+		Nama depan    : <input type="text" name="namadepan"><br>
+		Nama belakang : <input type="text" name="namabelakang"><br>
+		Password      : <input type="password" name="password">
+		<!--Artibut type untuk menentukan jenis inputan apakah akan tertampil berupa huruf atau karakter selain huruf untuk password, dan atribut name adalah atribut yang akan memberikan nilai dari tag ini, dan data ini yang akan disimpan dan diproses-->
+	</form><!--akhir tag untuk inputan-->
+	<p>
+		Perhatikan bahwa ketika anda mengetikkan karakter - karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+	</p>
+	</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar pw</title>
+</head>
+	<body>
+		<form>
+			Saya memiliki sebuah sepeda : <input type="checkbox" name="sepeda"><br>
+			Saya memiliki sebuah mobil  : <input type="checkbox" name="mobil" value="ON"><br>
+			<!--type check box untuk inputan boleh kosong dan boleh lebih dari 1-->
+			Jenis kelamin anda<br>
+			Pria <input type="radio" name="sex" value="pria"><br>
+			Wanita 
+			<input type="radio" name="sex" value="wanita" checked><br>
+			<!--type radio adalah inputan untuk 1 masukkan dalam tag form yang ada, nilai harus ada dan hanya boleh 1-->
+		</form>
+		<p>
+			Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebt terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+		</p>
+	</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar pw</title>
+</head>
+	<body>
+		<form>
+			<select name="mobil">
+				<option value="volvo">Volvo
+				<option value="peugeot">Peugeot
+				<option value="fiat" selected>Fiat
+				<option value="jaguar">jaguar<!--tag option adalah isi - isi dari tag select-->
+			</select><!--tag select untuk inputan yang maksimal pilihan 1 dan memiliki isi didalamnya-->
+		</form>
+	</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <fieldset>
+    	<legend>
+    		Informasi Kesehatan:
+    	</legend> <!--isinya akan berapa di garis dari tag fieldset bukan didalamnya-->
+    	<form>
+    		Tinggi <input type="text" size="3">
+    		Berat <input type="text" size="3">
+    		<br>
+    	    <input type="button" value="Ada tombol disini"><!--type button menampilkan output berupa tombol-->
+    	</form>
+    </fieldset><!--tag untuk menampung isi dalam sebuah kotak-->
+    <p>
+    	Bila tidak terlihat adanya border di sekeliling form input, browser anda sudah terlalu lama.
+    </p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <form name="input" action="http://www.w3c.org/form_action.asp" method="get"> <!--atribut action yaitu lokasi dan nama file yang menangani form, atribut method dengan isi get adalah metode HTTP untuk men-submit form-->
+    Masukkan nama depan anda:
+    <input type="text" name="namadepan" value="Andri">
+    <br>Masukkan nama belakang anda:
+    <input type="text" name="namadbelakang" value="Ronaldo">
+    <br>
+    <input type="submit" value="Submit"><!--type submit akan memunculkan tombol untuk mensubmit dan value akan menampilkan keterangan-->
+</form>
+<p>
+	Bila anda meng-klik tombol "Submit", Anda akan mengirim input yang dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di situs w3c.
+</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+    <form action="@" method="post" enctype="text/plain">
+      <h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+      Nama<br>
+      <input type="text" name="nama" value="Nama anda" size="20">
+      <br>
+      Mail:<br>
+      <input type="text" name="mail" value="Mail anda" size="20">
+      <br>
+      Komentar:<br>
+      <input type="text" name="komentar" value="Komentar anda" size="40"><!--size adalah atribut untuk ukuran textbox, name adalah nama dari variabel yang dikirim, value akan menampilkan isi sebagai default-->
+      <br><br>
+      <input type="submit" value="Send"><!--submit-->
+      <input type="reset" value="Reset"><!--untuk reset isi yang telah diisi dan kembali menjadi deault dari value-->
+    </form>
+
+</body>
+</html>
+
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Belajar PW</title>
+ </head>
+ <body background="OP.jpg">
+     <h3>Lihatlah, ada gambar latar belakang!</h3>
+     <p>Bila file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+     <p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang.</p>
+     <p>
+     	Sebuah gambar dari folder lokal:
+     	<img src="gambar.gif" width="144" height="50">
+     </p>
+     <p>
+     	Sebuah gambar dari folder lain:
+     	<img src="gbr.gif" width="33" height="32">
+     </p>
+     <p>
+     	Mengambil gambar dari situs lain:
+     	<img src="www.yahoo.com/images/ie.gif" width="73" height="68"><!--tag img untuk menampilkan gambar, src untuk menentukan lokasi gambar, width untuk lebar gambar, height  untuk tinggi gambar yang tertampil-->
+     </p>
+ </body>
+ </html>
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<p>
+	Sebuah gambar
+	<img src="lol-guy-meme-hd-wallpaper-1920x1080-16899.jpg" align="bottom" width="100" height="50">
+	diantara teks
+</p>
+<p>
+	Sebuah gambar
+	<img src="lol-guy-meme-hd-wallpaper-1920x1080-16899.jpg" align="middle" width="100" height="50">
+	diantara teks
+</p>
+	Sebuah gambar
+	<img src="lol-guy-meme-hd-wallpaper-1920x1080-16899.jpg" align="top" width="100" height="50">
+	diantara teks
+	<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan dibagian bawah)</p>
+<p>
+	Sebuah gambar
+	<img src="lol-guy-meme-hd-wallpaper-1920x1080-16899.jpg" width="100" height="50">
+	diantara teks
+</p>
+<p>
+	<img src="lol-guy-meme-hd-wallpaper-1920x1080-16899.jpg" width="100" height="
+	50">
+	Sebuah gambar didepan teks
+</p>
+<p>
+    Sebuah gambar dibelakang teks
+	<img src="lol-guy-meme-hd-wallpaper-1920x1080-16899.jpg" align="bottom" width="100" height="50">
+	</p>
+	<!--default gambar dari text adalah bottom yaitu  bawah gambar sejajar dengan bawah text, kalau middle gambar ditengan tulisan, kalau top atas gambar akan sejajar atas tulisan-->
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<img src="OP.jpg" alt="One " width="32" height="32">
+<!--atribut alt akan menjadi deskripsi sebelum foto diinputkan atau sebelum foto ada-->
+<p>
+	Broser etx only hanya akan menampilkan text atribut alt yaitu keterangan.
+</p>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0"><!--warna pada tag body-->
+<p>
+	Andri Ronaldo
+</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow"> <!--text adalah warna teks pada tag body, dan warnanya kurang jelas dibaca / tidak sesuai-->
+<p>Teks ini tidak nyaman dibaca bikin sakit mata</p>
+
+</body>
+</html>
+
+
+<!--   Analisis dalam bentuk komentar pada script.   -->
