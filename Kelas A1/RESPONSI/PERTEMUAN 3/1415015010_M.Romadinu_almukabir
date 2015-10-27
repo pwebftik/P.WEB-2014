@@ -1,0 +1,184 @@
+<html>
+<head>
+	<title>Responsi</title>
+</head>
+<body>
+	<h3>Latihan 1</h3><br>
+	<form>
+		Nama Depan:
+		<input type="text" name="namadepan">
+		<br>
+		Nama Belakang:
+		<input type="text" name="namabelakang">
+		<br>
+		Password:
+		<input type="Password" name="Password">
+		<br>
+	</form>
+	<p>
+		Perhatikan bahwa ketika anda mengetikkan karakter-
+		karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet
+		saja, bukannya karakter yang diketikkan.
+	</p><br><br>
+
+	<h3>Latihan 2</h3>
+		<form>
+			Saya memiliki sebuah sepeda:
+			<input type="checkbox" name="sepeda"><br>
+			Saya memiliki sebuah mobil:
+			<input type="checkbox" name="mobil" value="ON"><br>
+			Jenis Kelamin Anda?<br>
+			Pria: 
+			<input type="radio" name="sex" value="pria">
+			Wanita: 
+			<input type="radio" name="sex" value="wanita" checked>
+		</form>
+		<p>
+			ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol 
+			yang sama akan kehilangan tanda checknya
+		</p><br><br>
+
+		<h3>Latihan 3</h3>
+		<form>
+			<select name="mobil">
+				<option value="volvo">Volvo</option>
+				<option value="puegeot">Puegeot</option>
+				<option value="fiat" selected>Fiat</option>
+				<option value="jaguar">Jaguar</option>
+			</select>
+		</form>
+		<p>
+			Select Option digunakan untuk membuat pilihan dalam sebuah form
+		</p><br><br>
+
+		<h3>Latihan 4</h3>
+		<fieldset>
+			<legend>
+				Informasi Kesehatan:
+			</legend>
+			<form>
+				Tinggi <input type="text" size="3">
+				Berat <input type="text" size="3">
+				<br>
+				<input type="button" value="ada tombol disini">
+			</form>
+		</fieldset>
+		<p>
+			Bila tidak terlihat adanya border di sekeliling form input, browser anda su
+			dah terlalu lama.
+		</p><br><br>	
+
+<h3>Latihan 5</h3>
+<form name="input" action="http://www.w3c.org/form_action.asp"
+method="get">
+Masukkan nama depan Anda:  
+<input type="text" name="namadepan" value="Mickey">
+<br>Masukkan nama belakang Anda: 
+<input type="text" name="namabelakang" value="Mouse"> 
+<br>
+<input type="submit" value="Submit"> 
+</form> 
+<p>
+Bila Anda meng-klik tombol "Submit", Anda akan mengirim input yang
+dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di 
+situs w3c.
+</p>
+
+<h3>Latihan 6</h3> 
+<form action="@" method="post" enctype="text/plain">
+<h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+Nama<br>
+<input type="text" name="nama" value="Nama Anda" size="20">
+<br>
+Mail:<br>
+<input type="text" name="mail" value="Mail Anda" size="20">
+<br>
+Komentar:<br>
+<input type="text" name="komentar" value="Komentar Anda" size="40">
+<br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+ 
+
+<h3>Latihan 7</h3>
+<body background="background.jpg">
+<h3>Lihatlah, ada gambar latar belakang!</h3>
+<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar
+belakang HTML.</p>
+<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan
+ditampilkan berulang-ulang.</p>
+<p>
+Sebuah gambar dari folder lokal:
+<img src="gambar1.gif" width="144" height="50">
+</p>
+<p>
+Gambar dari folder lain:
+<img src="../images/gambar2.gif" width="33" height="32">
+</p> 
+<p>
+Mengambil gambar dari situs lain:
+<img src="www.yahoo.com/images/ie.gif" width="73" height="68"> 
+</p><br><br>
+ 
+
+<h3>Latihan 8</h3>
+<body>
+<p>
+Sebuah gambar 
+<img src ="../images/contoh.gif" align="bottom" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="middle" width="100" height="50"> 
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="top" width="100" height="50"> 
+di antara teks
+</p>
+<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian
+bawah)</p>
+<p>
+Sebuah gambar 
+<img src ="../images/contoh.gif" width="100" height="50"> 
+di antara teks
+</p>
+<p>
+<img src ="../images/contoh.gif" width="100" height="50"> 
+Sebuah gambar di depan teks
+</p>
+<p>
+Sebuah gambar di belakang teks
+<img src ="../images/contoh.gif" width="100" height="50"> 
+</p><br><br>
+
+ 
+<h3>Latihan 9</h3>
+<body>
+<img src="../images/gambar.gif" alt="Keterangan" width="32" height="32">
+<p>
+Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu 
+Keterangan". 
+Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar
+tersebut maka teks alternatif akan ditampilkan.
+</p> <br><br>
+ 
+<h3>Latihan 10</h3>
+<body bgcolor="#d0d0d0">
+<p>
+Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar
+belakang dan warna teks yang sesuai.
+</p><br><br>
+ 
+ 
+<h3>Latihan 11</h3>
+<body bgcolor="#ffffff" text="yellow">
+<p>
+Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna
+latar belakang dan warna teks yang tidak sesuai.
+</p>
+</body>
+</<html>
