@@ -1,0 +1,287 @@
+<!--Nama Muhammad Safar Abdurahman-->
+<!--Responsi P.WEB Pertemuan 3-->
+
+<h1>Latihan 1</h1>
+<html>
+<head>
+
+<title>Belajar PW</title>
+<body>
+
+	<form>
+	Nama Depan		:
+	<input type='text' name = 'namadepan'>
+	<p>
+	Nama Belakang	:
+	<input type='text' name = 'namabelakang'>
+	<p>
+	Password		:
+	<input type='password' name='password'>
+	</form>
+	<p>
+	<blockquote>
+	perhatikan bahwa ketika anda mengetikan karakter2 dalam suatu field password,browser 
+	akan menampilkan asterik atau bullet saja, bukan karakter yang diketikan.
+	</blockquote>
+</p>	
+	
+</body>
+</head>
+</html>
+
+<!--Analisis:-->
+<!--Kita menggunakan tag form,fungsinya untuk mendefinisikan sebuah form untuk input dari pengunjung. type inputnya berupa text.-->
+
+
+<h1>Latihan 2</h2>
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+
+
+<body>
+	<form>
+	saya memiliki sebuah sepeda:
+	<input type='checkbox' name ='sepeda'>
+	<br>
+	saya memiliki sebuah sepeda:
+	<input type='checkbox' name ='mobil'  value = 'on'>
+	<br>
+	jenis kelamin?
+	<br>
+	Pria:
+	<input type='radio' name ='sex' value ='pria'>
+	<br>
+
+	Wanita:
+	<input type='radio' name ='sex' value ='wanita' checked>
+	</form>
+	<p>
+	ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio,tombol tsb diberi tanda check,
+	dan semua tombol lain bearada dalam nama yang sama akan kehilangan tanda cek-nya.
+</body>
+
+</html>
+
+<!--kita menggunakan tag form,fungsinya untuk mendefinisikan sebuah form untuk input dari pengunjung.Type inputnya berupa 
+checkbox dan radio,checkbox berarti kita bisa memilih lebih dari satu sedangkan radio hanya pilih salah satu.-->
+
+<h1>Latihan 3</h1>
+
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+
+<body>
+
+	<form>
+		<select name = 'mobil'>
+			<option value = 'volvo'>volvo</option>
+			<option value = 'peugeot'>peugeot</option>
+			<option value = 'fiat'>fiat</option>
+			<option value = 'jaguar'>jaguar</option>
+		</select>
+	</form>
+			
+</body>
+</html>
+
+<!--Program diatas kita tambahkan select name=mobil,artinya memilih jenis-jenis mobil,lalu option value=apa saja jenis-jenisnya.-->
+
+<h1>Latihan 4</h1>
+
+<html>
+<head>
+<title>Belaja PW</title>
+</head>
+<body>
+
+	<fieldset>
+		<legend>Info Kesehatan</legend>
+			<form>
+				tinggi<input type='text' size = '3'>
+				berat<input type='text' size = '3'>
+				<br>
+				<input type = 'button' value = 'ada tombol disini'>
+			</form>
+		</fieldset>
+		
+		<p>
+		bila tak terlihat adanya border disekililing form input,browser anda sudah terlalu lama.
+		</p>
+</body>
+</html>
+
+<!--kita tambahkan Tag fieldset,fungsinya untuk membuat border tepi, dan legend unutk nama filednya,  
+lalu dalam field tambahkan form serta type button didalamnya.-->
+
+
+<h1>Latihan 5</h1>
+
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+
+<body>
+
+	<form name = 'input' action = 'http://www.w3c.org/form_action.asp' method = 'get'>
+	Masukkan nama depan anda:
+	<input type = 'text' name = 'namadepan' value = 'mickey'>
+	<br>
+	Masukkan nama belakang:
+	<input type = 'text' name = 'namabelakang' value = 'mouse'>
+	<br>
+	<input type = 'submit' value = 'Submit'>
+	</form>
+	<p>
+	bila mengklik tombol submit, anda akan mngirim input  yang dimasukka lewat form diatas ke pemproses
+	yang bernama form_action.asp disitus w3c.
+	</p>
+
+</body>
+</html>
+
+<!--Formnya kita buat dalam bentuk input kemudian diarahkan ke situs w3c yang bernama action_map.jadi jika tombolnya 
+diklik maka seharusnya laman akan menuju kesana.-->
+
+<h1>Latihan 6</h1>
+
+<html>
+<head>
+<title>belajra web</title>
+</head>
+<body>
+
+	<form action = '@' method = 'post' enctype = 'text/plain'>
+		<h3>Form ini mengirim sebuah e-mail ke w3c.</h3>
+			Nama :<br>
+			<input type = 'text' name = 'nama' value = 'Nama Anda' size = '20'>
+			<br>Mail :<br>
+			<input type = 'text' name = 'mail' value = 'Mail Anda' size = '20'>
+			<br>Komentar :<br>
+			<input type = 'text' name = 'comment' value = 'Komentar Anda' size = '40'>
+			<br><br>
+			<input type = 'submit' value = 'send'>
+			<input type = 'reset' value = 'reset'>
+	</form>		
+				
+</body>
+</html>
+
+<!--Dalam tag formnya kita buat inputnya dalam bentuk text.lalu kita buat button type dangan nama submin dan reset.-->
+
+
+<h1>Latihan 7</h1>
+
+<html>
+<head>
+<title>Belajar web</title>
+</head>
+<body background = 'bio.jpg'>
+	<h3>ada gambar latar belakang</h3>
+	<p>file gamba atau gif juga bisa jadi background html</p>
+	<p>jika gambar lebih kecil dari halaman situs, maka gambar akan ditampilkan berulang-ulang.</p>
+		<p>
+		sebuah gambar dari lokal: <img src = 'abdur.jpg' width = '144' height = '150'>
+		</p>
+		<p>
+		gamba dari folder lain:
+		<img src = 'test\islam.jpg' width = '33' height = '32'>
+		<p>
+		Mengambil gambar dari situs lain:
+		<img src = 'www/yahoo.com.iamges/ie/.gif' width = '73' height = '68'>
+		</p>
+</body>
+</html>
+
+<!--Laman akan mengambil gambar yang diletakan dalam satu folder dengan file html,dan mengambil yang bearada di folder lain.
+seharusnya juga bisa untuk mengambil gambar dari situs lain.-->
+
+
+<h1>Latihan 8<h1>
+
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+
+<body>
+	<p>sebuah gambar
+	<img src = 'bola.jpg' align = 'bottom' width = '50' height = '30'>diantara teks
+	</p>
+	<p>sebuah gambar
+	<img src = 'bola.jpg' align = 'middle' width = '50' height = '30'>diantara teks
+	</p>
+	<p>sebuah gambar
+	<img src = 'bola.jpg' align = 'top' width = '50' height = '30'>diantara teks
+	</p>
+		<p>perhatikan  bahwa default pengatuan adalah bottom</p>
+		<p>Sebuah gambar
+		<img src= 'bola.jpg' width = '50' height = '30'>
+		diantara teks.
+		</p>
+		<p><img src= 'bola.jpg' width = '50' height = '30'>
+		didepan teks.
+		</p>
+		dibelakang.<img src= 'bola.jpg' width = '50' height = '30'>
+		</p>
+		
+</body>
+</html>
+
+<!--Ini adalah pengaturan letak gambar dan teks,middle untuk rata tengah,bottom untuk rata bawah dan top untuk rata atas.-->
+
+<h1>Latihan 9</h1>
+
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+	<body>
+	<img src  = 'abdur.jpg' alt = 'keterangan' width = '32' height = '32'><p>
+	Browser text hanya akan menampilkan teks dalam attribute "alt", yakni keterangan.
+	<p>
+	prhatikan bila anda membawa pointer mouse diatas gambar tersebut maka teks alternatif akan ditampilkan.
+	</p>
+
+</body>
+</html>
+
+<!--Harusnya bila mouse diatas gambar,maka teks alternative akan tampil.-->
+
+<h1>Latihan 10</h1>
+
+<html>
+	<head>
+		<title>Belajar PW</title>
+	</head>
+	<body bgcolor= '#0d0d0d0'>
+		<p>
+		Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna 
+		lata belakangdan warna teks yang sesuai.
+		</p>
+	
+	</body>
+</html>
+
+<!--Ini contoh background color yang baik (#0d0d0d0), enak dipandang.-->
+
+<h1>Latihan 11</h1>
+
+<html>
+	<head>
+		<title>Belajar PW</title>
+	</head>
+	<body bgcolor= '#ffffff'  text = 'yellow'>
+		<p>
+		Paragraf ini terlihat tidak enak dibaca karena menggunakan kombinasi 
+		warna lata belakangdan warna teks yang sesuai.
+		</p>		
+	</body>
+</html>
+
+<!--Ini contoh teks laman yang buruk untuk dilihat (#ffffff).-->
+
