@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 1</h1>
+    <form>
+        Nama depan: 
+        <input type="text" name="namadepan">
+        <br>
+        Nama belakang: 
+        <input type="text" name="namabelakang">
+        <br>
+        Password: 
+        <input type="password" name="password">
+    </form>
+    <p>
+        Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+    </p>
+</body>
+</html>
+
+<!-- Analisa Latihan 1
+
+        Pada latihan 1 ini menggunakan sebuah tag form yang berfungsi untuk memeberikan informasi tertentu dari pengguna kepada website dan pada latihan ini terdapat sebuah elemen masukan yang digunakan yaitu tag input dengan atribut type text dan tag input atribut type password.
+    
+        Atribut type text akan menghasilkan sebuah elemen masukan yang biasa digunakan untuk mengisi data pengguna berupa text misalnya, nama, hobi, nomor telepon, dan sebagainya.
+
+        sedangkan,
+
+        Atribut type password akan menghasilkan sebuah elemen masukkan yang berfungsi sama seperti type text hanya saja akan menampilkan asterisk atau bullet ketika memasukkan informasi pengguna.
+
+        Atribut name pada tag input berfungsi sebagai penanda atau nama dari sebuah elemen masukkan pada tag input atau bisa disebut sebagai tanda pengenal pada tag input.
+ -->
+
+ <html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 2</h1>
+    <form>
+        Saya memiliki sebuah sepeda: 
+        <input type="checkbox" name="Sepeda">
+        <br>
+        Saya memiliki sebuah mobil: 
+        <input type="checkbox" name="Mobil" value="ON">
+        <br>
+        Jenis kelamin Anda?
+        <br>
+        Pria: 
+        <input type="radio" name="Sex" value="pria">
+        <br>
+        Wanita: 
+        <input type="radio" name="Sex" value="wanita" checked>
+    </form>
+    <p>
+        Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+    </p>
+</body>
+</html>
+
+<!-- Analisa Latihan 2
+
+        Pada latihan 2 ini masih menggunakan tag form seperti latihan1 hanya saja penggunaan tag input menggunakan atribut type checkbox dan radio.
+        
+        Atribut type checkbox akan menghasilkan sebuah elemen masukan berupa beberapa pilihan yang dapat dipilih lebih dari satu masukkan seperti pada latihan2 diatas dari kedua kendaraan  diatas dapat dimiliki secara bersamaan. dan pada atribut value adalah nilai dari sebuah checkbox yang dipilih, maksudnya ketika checkbox bernama mobil dipilih maka nilai yang tersimpan pada website/database akan bernilai "ON".
+
+        sedangkan,
+
+        Atribut type radio akan menghasilkan sebuah elemen masukan berupa beberapa pilihan yang bertujuan hanya dapat dipilih salah satu masukkan saja, pada latihan2 diatas terdapat elemen masukkan pilihan jenis kelamin yang setiap manusia hanya memiliki 1 jenis saja yaitu pria atau wanita. Agar atribut type radio hanya dapat dipilih salah satu saja diperlukan atribut name yang berfungsi untuk memberitahukan browser atau website bahwa radio button dengan atribut name yang sama adalah merupakan kumpulan radio button yang sama, sehingga pengguna tidak boleh memilih dua buah pilihan pada radio button tersebut. Dan atribut checked berfungsi sebagai penanda yang telah ditetapkan sebagai default.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 2</h1>
+    <form>
+        <select name="mobil">
+            <option value="volvo">Volvo
+            <option value="peugeot">Peugeot
+            <option value="fiat" selected>Fiat
+            <option value="jaguar">Jaguar
+        </select>
+    </form>
+</body>
+</html>
+
+<!-- Analisa Latihan 3
+
+        Pada latihan 3 ini masih menggunakan sebuah tag form dengan elemen masukkan berupa tag select yang digunakan untuk menampilkan daftar pilihan dalam bentuk drop-down list atau combobox dalam 1 grup.
+    
+        Atribut name sebagai nama atau tanda pengenal dari group atau kumpulan pilihan yang berada didalam tag select.
+
+        Tag option berfungsi sebagai pilihan dari elemen masukkan dari tag select dan atribut value sebagai nilai dari option yang akan disimpan oleh browser atau website.
+
+        Atribut selected memilii fungsi sebagai pilihan elemen masukkan yang telah ditetapkan oleh programer sehingga ketika program dijalankan Tag select secara default akan memilih option yang menggunakan atribut selected.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 4</h1>
+    <fieldset>
+        <legend>
+            Informasi kesehatan:
+        </legend>
+        <form>
+            Tinggi <input type="text" size="3">
+            Berat <input type="text" size="3">
+            <br>
+            <input type="button" value="Ada tombol disini">
+        </form>
+    </fieldset>
+    <p>
+        Bila tidak terlihat adanya border di sekeliling form input, browser Anda sudah terlalu lama.
+    </p>
+</body>
+</html>
+
+<!-- Analisa Latihan 4
+    
+        Tag fieldset merupakan elemen yang digunakan untuk membungkus beberapa elemen masukan form, untuk menandakan bahwa elemen-elemen tersebut merupakan elemen masukan yang berada pada satu grup yang sama, atau saling berhubungan. Secara standar, elemen fieldset akan memberikan border di sekitar grup elemen-elemen yang tertulis di dalamnya.
+        
+        Elemen legend digunakan untuk memberikan judul pada sebuah fieldset.
+
+        Atribut size pada tag input berfungsi mengatur lebar ukuran pada tag input.
+        
+        atribut type button atau type submit digunakan untuk mengirimkan data dari halaman web ke server. Setiap elemen form membutuhkan tombol button/submit untuk mengirimkan nama dan nilianya ke dalam website atau database yang di tentukan dalam atribut action yang berada didalam elemen tag form.
+
+        sedangkan atribut value sebagai penanda dari tag input beratribut type button atau bertype submit.
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 5</h1>
+    <form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+        Masukkan nama depan Anda: 
+        <input type="text" name="namadepan" value="Mickey">
+        <br>Masukkan nama belakang Anda: 
+        <input type="text" name="namabelakang" value="Mouse">
+        <br>
+        <input type="submit" value="Submit">
+    </form> 
+    <p>
+        Bila Anda meng-klik tombol "Submit", Anda akan mengirim input yang dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di situs w3c.
+    </p>
+</body>
+</html>
+
+<!-- Analisa Latihan 5
+    
+        Pada tag form terdapat 3 atribut yaitu name, action, dan method.
+
+        Atribut name berfungsi sebagai penanda sebuah form dan digunakan ketika dalam satu halaman html terdapat lebih dari 1 form.
+        
+        Atribut action berfungsi untuk memberitahukan browser alamat pengiriman dari data-data yang diisikan pengguna di dalam form. Idealnya parameter ini diisikan dengan sebuah URL pada server yang melakukan pemrosesan data.
+
+        Atribut method memiliki fungsi untuk memberitahukan browser bagaimana data akan dikirimkan kepada server yang alamatnya diisikan pada action. Terdapat dua nilai yang dapat diisikan pada bagian ini, yaitu get dan post. Keuda nilai ini sendiri merupakan protokol HTTP yang digunakan untuk pengiriman data.
+
+        Selanjutnya.
+
+        Pada tag input dengan atribut value yaitu berfungsi sebagai nilai yang telah ditetapkan pada elemen masukkan tag input.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 6</h1>
+    <form action="@" method="post" enctype="text/plain">
+        <h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+        Nama<br>
+        <input type="text" name="nama" value="Nama Anda" size="20">
+        <br>
+        Mail:<br>
+        <input type="text" name="mail" value="Mail Anda" size="20">
+        <br>
+        Komentar:<br>
+        <input type="text" name="komentar" value="Komentar Anda" size="40">
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+
+<!-- Analisa Latihan 6
+    
+        atribut action akan menuju alamat /@ dan terjadilah error karena alamat @ tidak ada atau tidak dibuat.
+
+        atribut method post berfungsi mengirimkan form-data sebagai transaksi posting HTTP.
+
+        atribut enctype yaitu akan menentukan bagaimana form-data harus dikodekan ketika mengirimkan ke server.
+        sedangkan enctype text/plain memiliki fungsi mengkonversi karakter spasi menjadi simbol "+".
+        Contoh: 
+            http://www.belajarituseremloh.com/search?q=tidak+ada+karakter+spasi+didalam+link+inid&ie=utf-8&oe=utf-8
+        
+        Tag input beratribut type reset berfungsi untuk membatalkan semua proses atau mereset proses pengisian data yang dilakukan di elemen input form.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body background="background.jpg">
+    <h1>Latihan 7</h1>
+    <h3>Lihatlah, ada gambar latar belakang!</h3>
+    <p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+    <p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang.</p>
+    <p>
+        Sebuah gambar dari folder lokal:
+        <img src="gambar1.gif" width="144" height="50">
+    </p>
+    <p>
+        Gambar dari folder lain:
+        <img src="images/gambar2.gif" width="33" height="32">
+    </p>
+    <p>
+        Mengambil gambar dari situs lain:
+        <img src="http://i2.wp.com/www.gambaranimasibergerak.com/wp-content/uploads/2015/10/Gambar-kartun-animasi-kelinci-bergerak.gif?resize=200%2C160" width="73" height="68">
+    </p>
+</body>
+</html>
+
+
+<!-- Analisa Latihan 7
+    
+        atribut background berfungsi untuk mengubah latar belakang pada file html. latarbelakang tersebut berada pada direktori yang sama dengan file html latihan 7.
+
+        Tag Img sebagai pemanggil file gambar yang berada didalam direktori ke halaman HTML. Pada latihan ini, tag img ditambah dengan 3 atribut yaitu: src, width, dan height.
+
+        atribut width memiliki fungsi mengatur lebar dari sebuah gambar.
+
+        atribut width memiliki fungsi mengatur tinggi dari sebuah gambar.
+
+        atribut src yaitu penentu URL gambar.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 8</h1>
+    <p>
+        Sebuah gambar 
+        <img src ="images/contoh.gif" align="bottom" width="100" height="50"> 
+        di antara teks
+    </p>
+    <p>
+        Sebuah gambar
+        <img src ="images/contoh.gif" align="middle" width="100" height="50"> 
+        di antara teks
+    </p>
+    <p>
+        Sebuah gambar
+        <img src ="images/contoh.gif" align="top" width="100" height="50"> 
+        di antara teks
+    </p>
+    <p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian bawah)</p>
+    <p>
+        Sebuah gambar 
+        <img src ="images/contoh.gif" width="100" height="50"> 
+        di antara teks
+    </p>
+    <p>
+        <img src ="images/contoh.gif" width="100" height="50"> 
+        Sebuah gambar di depan teks
+    </p>
+    <p>
+        Sebuah gambar di belakang teks
+        <img src ="images/contoh.gif" width="100" height="50"> 
+    </p>
+</body>
+</html>
+
+
+<!-- Analisa Latihan 8
+    
+        pada atribut src dapat dibedakan menjadi penggunaan.
+
+        didalam direktori yang sama dan diluar direktori yang berbeda dengan file html.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body>
+    <h1>Latihan 9</h1>
+    <img src="images/gambar5.gif" alt="Keterangan Gambar tidak ditemukan" width="100" height="100">
+    <p>
+        Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu  Keterangan".
+        Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+    </p>
+</body>
+</html>
+
+<!-- Analisa Latihan 9
+    
+        atribut alt sebagai penentuan sebuah teks alternatif untuk gambar jika file gambar tidak dapat ditemukan oleh browser.
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body bgcolor="#d0d0d0">
+    <h1>Latihan 10</h1>
+    <p>
+        Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai.
+    </p>
+</body>
+</html>
+
+
+<!-- Analisa Latihan 10
+
+    atribut bgcolor didalam tag body berfungsi untuk mengubah warna background pada file html. value dari bgcolor dapat dituliskan dengan kode warna seperti latihan 10 dan bisa juga dituliskan dengan nama warna berbahasa inggris contoh bgcolor="red".
+
+ -->
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Belajar PW</title>
+    </head>
+<body bgcolor="#ffffff" text="yellow">
+    <h1>Latihan 11</h1>
+    <p>
+        Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang tidak sesuai.
+    </p>
+</body>
+</html>
+
+<!-- Analisa Latihan 11
+
+    
+        atribut text pada body berfungsi untuk merubah seluruh warna pada text yang berada didalam tag body. penulisannya sendiri sama dengan bgcolor dapat ditulis dengan kode warna ataupun nama warna dengan bahasa inggris.
+
+
+ -->
