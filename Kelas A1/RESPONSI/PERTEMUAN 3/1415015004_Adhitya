@@ -1,0 +1,265 @@
+<h1>latihan1</h1>
+<html>
+<head>
+	<title>Belajar PW </title>
+</head>
+<body>
+<form>
+nama depan:
+<input type="text" name="namadepan">
+<br>
+nama belakang:
+<input type="text" name="namabelakang">
+<br>
+pass:
+<input type="password">
+</form>
+<p>
+</body>
+</html>
+<!Type text memperlihatkan karakter yg di inputkan, sedangkan type password tidak memperlihatkan>
+
+<h1>latihan2</h1>
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+<body>
+<form>
+Saya memiliki sebuah sepeda:
+<input type="checkbox> name"sepeda">
+<br>
+Saya memiliki sebuah mobil:
+<input type="checkbox> name"mobil" value="12">
+<br>
+Jenis kelamin anda?:
+<br>
+pria:
+<input type="radio" name="sex" value="pria">
+<br>
+wanita:
+<input type="radio" name="sex" value="wanita" checked>
+</form>
+</body>
+</html>
+<!pada value mobil sudah terisi value 12 dan akan langsung ditampilkan di browser tnpa harus menginput, dan yg checker pada "wanita",
+maksudnya adalah sudah langsung di check tanpa harus men-check.>
+
+<h1>latihan3</h1>
+<html>
+<head>
+ <title>BelajarPW</title>
+ </head>
+ <body>
+ <form>
+ <select name="mobil">
+ <option value="volvo">Volvo
+  <option value="peugeot" selected>Peugeot
+   <option value="volvo">Jaguar
+   </select>
+   </form>
+   </body>
+   </html>
+<!Fungsi select adalah untuk membuat kotak drop down. Fungsi selected untuk menampilkan teks yg diberi perintah selected dan di tampilkan di browser>
+
+<h1>Latihan4</h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body>
+<fieldset>
+<legend>
+Informasi kesehatan:
+</legend>
+<form>
+Tinggi <input type="text" size="3">
+Berat <input type="text" size="3">
+<br>
+<input type="button" value="Ada tombol disini">
+</form>
+</fieldset>
+<p>
+Bila tidak terlihat adanya border di sekeliling form input, browser Anda sudah
+terlalu lama.
+</p>
+</body>
+</html>
+
+<!Disini kita dapat menginputkan tinggi dan berat badan kedalam sebuah form.
+Terdapat pula sebuah tombol dibawahnya yang nantinya dapat berfungsi sebagai tombol "accept".>
+
+<h1>Latihan5</h1>
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+<body>
+<form name ="input" action="http://w3c.org/form_action.asp" method="get">
+masukan nama depan anda:
+<input type="text" name="namadepan" value="Mickey">
+<br>
+masukan nama belakang anda:
+<input type="text" name="belakang" value="Mouse">
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+<html>
+<!input type submit di sini adalah untuk membuat tombol submit dan action untuk menentukan kemana inputan text akan di tujukan>
+
+<h1>Latihan6</h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body>
+<form action="@" method="post" enctype="text/plain">
+<h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+Nama<br>
+<input type="text" name="nama" value="Nama Anda" size="20">
+<br>
+Mail:<br>
+<input type="text" name="mail" value="Mail Anda" size="20">
+<br>
+Komentar:<br>
+<input type="text" name="komentar" value="Komentar Anda" size="40">
+<br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+
+<!Disini kita dapat menginput nama, email dan komentar yang kemudian kita bisa mengirimnya
+ke w3c dengan memilih tombol send dibawahnya,
+serta kita juga dapat me-reset atau mengosongkan kembali apa yang telah kita tulis sebelumnya
+dengan menekan tombol reset dibawah form.>
+
+<h1>Latihan7</h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body background="background.jpg">
+<h3>Lihatlah, ada gambar latar belakang!</h3>
+<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar
+belakang HTML.</p>
+<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan
+ditampilkan berulang-ulang.</p>
+<p>
+Sebuah gambar dari folder lokal:
+<img src="gambar1.gif" width="144" height="50">
+</p>
+<p>
+Gambar dari folder lain:
+<img src="../images/gambar2.gif" width="33" height="32">
+</p>
+<p>
+Mengambil gambar dari situs lain:
+<img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+</p>
+</body>
+</html>
+
+<!Disini kita dapat menambahkan gambar pada latar belakang dan depan,
+kita dapat memasukkan gambar dari yang sudah tersedia,
+dari folder yang terdapat pada komputer kita,
+serta dapat menambahkan gambar dari situs lain dengan memasukkan linknya kedalam script diatas.>
+
+<h1>Latihan8</h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="bottom" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="middle" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="top" width="100" height="50">
+di antara teks
+</p>
+<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian
+bawah)</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" width="100" height="50">
+di antara teks
+</p>
+<p>
+<img src ="../images/contoh.gif" width="100" height="50">
+Sebuah gambar di depan teks
+</p>
+<p>
+Sebuah gambar di belakang teks
+<img src ="../images/contoh.gif" width="100" height="50">
+</p>
+</body>
+</html>
+
+<!Disini kita dapat mengatur posisi gambar dengan menyisipkan sebuah gambar diantara sebuah teks,
+dibagian depan teks dan juga dibagian belakang teks.
+Kita dapat memasukkan gambar bergerak dengan format .gif dan gambar diam dengan format .jpeg .png dan lain lain.>
+
+<h1>Latihan 9</h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body>
+<img src="../images/gambar.gif" alt="Keterangan" width="32" height="32">
+<p>
+Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu
+Keterangan.
+Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar
+tersebut maka teks alternatif akan ditampilkan.
+</p>
+</body>
+</html>
+
+<!Disini kita dapat menampilkan teks alternatif pada sebuah gambar, 
+dimana tulisan pada gambar tersebut bisa ditampilkan ketika pointer diarahkan pada gambar tersebut.>
+
+<h1> Latihan 10 </h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body bgcolor="#d0d0d0">
+<p>
+Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar
+belakang dan warna teks yang sesuai.
+</p>
+</body>
+</html>
+
+<!Disini kita dapat memasukkan warna latar belakang dengan memberi perintah discript yang terletak pada <body> 
+Perpaduan warna disini masih enak dibaca karena teks berwarna hitam masih terlihat jelas jika latar belakang berwarna abu-abu.>
+
+<h1>Latihan 11</h1>
+<html>
+<head>
+<tittle> Belajar PW</tittle>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+<p>
+Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna
+latar belakang dan warna teks yang tidak sesuai.
+</p>
+</body>
+</html>
+
+<!Disini juga kita dapat mengubah warna teks jadi tidak hanya latar belakang saja,
+tetapi sangat penting untuk diingat perpaduan warna yang digunakan,
+seperti pada contoh ini teks warna kuning yang dipadukan dengan warna putih latar belakang.
+Akan susah dibaca oleh user yang membacanya.>
+
