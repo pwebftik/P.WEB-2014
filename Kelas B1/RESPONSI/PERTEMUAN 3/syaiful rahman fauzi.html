@@ -1,0 +1,105 @@
+<h1>Latihan 1</h1>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+	Nama depan :
+	<input type="text" name="namadepan">
+	<br>
+	Nama belakang :
+	<input type="text" name="namabelakang">
+	<br>
+	Password:
+	<input type="password" name="password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+	</p>
+	</body>
+	</html>
+	<!--Analisa:
+
+-  tag "form" untuk mendefinisikan form inputan
+-  tag "input" untuk membuat inputan
+-  tag "br" untuk memulai elemen didalam tag pada baris baru
+-  atribut "type" untuk mendefinisikan jenis inputan. 
+-  jika "type" = "text" maka akan ditampilkan karkter sesuai dengan tombol keyboard yang ditekan tapi jika "type" = "password" maka karakter yang ditampilkan pada layar akan dienkripsi menjadi bullet.
+- Atribut "name" untuk memberi nama tiap field -->
+
+	<h1>Latihan 2</h1>
+	<html>'<head>
+		<title>Belajar PW</title>
+	</head>
+	<body>
+		<form>
+		Saya memiliki sebuah sepeda :
+		<input type="checkbox" name="Sepeda">
+		<br>
+		Saya memiliki sebuah mobil :
+		<input type="checkbox" name="Mobil" value="ON">
+		<br>
+		Jenis kelamin Anda?
+		<br>
+		Pria:
+		<input type="radio" name="Sex" value="pria">
+		<br>
+		Wanita:
+		<input type="radio" name="Sex" value="wanita" checked>
+		</form>
+		<p>
+		Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terliha diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+		</p>
+		</body>
+		</html>
+		<!--Analisa:
+- tag "form" untuk mendefinisikan form inputan
+- tag "input" untuk membuat field inputan
+- tag "br" untuk memulai elemen didalam tag pada baris baru
+- atribut "type" untuk mendefinisikan jenis inputan.
+- jika "type" = "checkbox" maka tampilannya akan berbentuk persegi. Saat di klik akan muncul tanda ceklist hijau. "Checkbox" ini memungkinkan kita untuk memilih lebih dari satu dalam satu form tapi  apabila "type" = "radio" maka tampilannya berbentuk lingkaran. Saat diklik akan muncul lingkaran hijau didalamnya. "radio" ini hanya memungkinkan kita untuk memilih satu saja dalam satu form.
+- atribut "name" untuk memberi nama tiap field
+- atribut "value" untuk menunjukkan nilai default dari inputan. Value ON pada checkbox berarti defaultnya field tersebut terceklist
+- atribut "checked" untuk menunjukkan default checklist dari form tersebut-->
+
+	<h1>Latihan 3</h1>
+	<html>
+	<head>
+		<title>Belajar PW</title>
+	</head>
+	<body>
+		<form>
+			<select name="mobil">
+				<option value="volvo">Volvo
+				<option value="peugeot">Peugeot
+				<option value="flat" selected>Flat
+				<option value="jaguar">Jaguar
+			</select>
+			</form>
+	</body>
+	</html>
+<!--Analisa:
+-  tag "form" untuk mendefinisikan form inputan
+-  tag "input" untuk membuat field inputan
+-  tag "br" untuk memulai elemen didalam tag pada baris baru
+- atribut "type" untuk mendefinisikan jenis inputan.
+- apabila "type" nya "checkbox" maka tampilannya akan berbentuk persegi. Saat di klik akan muncul tanda ceklist hijau. "Checkbox" ini memungkinkan kita untuk memilih lebih dari satu dalam satu form.
+- jika apabila "type" =  "radio" maka tampilannya berbentuk lingkaran. Saat diklik akan muncul lingkaran hijau didalamnya. "radio" ini hanya memungkinkan kita untuk memilih satu saja dalam satu form.
+- Atribut "name" untuk memberi nama tiap field
+- Atribut "value" untuk menunjukkan nilai default dari inputan. Value ON pada checkbox berarti defaultnya field tersebut terceklist
+- Atribut "checked" untuk menunjukkan default checklist dari form tersebut-->
+
+	<h1>Latihan 4</h1>
+	<html>
+	<head>
+		<title>Belajar PW</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>
+				Informasi Kesehatan:
+			</legend>
+			<form>
+				Tinggi <input type="text" size="3">
+				Berat <input type="te
