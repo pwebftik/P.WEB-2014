@@ -1,0 +1,160 @@
+
+<html>
+    <head>
+        <title>Responsi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="background.png" bgcolor="#d0d0d0">
+        <h4>Latihan 1</h4>
+        <form>
+            Nama depan:
+            <input type="text" name="Namadpn">
+            <br>
+            Nama belakang:
+            <input type="text" name="Namablkng">
+            <br>
+            Password:
+            <input type="password" name="password">
+        </form>
+        <!-- pada tag form terdapat tag input , di dalam tag input terdapat beberapa type
+        yaitu text untuk input text biasa , dan type password text yang input akan menjadi asterisk (*)-->
+        <h4>Latihan 2</h4>
+        <form>
+            Saya memiliki sebuah sepeda:
+            <input type="checkbox" name="Sepeda">
+            <br>
+            Saya memiliki sebuah mobil:
+            <input type="checkbox" name="Mobil" value="ON">
+            <br>
+            Jenis Kelamin anda?
+            <br>
+            Pria:
+            <input type="radio" name="Sex" value="Pria">
+            <br>
+            Wanita:
+            <input type="radio" name="Sex" value="Wanita">
+            <!-- perbedaan type radio dan checkbox adalah di checkbox bisa di pilih semua 
+            sedangkan di radio hanya satu pilihan yang bisa dipilih.-->
+        </form>
+        <h4>Latihan 3</h4>
+            <form>
+                <Select name="mobil">
+                    <option value="volvo">Volvo
+                    <option value="peugeot">Peugeoeot
+                    <option value="fiat">Fiat
+                    <option value="Bemo">bemo
+                </select>    
+            </form>
+        <!-- untuk form select kita pilih memilih pilihan yang telah di isi di value pada tag option. -->
+        <h4>latihan 4</h4>
+        <fieldset>
+            <legend>
+                Informasi kesehatan:
+            </legend>
+            <form>
+                Tinggi <input type="text" size="3">
+                Berat <input type="text" size="3">
+                <br>
+                <input type="button" value="Tekan aku mas!">
+            </form>
+        </fieldset>
+        <!-- pada latihan ini terdapat input type button ,untuk menjadi tombol. -->
+        <h4>Latihan 5</h4>
+        <form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+            Masukan nama depan anda:
+            <input type="text" name="namadepan" value="Mickey">
+            <br>
+            Masukan nama belakang anda:
+            <input type="text" name="namabelakang" value="Mouse">
+            <input type="submit" value="Submit">
+            <!-- pada latihan ini terdapat input dengan submit menuju link yang telah ditulis diatas
+            dan akan terlihat kata mickey pada kolom pertama dan mouse pada kolom kedua -->
+        </form>
+        <h4>Latihan 6</h4>
+        <form action="@" method="post" enctype="text/plain">
+            <h3>form ini mengirim sebuah e-mail ke w3c.</h3>
+            Nama<br>
+            <input type="text" name="nama" value="Nama Anda" size="20">
+            <br>
+            Mail:<br>
+            <input type="text" name="mail" value="Mail Anda" size="20">
+            Komentar:<br>
+            <input type="text" name="komentar" value="Komentar anda" size="40">
+            <br><br>
+            <input type="submit" value="send">
+            <input type="reset" value="reset">
+            <!-- pada latihan ini form akan dikirim ke ketika mengklik submit dan
+            dan ketika mengklik reset akan mereset halaman ke status default.-->
+            <h4>latihan 7</h4>
+            <h3>lihatlah, ada gambar latar belakang!</h3>
+            <p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar
+            belakang HTML.</p>
+            <p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan
+            berulang ulang</p>
+            <p>Sebuah gambar dari file lokal
+            <img src="contoh.jpg" width="144" height="50">
+            </p>
+            <p>Gambar dari folder lain:
+                <img src="" width="33" height="32">
+            </p>
+            <p>Mengambil gambar dari situs lain :
+                <img src="www.yahoo.com/image/ie.gif" width="73" height="68">
+            </p>
+            <!-- source untuk gambar yang akan di tampilkan bisa diambil dari file yang ada
+            dalam satu folder yang sama , dari folder yang berbeda , ataupun dari website lain -->
+        </form>
+        <h4>Latihan 8</h4>
+        <p>
+            Sebuah gambar
+            <img src="contoh.jpg" align="bottom" width="100" height="50">
+            diantara teks
+        </p>
+        <p>
+            Sebuah gambar
+            <img src="contoh.jpg" align="middle" width="100" height="50">
+            diantara teks
+        </p>
+        <p>
+            Sebuah gambar
+            <img src="contoh.jpg" align="top" width="100" height="50">
+            diantara teks
+        </p>
+        <p> perhatikan bahwa default pengaturan adalah bottom </p>
+        <p>
+            Sebuah gambar
+            <img src="contoh.jpg" width="100" height="50">
+            diantara teks    
+        </p>
+        <p>
+            Sebuah gambar
+            <img src="contoh.jpg" width="100" height="50">
+            diantara teks
+        </p>
+        <p>
+            Sebuah gambar
+            <img src="contoh.jpg" width="100" height="50">
+            diantara teks
+        </p>
+        <!-- untuk mengatur posisi teks menggunakan align .-->
+        <h4>latihan 9</h4>
+        <img src="contoh.jpg" alt="keterangan" width="32" height="32">
+        <p>
+            browser text-only hanya akan menampilkan teks dalam atribut "alt",yaitu keterangan.
+            perhatikan bahwa bilamana anda membawa pointer mouse di atas gambar tersebut maka teks 
+            alternatif akan di tampilkan
+            <!-- alt berfungsi sebagai alternatif jika browser tidak bisa menampilkan gambar yang kita buat -->
+        </p>
+        <h4>latihan 10</h4>
+        <p> karena semua latihan digabung maka untuk latihan 10 ada di body pada line 13. dan bg color 
+        berfungsi untuk memberikan warna sesuai code yang kita masukan .</p>
+        <!--karena semua latihan digabung maka untuk latihan 10 ada di body pada line 13. dan bg color 
+        berfungsi untuk memberikan warna sesuai code yang kita masukan .-->
+        <h4>latihan 11</h4>
+        <p> latihan ini juga sama seperti latihan sepuluh . hanya ditambah pewarnaan warna text nyang membuat
+        halaman terlihat sedikit aneh</p>
+        <!--karena semua latihan digabung maka untuk latihan 10 ada di body pada line 13. dan bg color 
+        berfungsi untuk memberikan warna sesuai code yang kita masukan .-->
+    </body>
+
+</html>
