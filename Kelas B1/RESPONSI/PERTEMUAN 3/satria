@@ -1,0 +1,164 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<h5>01.Field text dan password</h5>
+	<form>
+		Nama Depan:
+		<input type="text" name="namadepan">
+		<!-- memasukkan inputan nama dengan tipe inputan text -->
+		<br>
+		Nama Belakang:
+		<input type="text" name="namabelakang">
+		<!-- memasukkan inputan nama belakang dengan tipe inputan text -->
+		<br>
+		Password:
+		<input type="password" name="password">
+		<!-- memasukkan inputan password dengan tipe inputan password -->
+	</form>
+	<p>Perhatikan bahwa ketika anda mengetikkan karakter - karakter pada suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan</p>
+	<h5>02.Checkbox dan tombol radio</h5>
+	<form>
+		Saya memiliki sebuah sepeda:
+		<input type="checkbox" name="sepeda">
+		<!-- memberikan inputan berupa checkbox -->
+		<br>
+		Saya memiliki sebuah mobil:
+		<input type="checkbox" name="mobil" value="ON">
+		<!-- memberikan inputan berupa checkbox -->
+		<br>
+		Jenis Kelamin anda?
+		<br>
+		Pria:
+		<input type="radio" name="sex" value="pria">
+		<!-- memberikan inputan berupa radio -->
+		Wanita:
+		<input type="radio" name="sex" value="wanita" checked>
+		<!-- memberikan inputan berupa radio namun pada awal langsung terpilih -->
+	</form>
+	<p>Ketika anda memberikan klik pointer pada tombol radio, tombol tersebut terlihat berbeda terlihat diberi tanda check, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya</p>
+	<h5>03.kotak drop down dengan nilai default</h5>
+	<form>
+		<select name="mobil">
+			<option value="Volvo">Volvo</option>
+			<option value="Peugeot">Peugeot</option>
+			<option value="Fiat" selected>Fiat</option>
+			<option value="Jaguar">Jaguar</option>
+		</select>
+		<!-- membuat kotak dropdown dengan nilai diatas namun nilai fiat akan terpilih diawal -->
+	</form>
+	<h5>04.Tombol dan Fieldset</h5>
+	<fieldset>
+		<legend>
+			Informasi Kesehatan:
+		</legend>
+		<form>
+			Tinggi : <input type="text" size="3">
+			Berat  : <input type="text" size="3">
+			<br>
+			 <input type="button" value="Ada tombol disini">
+			 <!-- membuat tombol -->
+		</form>
+	</fieldset>
+	<!-- membuat border disekeliling form -->
+	<p>bila tak terlihat border di sekeliling form input,browser anda sudah terlalu lama</p>
+	<h5>05.form dengan field input dan tobol submit</h5>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+		<!-- form dengan aksi yang terdapat pada website w3c pada file form_action.asp -->
+		Masukkan nama depan anda:
+		<input type="text" name="namadepan" value="Mirai">
+		<!-- memasukkan inputan betupa text dengan nilai awal mirai -->
+		<br>
+		Masukkan nama belakang:
+		<input type="text" name="namabelakang" value="Kuriyama">
+		<!-- memasukkan inputan berupa text dengan nilai awal kuriyama -->
+		<br>
+		<input type="submit" value="submit">
+		<!-- membuat inputan dengan tupe submit -->
+	</form>
+	<p>ketika anda klik tombol submit, maka anda mengirim input yang dimasukkan lewat form diatas ke pemroses yang bernama form_action.asp di situs w3c</p>
+	<h5>06.mengirim e-mail dari suatu form</h5>
+	<form action="@" method="post" enctype="text/plain">
+		<!-- form dengan aksi @ dengan metode post dengan tipe palin text-->
+		<h3>Form ini mengirim sebuah email ke w3c.</h3>
+		nama:
+		<br>
+		<input type="text" name="nama" value="nama anda" size="20">
+		<!-- menginput inputan text dengan nilai awal nama anda dengan lebar textbox 20px -->
+		<br>
+		e-mail:<br>
+			<input type="text" name="mail" value="e-mail anda" size="20">
+			<!-- menginput inputan text dengan nilai awal e-mail anda dengan panjang textbox 20px -->
+			<br>
+			komentar:<br>
+			<input type="text" name="komentar" value="komentar anda" size="40">
+			<!-- menginput inputan text dengan nama komentar dengan nilai awal komentar anda dengan panjang textbox 40px -->
+			<br><br>
+			<input type="submit" value="send">
+			<!-- menginput inputan submit dengan nilai send -->
+			<input type="reset" value="reset">
+			<!-- menginput inputan reset dengan nilai reset -->
+	</form>
+	<h5>07.menyisipkan gambar latar belakang dan depan</h5>
+	<body backgorund="background.jpg">
+		<!-- memberikan background pada body -->
+		<h3>lihatlah ada gambar di latar belakang</h3>
+		<p>baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang html</p>
+		<p>bila gambar yang digunakan lebih kecil dari halaman situs, maka gambar akan ditampilkan berulang</p>
+		<p>sebuah gambar dari folder lokal
+			<img src="gambar1.gif" width="144" height="50">
+			<!-- menampilkan gambar gif1 dengan lebar 144px dan tinggi 50px -->
+		</p>
+		<p>
+			gambar dari folder lain
+			<img src="../images/gambar2.gif" width="33" height="32">
+			 <!--menampilkan gambar2 dengan lebar 33px dan tinggi 32px  -->
+		</p>
+		<p>gambar dari situs lain
+			<img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+			<!-- menampilkan gambar ie.gif dengan lebar 73px dan tinggi 68px -->
+		</p>
+	</body>
+	<h5>08.Mengatur posisi gambar</h5>
+	<p>
+		sebuah gambar
+		<img src="../images/contoh.gif" align="bottom" width="100" height="50"> diantara teks
+	</p>
+	<!-- menampilkan gambar contoh dengan posisi dibawah/bottom dengan lebar 100px dengan tinggi 50px -->
+	<p>
+		sebuah gambar 
+		<img src="../images/contoh.gif" align="center" width="100" height="50">
+		diantara text
+	</p>
+	<!-- menampilkan gambar contoh dengan posisi ditengah/center dengan lebar 100px dan tinggi 50px -->
+	<p>sebuah gambar
+		<img src="../images/contoh.gif" align="top" width="100" height="50">diantara text
+	</p>
+	<!-- menampilkan gmabar contoh dengan posisi diatas/top dengan lebar 100px dan tinggi 50px -->
+	<p>
+		perhatikan bahwa default pengaturan adalah bottom
+	</p>
+	<p>sebuah gambar
+		<img src="../images/contoh.gif" width="100" height="50">diantara teks
+	</p>
+	<p><img src="../images/contoh.gif" width="100" height="50">sebuah gambar didepan teks</p>
+	<p>sebuah gambar dibelakang teks
+		<img src="../images/contoh.gif" width="100" height="50">
+	</p>
+	<h3>09.menampilkan teks alternatif untuk gambar</h3>
+	<img src="../images/gambar.gif" alt="ini keterangan" width="32" height="32">
+	<p>browser text-only hanya menampilkan teks didalm atribut alt yitu keterangan. perhatikan bahwa bilamana pointer datas gambar teks alternatif akan ditampilkan
+	</p>
+<h5>10. latar belakang dengan warna teks yang sesuai</h5>
+	<body bgcolor="#d0d0d0">
+		<!-- membuat latar belakang menjadi warna abu=abu -->
+		<p>paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai</p>
+	</body>
+<h5>11. latar belakang dengan warna teks yang buruk</h5>
+	<body bgcolor="#ffffff" color="yellow">
+		<!-- membuat latar belakang bewarna putih dengan warna teks kuning -->
+		<p>paragraf ini terlihat tidak nyaman untuk dibaca karena menggunakan warna latar belakang dan warna teks yang tidak sesuai.</p>
+	</body>
+</body>
+</html>
