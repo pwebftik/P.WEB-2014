@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		background-color: #dfa404;
+	}
+	</style>
+</head>
+<body>
+	<form method="post" name="input" action="">
+		<table>
+		<h2>Latihan 1</h2>
+			<tr>
+				<td>Nama Depan</td>
+				<td>:</td>
+				<td><input type="text" placeholder="harus di isi" name="nm_depan"></td>
+			</tr>
+			<tr>
+				<td>Nama Belakang</td>
+				<td>:</td>
+				<td><input type="text" placeholder="harus di isi" name="nm_depan"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="password" placeholder="harus di isi" name="nm_depan"></td>
+			</tr>
+		</table>
+		<table>
+		<h2>Latihan 2</h2>
+			<tr>
+				<td>Saya memiliki sebuah sepeda</td>
+				<td>:</td>
+				<td><input type="checkbox" name="Sepeda"></td>
+			</tr>
+			<tr>
+				<td>Saya memiliki sebuah mobil</td>
+				<td>:</td>
+				<td><input type="checkbox" name="mobil"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+				<input type="radio" name="jk" value="Laki-Laki">Laki-Laki
+				<input type="radio" name="jk" value="Perempuan">Perempuan
+				</td>
+			</tr>
+		</table>
+		<table>
+		<h2>Latihan 3</h2>
+			<tr>
+				<td>Jenis Mobil</td>
+				<td>:</td>
+				<td><select name="mobil">
+					<option value="volvo">Volvo</option>
+					<option value="peugeot">Peugeot</option>
+					<option value="fiat">Fiat</option>
+					<option value="jaguar">Jaguar</option>
+				</select></td>
+			</tr>
+		</table>
+	</form>
+	<h2>Latihan 4</h2>
+	<fieldset>
+	<legend>Informasi Kesehatan:</legend>
+	<form>
+		<table>
+			<tr>
+				<td>Tinggi</td>
+				<td>:</td>
+				<td><input type="text" size="3" placeholder="not null"></td>
+			</tr>
+			<tr>
+				<td>Berat</td>
+				<td>:</td>
+				<td><input type="text" size="3" placeholder="not null"></td>
+			</tr>
+			<tr><td><input type="button" value="Submit"></td></tr>
+		</table>
+	</form>
+	</fieldset>
+	
+	<form method="get" action="http://www.w3c.org/form_action.asp">
+	<fieldset>
+		<legend><h2>Latihan 5</h2></legend>
+		<table>
+			<tr>
+				<td>Masukan Nama depan anda</td>
+				<td>:</td>
+				<td><input type="text" name="nm_depan" value="Mickey"></td>
+			</tr>
+			<tr>
+				<td>Masukan Nama belakang anda</td>
+				<td>:</td>
+				<td><input type="text" name="nm_belakang" value="Mouse"></td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+				<td><input type="submit" name="nm" value="submit"></td>
+			</tr>
+		</table></fieldset>
+	</form>
+	<form method="post" action="@" enctype="text/plain">
+	<fieldset>
+		<legend><h2>Latihan 6</h2></legend>
+		<h3>Form Ini mengirim sebuah E-mail ke W3C.</h3>
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td><input type="text" name="" placeholder="Nama Anda"></td>
+			</tr>
+			<tr>
+				<td>Mail</td>
+				<td>:</td>
+				<td><input type="text" name="" placeholder="Mail"></td>
+			</tr>
+			<tr>
+				<td>Komentar</td>
+				<td>:</td>
+				<td><input type="text" name="nm" placeholder="Masukan komentar"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><input type="submit" name="nm" value="send">
+				<input type="submit" name="nm" value="reset">
+				</td>
+			</tr>
+		</table></fieldset>
+	</form>
+		</form>
+	<form method="post" action="@" enctype="text/plain">
+	<fieldset>
+		<legend><h2>Latihan 7</h2></legend>
+		<h3>Menampilkan Gambar</h3>
+		<img src="img/A01.png"><img src="img/A02.png"><img src="img/A03.png"><img src="img/A04.png">
+		</fieldset>
+	</form>
+	<fieldset>
+		<legend><h2>Latihan 8</h2></legend>
+		<h3>Menampilkan Gambar</h3>
+		<p>
+		Sebuah gambar
+		<img src="img/A01.png" width="50" height="50">
+		diantara text
+		</p>
+		<p>
+		Sebuah gambar
+		<img src="img/A02.png" width="50" height="50" align="middle">
+		diantara text
+		</p>
+		Sebuah gambar
+		<img src="img/A03.png" width="50" height="50" align="top">
+		diantara text
+		</p>
+		Sebuah gambar
+		<img src="img/A04.png" width="50" height="50" align="bottom">
+		diantara text
+		</p>
+		</fieldset>
+		<fieldset>
+		<legend><h2>Latihan 9</h2></legend>
+		<h3>Menampilkan text alternatif</h3>
+		<a href="#"><img src="img/A04.png" title="keterangan" width="100" height="100" title="keterangan"></a>
+		</fieldset> 
+</body>
+</html>
