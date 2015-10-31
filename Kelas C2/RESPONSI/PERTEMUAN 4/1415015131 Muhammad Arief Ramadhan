@@ -17,3 +17,183 @@ background: #00ff00 url("gambar.gif") no-repeat fixed center;
 	<p>Yang penting ada tulisannya</p>
 </body>
 </html>	
+
+    analisa : halaman web ini menjelaskan pengaturan latar belakang atau background halaman web nya
+
+
+
+<html>
+<head>
+<style type="text/css">
+	p.normal {font-weight: normal; }
+	p.tebal {font-weight: bold; }
+	p.teballl {font-weight: 900; }
+	p.lengkap{
+		font: italic small-caps 900 12px arial;
+	}
+</style>
+</head>
+<body>
+	<p class="normal">
+	Perhatikan paragraf ini</p>
+	<p class="tebal">
+	Bandingkan dengan paragraf diatasnya</p>
+	<p class="teballl">
+	Bandingkan yang ini juga</p>
+	<p class="lengkap">
+	Paragraf dengan semua atribut font dimasukkan</p>
+</body>
+</html>
+
+    analisa : halaman web ini menjelaskan tentang penanganan font dalam suatu paragraf dan membandingkan paragraf 1 dengan     paragraf yang lainnya
+
+
+<html>
+<head>
+	<style type="text/css">
+		p.borderous {
+			border-style: double;
+			border-widht: Spx 10px 1px medium;
+			border-color: #ff0000 #00ff00 rgb(250,0,255);
+		}
+	</style>
+</head>
+<body>
+	<p class="borderous">
+	<b>Catatan:</b> tidak didukung oleh internet explorer versi lama</p>
+</body>
+</html>
+
+   analisa : halaman web ini menjelaskan dimana dalam suatu border lalu memakai internet explorer lama maka tidak didukung
+
+
+<html>
+<head>
+<style type="text/css">
+	p.margin {margin: 2cm 4cm 3cm 80px}
+</style>
+</head>
+<body>
+	<p>
+	Yang ini adalah paragraf biasa tanpa pengaturan margin, sepertinya biasa aja.
+	</p>
+	<p class="margin">
+	Bandingkan dengan tampilan paragraf ini. coba anda kecilkan ukuran window browser agar terlihat lebih jelas perbedannya.
+	</p>
+	<p>
+	This is a paragraph
+	</p>
+</body>
+</html>
+
+   analisa : halaman web ini menjelaskan membandingkan paragraf satu dengan paragraf yang lainnya dilihat dari pengaturan marginnya dan kalau mau lihat lebih jelas kecilkan ukuran windownya
+
+
+<html>
+<head>
+<style type="text/css">
+	td. {padding: 1.5cm}
+	td.value2 {padding: 0.5cm 2.5cm}
+</style>
+</head>
+<body>
+	<table border="1">
+	<tr>
+		<td>
+			ini adalah tabel dengan sel yang menggunakan padding sama setiap sisinya (1.5cm).
+			</td>
+		</tr>
+		</table>
+		<br>
+		<table border="1">
+			<tr>
+				<td class="value2">
+				bandingkan dengan tampilkan tabel ini. padding di atas dan bawah memiliki nilai 0.5cm,sedangkan padding kanan dan kiri nilainya 2.5cm.
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
+
+   analisa : halaman web ini menjelaskan tentang dalam suatu tabel dengan sel menggunakan padding dan perbedaan dari tabel yang lainnya sesuai dengan ukuran paddingnya
+
+
+<html>
+<head>
+<style type="text/css">
+	ul {
+		list-style: square outside url("gambarkecil.gif);
+	}
+</style>
+</head>
+<body>
+	<p>Disini Anda menggunakan gambar berukuran kecil sebagai bullet untuk list. Properti outside akan menyebabkan list menjadi lebih rapi bila terdiri atas item yang berupa kalimat panjang dan window browser berukuran kecil </p>
+		<ul>
+			<li>Kopi</li>
+			<li>Teh</li>
+			<li>Coca Cola</li>
+		</ul>
+</body>
+</html>
+
+   analisa : halaman web ini menjelaskan anda menggunakan bullet sebagai list dan list akan menjadi rapi
+
+
+<html>
+<head>
+<style type="text/css">
+img.x1{
+	position:absolute;
+	left:0;
+	top:0;
+	x=index:1;
+}
+img.x2{
+	position:absolute;
+	left:0;
+	top:100;
+	z-index:-1;
+}
+</style>
+</head>
+<body>
+	<p><b>Catatan:</b> Netscape 4 tidak mendukung properti "z-index",</p>
+	<h1>Sepertinya Heading ini terhalang oleh gambar</h1>
+	<img class="x1"src="gambar.bmp" widht="100" height="80">
+	<p>Nilai default z-index adalah 0. Z- index 1 memiliki prioritas lebih tinggi, sedangkan Z-index 1 memiliki prioritas lebih rendah.</p>
+		<p></p>
+		<img class="x2" src="gambar.bmp" widht="100" height="80">
+		<p>sekarang Anda bisa membandingkan dengan tampilan di bagian bawah ini. Apakah masih terhalang gambar?</p>
+</body>
+</html>
+
+   analisa : halaman ini menjelaskan suatu elemen latar depan dan belakang yang netscape 4 tidak didukung dan heading pun terhalang oleh gambar
+
+
+<html>
+<head>
+<style type="text/css">
+	a:link {color: #ff0000}
+	a.one:visited {color: #0000ff}
+	a.one:hover {color: #ffcc00}
+	a.two:visited {color: #0000ff}
+	a.two:hover {font=size: 150%}
+	a.three:visited {color: #0000ff}
+	a.three:hover {background: #66ff66}
+	a.four:visited {color: #0000ff}
+	a.four:hover {font-family: fixedsys}
+	a.five:visited {color: #0000ff; text-decoration: line-through}
+	a.five:hover {text-decoration: overline}
+</style>
+</head>
+<body>
+		<p>Gerakkan pointer mouse di atas link-link di bawah ini untuk membuat link tersebut berubah tampilannya.</p>
+		<p><a class="one" href="hlm1.htm:"> mengubah properti color</a></p>
+		<p><a class="two" href="h1m2.htm:">mengubah properti font-size</a></p>
+		<p><a class="three" href="h1m3.htm:">mengubah properti background-color</a></p>
+		<p><a class="four" href="h1m4.htm:">mengubah properti font-family</a></p>
+		<p><a class="five" href="h1m5.htm:">mengubah properti text-decoration</a></p>
+</body>
+</html
+
+   analisa : halaman web ini menjelaskan tentang membuat link dan menklik suatu link maka link tersebut berubah tampilannya
