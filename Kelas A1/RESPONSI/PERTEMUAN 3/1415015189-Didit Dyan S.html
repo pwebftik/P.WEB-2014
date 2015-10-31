@@ -1,0 +1,264 @@
+<h1>LATIHAN 1</h1>
+<html> 
+<head>
+	<title> Belajar PW </title>
+</head>
+<body>
+	<form>
+	Nama Depan :
+	<input type="text" name="namadepan">
+	<br>
+	Nama Belakang :
+	<input type="text" name="namabelakang">
+	<br>
+	Password:
+	<input type="password" name="password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukan karakter yang diketikkan.
+	</p>
+
+</body>
+</html>
+<!-Jadi jika type inputan adalah "text" makan huruf akan terbaca, lalu jika type "password" maka inputan 
+yang dihasilkan akan terlihat bulat-bulat>
+
+
+<h2>LATIHAN 2</h2>
+
+<html>
+<head>
+	<title>Belajar PW<</title>
+</head>
+<body>
+	<form>
+	Saya memiliki sebuah sepeda:
+	<input type="checkbox" name="sepeda">
+	<br>
+	Saya memiliki sebuah mobil:
+	<input type="checkbox" name="Mobil" value="ON">
+	<br>
+	Jenis kelamin Anda?
+	<br>
+	Pria:
+	<input type="radio" name="Sex" value="pria">
+	<br>
+	Wanita:
+	<input type="radio" name="Sex" value="wanita" checked>
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+	</p>
+
+</body>
+</html>
+<!-Perbedaan type inputan check dan radio akan terlihat berbeda saat di inputkan>
+
+
+<h3>LATIHAN 3</h3>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+		<select name="mobil">
+			<option value="volvo">Volvo
+			<option value="peugeot">Peugeot
+			<option value="flat" selected>Flat
+			<option value="jaguar">Jaguar
+		</select>
+		</form>
+</body>
+</html>
+<!-Untuk option value ini, kita dapat memasuka beberapa option dengan mengetikan type "option value">
+
+
+<h4>LATIHAN 4</h4>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Informasi kesehatan:
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+		Bila tidak terlihat adanya border disekeliling form input, browser Anda sudah terlalu lama.
+	</p>
+
+</body>
+</html>
+<!-Untuk membuat fieldset didalam html>
+
+
+<h5>LATIHAN 5</h5>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+		Masukkan nama depan anda:
+		<input type="text" name="namadepan" value="Mickey">
+		<br>Masukkan nama belakang anda:
+		<input type="text" name="namabelakang" value="Mouse">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+	<p>
+		Bila anda meng-klik tombol "Submit",anda akan mengirim input yang dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp disitus w3c.
+	</p>
+	</body>
+	</html>
+<!-Untuk inputan dengan contoh inputan yang sudah tersedia>
+
+
+<h6>LATIHAN 6</h>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form action="@" method="post" enctype="text/plain">
+		<h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+		Nama<br>
+		<input type="text" name="nama" value="Nama Anda" size="20">
+		<br>
+		Mail:<br>
+		<input type="text" name="mail" value="Mail Anda" size="20">
+		<br>
+		Komentar:<br>
+		<input type="text" name="komentar" value="Komentar Anda" size="40">
+		<br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
+<!-Inputan yang sudah diisikan akan otomatis mengirimkan ke email>
+
+
+<h7>ALASAN 7</h7>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body background="background.jpg">
+	<h3>Lihatlah, ada gambar latar belakan!</h3>
+	<p> Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+	<p>Bila gambar yang digunakan lebih kecil dari halaman situs,gambar akan ditampilkan berulang-ulang.</p>
+	<p>
+	Sebuah gambar dari folder lokal:
+	<img scr="gambar1.gif" width="144" height="50">
+	</p>
+	<p>
+	Gambar dari folder lain:
+	<img src="../images/gambar2.gif" width="33" heigh="32">
+	</p>
+	<p>
+	Mengambil gambar dari situs lain:
+	<img  src="www.yahoo.com/images/ie.gif" width="73" height="68">
+	</p>
+</body>
+
+</html>	
+<!-Memberikan background beserta ukuran background, dan dapat mengambil gambar dari situs lain>
+
+
+<h8>LATIAHAN 8</h8>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<p>
+	Sebuah gambar
+	<img src="../images/contoh.gif" align="bottom" width="100" height="50">
+	diantara teks
+	</p>
+	<p>
+	Sebuah gambar
+	<img src="../images/contoh gif" align="middle" width="100" height="50">
+	di antara teks
+	</p>
+	<p>
+	Sebuah gambar
+	<img src="../images/contoh gif" align="top" width="100" height="50">
+	di antara teks
+	</p>
+	<p> Perhatikan bahwa default pengaturan adalah bottom (diletakkan dibagian bawah)</p>
+	<p>
+	Sebuah gambar
+	<img src="../images/contoh gif" width="100" height="50">
+	di antara teks
+	</p>
+	<p>
+	<img src="../images/contoh gif" width="100" height="50">
+	Sebuah gambar di depan teks
+	</p>
+	<p>
+	Sebuah gambar dibelakang teks 
+	<img src="../images/contoh gif" width="100" height="50">
+	</p>
+
+</body>
+</html>
+<!-Menempatkan posisi gambar didalam suatu teks dengan cara penempatan penulisan teks terlebih dahulu atau gambar terlebih dahulu>
+
+
+
+<h9>LATIHAN 9</h>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<img src="../images/contoh gif" alt="keterangan" width="32" height="32">
+	<p>
+	Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu keterangan".
+	Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+	</p>
+</body>
+</html>
+<!-Dengan alt="keterangan" maka gambar yang kita arahkan pada kursor akan menampilkan kalimat "keterangan">
+
+
+<h10>LATIHAN 10</h10>
+html>
+<head>
+	<title>Belajar PW<title>
+</head>
+<body bgcolor="#d0d0d0">
+	<p>
+	Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai.
+	</p>
+	</body>
+
+	</html>
+
+<!-memberikan warna background>
+
+<h11>LATIHAN 11</h11>
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+	<p>
+		Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang tidak sesuai.
+	</p>
+</body>
+
+</html>
+<!-Memberikan warna pada background dan text color sesuai warna yang kita mau contoh text="yellow">
+
+<
