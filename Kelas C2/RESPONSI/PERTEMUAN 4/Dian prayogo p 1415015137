@@ -1,0 +1,27 @@
+<html>
+<head>
+<style type="text/css">
+img.x1{
+position:absolute;
+left:0;
+top:0;
+z-index:1;
+}
+img.x2{
+position:absolute;
+left:0;
+top:100;
+z-index:-1;
+}
+</sytle>
+</head>
+<body>
+<p><b>catatan:</b> netcape 4 tidak didukung properti "z-index",</p>
+<h1>sepertinya heading initerhalang oleh gambar</h1>
+<img class="x1" src="picture.bmp"width="100" height="80">
+<p>nilai default z-index adalah 0. z-index 1 memiliki prioritas lebih tinggi,sedangkan z-index -1 memiliki prioritas lebih rendah</p>
+<p></p>
+<img class="x2" src="picture.bmp" width="100"height="80">
+<p>Sekarang anda bisa membandingkan dengan tampilan di bagian bawah ini apakah masih terhalang gambar?</p>
+</body>
+</html>
