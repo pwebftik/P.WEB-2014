@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>Resposi Modul 3</title>
+</head>
+<body>
+<!-- Nomor 1 -->
+<h1>Nomor 1</h1>
+	<form>
+    	Nama Depan <input type="text" name="nmdepan">
+        <br />
+		Nama Belakang <input type="text" name="nmbelakang">
+        <br />
+		Password : <input type="password" name="pass">
+    </form>
+    <p>
+    	perhatikan bahwa ketika anda mengetikkan karakter - karakter dalam suatu field password , <br>
+        browser akan menampilkan arterisk atau bullet saja,<br>
+        bukannya karakter yang diketikkan.
+    </p>
+<!-- Di bagian nama depan dan belakang menggunakan input type berupa text field yang berguna untuk mengginputkan text.
+	 di bagian password menggunakan input type password yang berguna untuk menginputkan text yang tidak terlihat atau diganti dengan karakter bullet 
+     "name" disini berguna untuk mengidentifikasi inputan(variabel).
+-->
+<!-- Nomor 2 -->
+<h1>Nomor 2</h1>
+    <form>
+    <table>
+    	<tr>
+    	<td>Saya Memiliki Sebuah Sepeda: </td>
+        <td><input type="checkbox" name="sepeda"></td>
+        </tr>
+        <tr>
+		<td>Saya Memiliki Sebuah Mobil: </td>
+        <td><input type="checkbox" name="mobil" value="ON"></td>
+        </tr>
+        <tr>
+		<td>Jenis Kelamin Anda :</td> 
+        <td><input type="radio" name="sex" value="Pria" checked>Pria</td>
+        <tr>
+        <td></td>
+        <td><input type="radio" name="sex" value="Wanita">Wanita</td>
+        </tr>
+    </table>
+    </form>   
+    <p>
+    	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terlihat diberi  tanda cek,<br>
+        dan semua tombol lain yang berada dalam nama yang sama akan kelihangan tanda cek-nya.
+    </p>
+<!-- cek box disini disini seperti cek list pada umumnya, dibagian "value" nya maksudnya cekbox tersebut terisi
+	 dibagian kelamin, type radio berfungsi sebagai pilihan dan "value" nya adalah sebagai isi dari radionya,
+     ketika disambungkan ke database isi dari value tersebut yang akan dikirim. perbedaan radio dan cekbox adalah radio hanya bisa memilih salah satu,
+     tetapi cekbox dapat memilih semua.
+-->
+
+<!-- Nomor 3 -->
+<h1>Nomor 3</h1>
+	<form>
+    	Pilih Mobil
+    	<select name="Mobil">
+        	<option value="volvo">Volvo</option>
+            <option value="peugeot">Peugeot</option>
+            <option value="fiat">Fiat</option>
+            <option value="jaguar" selected>Jaguar</option>
+            <option value="ferarri">Ferarri</option>
+        </select>
+    </form>    
+<!-- 
+	select berguna untuk pilihan drop down dan biasanya memiliki value yang sangat banyak, contoh tanggal bulan dan tahun.
+    value dan name sama seperti yang sebelumnya. valu untuk nilai inputan dan name untuk nama dari selectnya.
+-->
+<!--  Nomor 4 -->
+<h1>Nomor 4</h1>
+	<fieldset>
+    	<legend>
+        	Informasi Kesehatan:
+        </legend>
+        <form>
+        	Tinggi <input type="text" size="3">
+            Berat <input type="text" size="3">
+            <input type="button" value="Ada tombol di sini" name="submit">
+        </form>
+    </fieldset>
+    <p>
+    	Bila tidak terlihat adanya border di sekeliling input, browser anda sudah terlalu lama.
+    </p>
+<!--
+	fungsi field set adalah menampilkan garis atau border di sepanjang inputan. fungsi button adalah seperti tombol tombol seperti biasa
+-->
+
+<!-- Nomor 5 -->
+<h1>Nomor 5</h1>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get" >
+    	Masukkan nama depan Anda:
+        <input type="text" name="namadepan" value="Mickey"><br>
+		Masukkan Nama belakang Anda:
+        <input type="text" name="namabelakang" value="Mouse"><br>
+		<input type="submit" value="Submit" name="submit">
+    </form>
+    <p>
+    	Bila Anda Mengklik Tombol submit , anda akan mengirimkan input yang dimasukkan lewat form diatas ke pemroses yang bernama form_action.asp di situs w3c.
+    </p>
+<!--
+	Bila Anda Mengklik Tombol submit , anda akan mengirimkan input yang dimasukkan lewat form diatas ke pemroses yang bernama form_action.asp di situs w3c.
+    pada bagian "method=get" ini artinya menggunakan metode get dan akan tercetak pada url.ada dua isi method (get dan post).
+-->
+
+<!-- Nomor 6 -->
+<h1>Nomor 6</h1>
+	<form action="@" method="post" enctype="text/plain">
+    <h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+    Nama<br>
+	<input type="text" name="nama" value="Nama Anda" size="20">
+    <br>
+	Mail:<br>
+	<input type="text" name="mail" value="Mail anda" size="20">
+    <br>
+	Komentar:<br>
+	<input type="text" name="komentar" value="Komentar anda" size="40">
+    <br><br>
+	<input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+<!--
+	bila mengklik tombol submit aka terkirim ke alamat "@" dengan format text. fungsi reset adalah mengembalikan value nya ke value awal.
+-->
+
+<!-- Nomor 7 -->
+<h1>Nomor 7</h1>
+	<h3>Maaf kak saya pake table aja buat ganti gambarnya biar gak ribet, <br>saya juga pake bgcolor aja soalnya katanya ngumpulnya cuma file HTMLnya aja</h3>
+    <!-- <body background="test.jpg"> syntaxnya-->
+	<table bgcolor="#999999" >
+    <tr>
+    <td>
+    	<h3>Lihatlah, ada gambar latar belakang!</h3>
+        <p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+        <p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan di tampilkan berulang - ulang.</p>
+        <p>
+        	Sebuah gambar dari folder lokal:
+            <img src="gambar1.gif" width="144" height="50">
+        </p>
+        <p>
+        	gambar dari folder lain
+            <img src="../images/gambar2.gif" width="33" height="32"> 
+        </p>
+        <p>
+        	Mengambil gambar dari situs lain
+            <img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+        </p>
+    </td>    
+    </tr>
+    </table>
+<!--
+	Untuk mengimport gambar gunakan sintax "img" untuk alamat pengambilannya gunakan syntax "src" 
+-->
+
+<!-- Nomor 8 -->
+<h1>Nomor 8</h1>
+	<p>
+    	Sebuah gambar
+        <img src="test.img" align="bottom" width="100" height="50">
+        diantara teks
+    </p>
+    <p>
+    	Sebuah gambar
+        <img src="test.img" align="middle" width="100" height="50">
+        diantara teks
+    </p>
+    <p>
+    	Sebuah gambar
+        <img src="test.img" align="top" width="100" height="50">
+        diantara teks
+    </p>
+    <p>Perhatikan bahwa default pengaturan adalah bottom (bagian bawah) </p>
+    	Sebuah gambar
+        <img src="test.img" align="top" width="100" height="50">
+        diantara teks
+        <br>
+        <img src="test.img" align="top" width="100" height="50">
+        Sebuah gambar
+        diantara teks
+        <br>
+        Sebuah gambar
+        diantara teks
+        <img src="test.img" align="top" width="100" height="50">
+<!--
+	Mengatur posisi gambar menggunakan syntax align
+-->
+
+<!-- Nomor 9 -->
+<h1>Nomor 9</h1>
+	<img src="../images/gambar.gif" alt="Keterangan" width="32" height="32">
+    <p>
+    	Browser text-only hanya akan menampilkan text dalam atribut alt, yaitu keterangan.<br>
+		Perhatikan bahwa bilamana anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+    </p>
+<!-- Browser text-only hanya akan menampilkan text dalam atribut alt, yaitu keterangan.<br>
+	 Perhatikan bahwa bilamana anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+-->    
+<!-- Nomor 10 -->
+<h1>Nomor 10</h1>   
+<h3>Saya menggunakan Tabel agar mudah</h3>
+	<table bgcolor="d0d0d0">
+    <tr>
+    <td>
+    <p>
+    	Paragraf ini terlihat enak di baca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai.
+    </p>
+    </td>
+    </tr>
+    </table>
+<!-- syntax untuk merubah background color adalah bgcolo -->
+
+<!-- Nomor 11 -->
+<h1>Nomor 11</h1>
+<h3>Saya menggunakan Tabel agar lebih mudah terlihat</h3>
+<h3>Saya juga menggunakan css buat mengatur warnanya soalnya kalau semua diganti susah juga ngeliatnya</h3>
+<br>
+	<table bgcolor="ffffff" style="color:yellow;">
+    <tr>
+    <td>
+    	
+        <!-- text="yellow" -->
+    	<p>
+        	Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna <br>
+			latar belakang dan warna teks yang tidak sesuai.
+        </p>
+    </td>
+    </tr>
+    </table>
+<!-- Syntax buat merubah warna text adalah text="" dan mengatur kombinasi warna juga sangat penting -->
+<!-- Fikri Aditya -->
+<!-- 1415015012 -->
+</body>
+</html>
