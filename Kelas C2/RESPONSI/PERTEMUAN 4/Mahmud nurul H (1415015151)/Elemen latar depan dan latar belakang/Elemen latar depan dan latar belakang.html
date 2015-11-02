@@ -1,0 +1,30 @@
+<html>
+<head>
+<style type="text/css">
+img.x1{
+	position:absolute;
+	left:0;
+	top:0;
+	Z-index:1;
+}
+img.x2{
+	position:absolute;
+	left:0;
+	top:100;
+	z-index:-1;
+}
+</style>
+</head>
+<body>
+	<p><b>Catatan:</b> Netscape 4 tidak mendukung properti "z-index".</p>
+	<h1>Sepertinya Heading ini terhalang oleh gambar</h1>
+	<img class="x1" src="BubbleSort.gif" width="100" heigth="80">
+	<p>Nilai default z-index adalah 0. z-
+index 1 memiliki prioritas lebih tinggi , sedangkan Z-index -
+1 memiliki prioritas lebih rendah.</p>
+	<p></p>
+	<img class="x2" src="QUIKSORT.gif" width="100" heigth="80">
+	<p>Sekarang Anda bisa membandingkan dengan tampilan di bagian bawah ini. Apakah
+masih terhalang ganbar?</p>
+</body>
+</html>
