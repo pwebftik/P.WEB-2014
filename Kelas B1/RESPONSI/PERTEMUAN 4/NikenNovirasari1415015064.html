@@ -1,0 +1,201 @@
+<h1>Latihan1</h1>
+<html>
+<head>
+	<style type="text/css">
+	body {
+		background: #f0fff8 url("gambar.gif") no-repeat fixed center;
+	}
+	</style>
+</head>
+<body>
+	<p>
+		<b>Catatan:</b>
+		Properti background-attachment dan background-position tidak bisa digunakan dalam browser Netscape 4.0
+	</p>
+	<p>Ada teks disini</p>
+	<p>Tuliskan sekehendak kalian</p>
+	<p>Terserah apa saja</p>
+	<p>Yang penting ada tulisannya</p>
+</body>
+</html>
+<!--Analisis: background memberikan warna pada latar belakang halaman web. Url untuk sumber gambar latar belakang. No repeat fixed center untuk tidak ada pengulangan tampilan gambar dan posisi ditengah halaman web.
+-->
+<h1>Latihan2</h1>
+<html>
+<head>
+	<style type="text/css">
+	p.normal {font-weight: normal;}
+	p.tebal {font-weight: bold;}
+	p.teballl {font-weight: 900;}
+	p.lengkap{
+		font: italic small-caps 900 12px arial;
+	}
+	</style>
+</head>
+<body>
+	<p class="normal">
+	Perhatikan paragraf ini </p>
+	<p class="tebal">
+	Bandingkan dengan paragraf diatasnya</p>
+	<p class="teballl">
+	Bandingkan yang ini juga</p>
+	<p class="lengkap">
+	Paragraf dengan semua atribut font dimasukkan</p>
+</body>
+</html>
+<!--Analisis: p.normal {font-weight: normal;} digunakan untuk mengatur class="normal" pada body dengan font dan krtebalan normal
+p.tebal {font-weight: bold;} digunakan untuk mengatur class="tebal" pada body dengan font dan ketebalan bold
+p.teballl {font-weight: 900;} digunakan untuk mengatur class="teballl" pada body dengan font dan weight 900
+p.lengkap { font; italic small-cap 900 12px arial;} digunakan untuk mengatur class="lengkap" pada body dengan font=italic, huruf kapital ukuran 900 12px dengan jenis font arial 
+-->
+
+<h1>Latihan3</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	p.borderous {
+		border-style: double;
+		border-width: 5px 10px 1px medium;
+		border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+	}
+	</style>
+</head>
+<body>
+	<p class="borderous">
+	<b>Catatan:</b>tidak didukung oleh internet explorer versi lama</p>
+</body>
+</html>
+<!--Analisis:p.borderous untuk memberikan border pada paragraf. style untuk memberikan gaya border, ini menyebabkan border bisa double. width untuk memberikan lebar border. color untuk memberikn warna border.
+-->
+
+<h1>Latihan4</h1>
+<html>
+<head>
+	<style type="text/css">
+	p.margin {margin: 2cm 4cm 3cm}
+	</style>
+</head>
+<body>
+	<p>
+		Yang ini adalah paragraf biasa tanpa pengaturan margin, sepertinya biasa saja.
+	</p>
+	<p class="margin">
+	Bandingkan dengan tampilan paragraf inni. Coba Anda kecilkan ukuran window browser agar terlihat lebih jelas perbedaanya.</p>
+	<p>
+		This is a paragraph
+	</p>
+</body>
+</html>
+<!--Analisis: p.margin untuk memberikan margin paragraf.
+-->
+
+<h1>Latihan5</h1>
+<html>
+<head>
+	<style type="text/css">
+	td {padding: 1.5cm}
+	td.value2 {padding:0.5cm 2.5cm}
+	</style>
+</head>
+<body>
+	<table border="1">
+	<tr>
+		<td>
+			Ini adalah table dengan sel yang menggunakan padding sama pada setiap isinya (1,5cm).
+		</td>
+	</tr>
+	</table>
+	<br>
+	<table border="1">
+	<tr>
+	<td class="value2">
+	Bandingkan dengan tampilan tabel ini. Padding atas dan bawah memiliki nilai 0,5cm sedangkan padding kanan kiri nilainya 2,5cm.
+	</td>
+	</tr>
+	</table>
+</body>
+</html>
+<!--Analisis:td untuk memberikan lapisan kolom. padding untuk memberikan ketebalan lapisan.
+-->
+
+<h1>Latihan6</h1>
+<html>
+<head>
+	<style type="text/css">
+	ul {
+		list-style: square outside url("gambarkecil.gif");
+	}
+	</style>
+</head>
+<body>
+	<p>Disini anda menggunakan gambar berukuran kecil sebagai bullet untuk list. Properti outside akan menyebabkan list menjadi lebih rapi bila terdiri atas item yang berupa kalimat panjang dan window browser berukuran kecil.</p>
+	<ul>
+	<li>Kopi</li>
+	<li>Teh</li>
+	<li>Coca Cola</li>
+	</ul>
+</body>
+<html>
+<!--Analisis: ul untuk memberikan list. list.style untuk memberikan gaya list yaitu outside url atau diluar url gambarkecil.gif
+-->
+
+<h1>Latihan7</h1>
+<html>
+<head>
+	<style type="text/css">
+	img.x1{
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:1;
+	}
+	img.x2{
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:-1;
+	}
+	</style>
+</head>
+<body>
+	<p><b>Catatan:</b> Netscape 4 tidak mendukung properti "z-index".</p>
+	<h1>Sepertinya Heading ini terhalang oleh gambar</h1>
+	<img class="x1" src="gambar.bmp" width="100" height="80">
+	<p>Nilai default z-index adalah 0. z-index 1 memiliki prioritas lebih tinggi, sedangkan z-index-1 memiliki prioritas lebih rendah</p>
+	<p></p>
+	<img class="x2" src="gambar.bmp" width="100" height="80">
+	<p>Sekarang anda bisa membandingkan dengan tampilan di bagian bawah ini. Apakah masih terhalang gambar?</p>
+</body>
+</html>
+<!--Analisis: h1 terhalang oleh gambar.bmp karena index class="x1" lebih tinggi daripada h1. class="x2" tidak menghalangi gambar karena indexnya lebih rendah.
+-->
+
+<h1>Latihan8</h1>
+<html>
+<head>
+	<style type="text/css">
+	a:link {color:#ff0000}
+	a.one:visited{color:#0000ff}
+	a.one:hover{color:#ffcc00}
+	a.two:visited{color:#0000ff}
+	a.two:hover{font-size:150%}
+	a.three:visited{color:#0000ff}
+	a.three:hover{background:#66ff66}
+	a.four:visited{color:#0000ff}
+	a.four:hover{font-family:fixedsys}
+	a.five:visited{color:#0000ff text-decoration: line-through}
+	a.five:hover{text-decoration: overline}
+</style>
+</head>
+<body>
+	<p>Gerakan pointer mouse di atas link-link di bawah ini untuk membuat link tersebut berubah tampilannya</p>
+	<p><a class="one" href="h1m1.htm">Mengubah properti color</a></p>
+	<p><a class="two" href="h1m2.htm">Mengubah properti font</a></p>
+	<p><a class="three" href="h1m3.htm">Mengubah properti background-color</a></p>
+	<p><a class="four" href="h1m4.htm">Mengubah properti font-family</a></p>
+	<p><a class="five" href="h1m5.htm">Mengubah properti text-decoration></a></p>
+</body>
+</html>
+<!--Analisis:visited berarti kursor visit ke teks. hover berarti perubahan yang terjadi bisa berubah warna, font, background, dll.
+-->
