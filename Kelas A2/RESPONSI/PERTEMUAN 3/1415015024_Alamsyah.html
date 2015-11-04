@@ -1,0 +1,198 @@
+<html>
+<body>
+<h4>Latihan 1</h4>
+<form>
+Nama depan:
+<input type="text" name="namadepan">
+<br>
+Nama belakang:
+<input type="text" name="namabelakang">
+<br>
+Password:
+<input type="password" name="password">
+</form>
+<p>
+Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field
+password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter
+yang diketikkan. Karna pada input type nama depan dan nama belakang menggunakan type "text" sedangkan untuk input password mengunakan type "password".
+</p>
+
+<h4>Latihan 2</h4>
+<form>
+Saya memiliki sebuah sepeda:
+<input type="checkbox" name="Sepada">
+<br>
+Saya memiliki sebuah mobil:
+<input type="checkbox" name="Mobil" value="on">
+<br>
+Jenis kelamin Anda?
+<br>
+Pria:
+<input type="radio" name="Sex" value="pria">
+<br>
+Wanita:
+<input type="radio" name="Sex" value="wanita" checked>
+</form>
+<p>
+untuk input sepeda dan mobil menggunakan type "checkbox" yaitu,<br>sebuah kotak yang dapat dicentang salah 1 atau lebih dari 1. <br>sedangkan untuk jenis kelamin pria dan wanita type input bertype "radio" di type ini hanya akan tercentang salah 1 saja.
+<br> kemudian terdapat perintah checked pada jenis kelamin wanita, perintah ini akan tercentang otomatis ke jenis kelamin wanita pada saat pertama kali dibuka.
+
+</p>
+
+<h4>Latihan 3</h4>
+<form>
+19
+<select name="mobil">
+	<option value="volvo">Volvo
+	<option value="peugeot">Peugeot
+	<option value="fiat" selected>Fiat 
+	<option value="jaguar">Jaguar
+</select>
+</form>
+<p>terdapat tag "select" pada "form" yaitu perintah pilihan, <br>kemuadian tag "option value" untuk menampilkan beberapa pilihan.<br> kemudian perintah "selected" pada tag "option value=fiat" yang bertujuan langsung terpilih otomatis.</p>
+
+<h4>Latihan 4</h4>
+<fieldset>
+<legend>
+Informasi kesehatan:
+</legend> 
+<form>
+Tinggi <input type="text" size="3"> <!--input text berupa karakter dengan size=3 menandakan panjang kotak form -->
+Berat <input type="text" size="3">
+<br>
+<input type="button" value="Ada tombol disini"> <!--biasa digunakan untuk menuju ke link selanjutnya atau untuk penyimpanan dalam database. -->
+</form>
+</fieldset>
+<p>tag "fieldset" untuk membuat table kotak yang kemudian terdapat tag "legend" dan tag "form".<br>tag "legend" untuk memberi karakter pada garis table kotak fieldset<br>
+Bila tidak terlihat adanya border di sekeliling form input, browser Anda sudah
+terlalu lama.
+</p>
+
+<h4>Latihan 5</h4>
+<form name="input" action="http://www.w3c.org/form_action.asp"
+method="get">
+Masukkan nama depan Anda:
+<input type="text" name="namadepan" placeholder="Mickey"> <!-- paceholder akan menampilkan karakter bayangan mickey-->
+<br>Masukkan nama belakang Anda:
+<input type="text" name="namabelakang" value="Mouse">
+<br>
+<input type="submit" value="Submit">  <!--biasa digunakan untuk menuju ke link selanjutnya atau untuk penyimpanan dalam database. -->
+</form>
+<p>
+Bila Anda meng-klik tombol "Submit", Anda akan mengirim input yang
+dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di
+situs w3c dengan memberikan perintah action=link yang dituju dan method=get.
+</p>
+
+<h4>Latihan 6</h4>
+<form action="@" method="post" enctype="text/plain">
+<h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+Nama<br>
+<input type="text" name="nama" value="Nama Anda" size="20">
+<br>
+Mail:<br>
+<input type="text" name="mail" value="Mail Anda" size="20">
+<br>
+Komentar:<br>
+<input type="text" name="komentar" value="Komentar Anda" size="40">
+<br><br>
+<input type="submit" value="Send"> <!-- untuk mengirim-->
+<input type="reset" value="Reset"> <!-- untuk menghapus semua yang telah di isi jika terjadi kesalahan-->
+</form>
+
+<h4>Latihan 7</h4>
+<h3>Lihatlah, ada gambar latar belakang!</h3>
+<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar
+belakang HTML.</p>
+<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan
+ditampilkan berulang-ulang.</p>
+<p>
+Sebuah gambar dari folder lokal:
+<img src="liverpoll1.gif" width="144" height="50"> <!-- width untuk lebar dan heigth untuk panjang-->
+</p>
+<p>
+Gambar dari folder lain:
+<img src="../images/gambar2.gif" width="33" height="32"> 
+</p>
+<p>
+Mengambil gambar dari situs lain:
+<img src="www.yahoo.com/images/ie.gif" width="73" height="68"> 
+</p>
+
+<h4>Latihan 8</h4>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="bottom" width="100" height="50">
+21
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="middle" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="top" width="100" height="50">
+di antara teks
+</p>
+<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian
+bawah)</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" width="100" height="50">
+di antara teks
+</p>
+<p>
+<img src ="../images/contoh.gif" width="100" height="50">
+Sebuah gambar di depan teks
+</p>
+<p>
+Sebuah gambar di belakang teks
+<img src ="../images/contoh.gif" width="100" height="50">
+</p>
+
+<h4>Latihan 9</h4>
+<img src="../image/liver.jpg" alt="keterangan" width="100" height="100">
+<p>
+Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu
+Keterangan".
+Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar
+tersebut maka teks alternatif akan ditampilkan.
+</p>
+
+<h4>Latihan 10</h4>
+<p>
+Anda dapat menggunakan gambar sebagai suatu link:
+<a href="halaman2.htm" >
+<img border="0" src="gambar1.gif" width="65" height="38">
+22
+</a>
+</p>
+<p>
+Gerakkan pointer mouse di atas gambar atau pada posisi tertentu untuk melihat perbedaan link yang dituju. 
+</p>
+<img src="../images/planet.gif" width=145 height=126 usemap="#planetmap">
+<map name="planetmap">
+<area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm" >
+<area shape="circle" coords="90,58,3" alt="Mercur" href="mercur.htm" >
+<area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm" >
+</map>
+
+
+<h4>Latihan 11</h4>
+<!-- <body bgcolor="#d0d0d0"> -->
+<p>
+Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar
+belakang dan warna teks yang sesuai.
+</p>
+
+<h4>Latihan 12</h4>
+<!-- <body bgcolor="#ffffff" text="yellow"> -->
+<p>
+Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna
+latar belakang dan warna teks yang tidak sesuai.
+</p>
+
+</body>
+</html>
