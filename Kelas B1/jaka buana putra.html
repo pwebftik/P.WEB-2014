@@ -1,0 +1,190 @@
+latihan 1
+
+<html>
+<head>
+<style type="text/css">
+<body{
+background: #00ff00 url("gambar.gif")no-repeat fixed center;
+}
+</style>
+</head>
+<body>
+	<p>
+	<b>catatan:</b>
+properti background-attachment dan background-position tidak bisa digunakan dalam browser netscape 4.0.
+	</p>
+	<p>ada teks disini</p>
+	<p>tuliskan sekehendak kalian</p>
+	<p>terserah apa saja</p>
+	<p>yang penting ada tulisanya</p>
+</body>
+</html>
+
+latihan 2
+
+<html> 
+<head>
+<style type="text/css">
+	p.normal {font-weight: normal;}
+	p.tebal {font-weight: bold; }
+	p.teballl {font-weight: 900;}
+	p.lengkap{
+		font : italic small-caps 900 12px arial;
+	}
+</style>
+</head>
+<body>
+	<p class="normal">
+	perhatikan paragraf ini</p>
+	<p class="tebal">
+	Bandingkan dengan paragraf diatasnya</p>
+	<p class="teballl">
+	bandingkan yang ini juga</p>
+	<p class="lengkap">
+	paragraf dengan semua atribut font dimasukkan</p>
+</body>
+</html>
+
+latihan 3
+
+<html>
+<head>
+	<style type="text/css">
+		p.borderous{
+			border-style: double;
+			border-width: 5px 10px 1px medium
+			border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+		}
+	</style>
+</head>
+<body>
+	p class="borderous">
+	<b>catatan:</b> tidak didukung oleh internet explorer versi lama</p>
+</body>
+</html>
+
+latihan 4
+<html>
+<head>
+<style type="text/css">
+	p.margin {margin: 2cm 4cm 3cm 80px}
+	</style>
+	</head>
+	<p>
+	yang ini adalah paragraf biasa tanpa pengaturan margin, sepertinya biasa aja.
+	</p>
+	<p class="margin">
+	bandingkan dengan tampilan paragraf ini.coba anda kecilkan huruf window browser agar terlihat lebih jelas perbedaannya.
+	</p>
+	<p>
+	this is a paragraph
+	</p>
+</body>
+</html>
+	
+latihan 5
+<html>
+<head>
+<style type="text/css">
+	td {padding: 1.5cm}
+	td.value2 {padding: 0.5cm 2.5cm}
+</style>
+</head>
+<body>
+		<table border="1">
+		<tr>
+			<td>
+				ini adalah table dengan sel yang menggunakan padding sama setiap s isinya (1.5cm).
+			</td>
+		</tr>
+		</table>
+		<br>
+		<table border="1">
+			<tr>
+				<td class="value2">
+				bandingkan dengan tampilan tabel ini. pandding atas dan bawah memiliki nilai 0.5cm, sedangkan padding kanan dan kiri nilainyta 2,5cm
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
+
+latihan 6
+
+<html>
+<head>
+<style type="text/css">
+	ul{
+		list-style: square outside url("gambarkecil.gif");
+	}
+</style>
+</head>
+<body> 
+	</p>Disini anda menggunakan gambar berukuran kecil sebagai bullet untuk list. properti outside akan menyebabkan list menjadi lebih rapi bila terdiri atas item yang berupa kalimat panjang dan window browser berukuran kecil</p>
+	<ul>
+		<li>kopi</li>
+		<li>teh</li>
+		<li>coca cola</li.
+	</ul>
+</body>
+</html>
+
+latihan 7
+
+<html>
+<head>
+<style type="text/css">
+img.x1{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+img.x2{
+	position:absolute;
+	left:0;
+	top:100;
+	z-index:-1;
+}
+</style>
+</head>
+<body>
+	<p><b>catatan:</b>netscape 4 tidak mendukung properti "z-index".</p>
+	<h1>sepertinya heading ini terhalang oleh gambar</h1>
+	<img class="x1" src="gambar.bmp" width="100" height="80">
+	<p>nilai default z-index adalah0. z-index 1 memiliki nprioritaas lebih tinggi, sedangkan z-index-1 memiliki prioritas lebih rendah.</p>
+	<p></p>
+	<img class="x2" src="gambar.bmp" width="100" height="80">
+	<p>sekarang anda bisa membandingkan dengan tampilan di bagian bawah ini. apakah masih terhalang gambar?</p>
+</body>
+</html>
+
+latihan 8
+<html>
+<head>
+<style type="text/css">
+	a:link {color: #ff0000}
+	a.one:visited {color: #0000ff}
+	a.one:hover {color: #ffcc00}
+	a.two:visited {color: #0000ff}
+	a.two:hover {font-size: 150%}
+	a.three:visited {color: #0000ff}
+	a.three:hover {background: #66ff66}
+	a.four:visited {color: #0000ff}
+	a.four:hover {font-family: fixedsys}
+	a.five:visited {color: #0000ff; text-decoration: line-through}
+	a.five:hover (text-decoration: overline)
+</style>
+</head>
+<body>
+	<p>gerakan pointer mouse diatas link-link di bawah ini untuk membuat link tersebut berubah tampilanya.</p>
+	<p><a class="one" href="hlm1.htm">mengubah properti color</a></p>
+	<p><a class="two" href="hlm2.htm">mengubah properti font-size</a></p>
+	<p><a class="three" href="hlm3.htm">mengubah properti background-color</a></p>
+	<p><a class="four" href="hlm4.htm">mengubah properti font-family</a></p>
+	<p><a class="five" href="hlm5.htm">mengubah properti text-decoration</a></p>
+</body>
+</html>
+
+
+
