@@ -1,0 +1,285 @@
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 1 --> 
+<h1>Nomor 1</h1> 
+<form>
+	Nama Depan:
+	<input type="text" name="Nama Depan">
+	<br>
+	Nama Belakang
+	<input type="text" name="Nama Belakang">
+	<br>
+	Password:
+	<input type="Password" name="password">
+</form>
+<p>
+	perhatikan bahwa ketika anda mengetikan karakter-karakter dalam suatu field password,
+	brwser akan menampilkan asterisk bullet saja, bukanya karakter yang diketikkan.
+</p>
+</body>
+</html>
+<!--Di bagian nama depan dan belakang menggunakan input type berupa text field yang berguna untuk mengginputkan text. di bagian password menggunakan input type password yang berguna untuk menginputkan text yang tidak terlihat atau diganti dengan karakter bullet 
+name disini berguna untuk mengidentifikasi inputan(variabel).
+tag form merupakan tag yang berguna untuk setiap web yang memiliki form sebagai sarana interaksi dengan pengujung. Apakah itu digunakan untuk register, login, polling, atau untuk pencarian (search box). tag input merupakan sebuah tag yang dimana dapat menampilkan beberapa inputan form seperti textbox,select ,button dll. type text dan password merupakan atribut yang inputan tersebut. text akan menampilkan text box biasa dan type password akan menampilkan text box yang memiliki keamanan untuk pengisian sandi. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 2 --> 
+<h1>Nomor 2</h1>
+<form>
+	saya memeiliki sebuah sepeda :
+	<input type="checkbox" name="sepeda">
+<br>
+	saya memiliki sebuah mobil :
+	<input type="checkbox" name="mobil" value="ON">
+	<br>
+	Jenis kelamin anda?
+	<br>
+	pria :
+	<input type="radio" name="sex" value="pria">
+	wanita :
+	<input type="radio" name="sex" value="wanita" checked>
+</form>
+<p>
+	ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut
+	terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+</p>
+</body>
+</html>
+<!-- cek box disini disini seperti cek list pada umumnya dibagian value nya maksudnya cekbox tersebut terisi 
+dibagian kelamin. type radio berfungsi sebagai pilihan dan value nya adalah sebagai isi dari radionya, 
+ketika disambungkan ke database isi dari value tersebut yang akan dikirim perbedaan radio dan cekbox adalah radio hanya bisa memilih salah satu, 
+tetapi cekbox dapat memilih semua.-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 3 --> 
+<h1>Nomor 3</h1>
+<form>
+<select name="mobil">
+<option value="volvo">volvo
+<option value="peugeout">peugeout
+<option value="filat">filat
+<option value="jaguar">jaguar
+</select>
+</form>
+</body>
+</html>
+<!-- tag select merupakan tag untuk menampilkan pull down list atau bermacam-macam pilihan yang terdapat pada list tersebut. tag option menampilkan dari list yang tersedia. select berguna untuk pilihan drop down dan biasanya memiliki value yang sangat banyak, contoh tanggal bulan dan tahun. 
+value dan name sama seperti yang sebelumnya. valu untuk nilai inputan dan name untuk nama dari selectnya.-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 4 --> 
+<h1>Nomor 4</h1>
+<fieldset>
+<legend>
+informasi kedehatan :
+</legend>
+<form>
+tinggi <input type="text" size="3">
+Berat <input type="text" size="3">
+<br>
+<input type="button" value="ada tombol disini">
+</form>
+</fieldset>
+<p>
+bila tidak terlihat adanya  border di sekeliling form input,browser anda sudah terlalau lama.
+</body>
+</html>
+<!--fungsi field set adalah menampilkan garis atau border di sepanjang inputan. fungsi button adalah seperti tombol tombol seperti biasa.
+tag fieldset merupakan tag yang menampilkan sebuah field dan terdapat border pada sekeliling. tag legend merupakan suatu caption untuk sebuah fieldset. size yang terdapat pada tag input merupakan ukuran dari text box tersebut. type button berguna menampikan sebuah tmobol. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 5 --> 
+<h1>Nomor 5</h1>
+<body>
+<form name="input" action="http://www.w3corg/form_action.asp" method="get">
+masukkan nama depan anda :
+<input type="text" name="namadepan" value="masukan nama">
+<br>
+masukkan nama belakang anda :
+<input type="text" name="namabelakang" value="masukan nama">
+<br>
+</form>
+<p>
+bila anda mengklik tombol "submit", Anda akan mengirim input yang dimasukkan lewat form diatas ke pemproses
+yang bernama form_action.asp di situs w3c.
+</p>
+</body>
+</html>
+<!-- Bila Mengklik Tombol submit maka akan mengirimkan input yang dimasukkan lewat form diatas ke pemroses yang bernama form_action.asp di situs w3c. 
+pada bagian method=get ini artinya menggunakan metode get dan akan tercetak pada url.ada dua isi method get dan post. Atribut action digunakan untuk menulis alamat file yang menjadi tujuan pengiriman data. Atribut method berfungsi untuk memberitahu web browser bagaimana cara pengiriman data form. Atribut ini dapat diisi dengan nilai get atau post. Jika kita menulis atribut method="get", maka isian data form akan ditambahkan ke dalam alamat URL (terlihat pada address bar web browser). 
+Sedangkan jika menggunakan method=post, isi data form ini tidak akan terlihat. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 6 --> 
+<h1>Nomor 6</h1>
+<body>
+<body>
+<form action="@" method="post" enctype="text/plain">
+<h3>Form ini mengirim sebuah e-mail ke w3c</h3>
+Nama
+<br>
+<input type="text" name="nama" value="Nama Anda" size="20">
+<br>
+Mail :
+<input type="text" name="mail" value="Email Anda" size="20">
+<br>
+Komentar :
+<br>
+<input type="text" name="komentar" value="Komentar Anda" size="40">
+<br>
+<br>
+<input type="submit" value="send">
+<input type="reset" value="reset"> 
+</form>
+</body>
+</html>
+<!-- bila mengklik tombol submit aka terkirim ke alamat "@" dengan format text. fungsi reset adalah mengembalikan value nya ke value awal. jika kita menulis atribut method="get", maka isian data form akan ditambahkan ke dalam alamat URL (terlihat pada address bar web browser). 
+Sedangkan jika menggunakan method="post", isi data form ini tidak akan terlihat. type submit dan reset merupakan masukan tombol-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 7 --> 
+<h1>Nomor 7</h1>
+<body background="background.jpg">
+<h3>Lihatlah, ada gambar latar belakang!</h3>
+<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML</p>
+<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang</p>
+<p>
+Sebuah gambar dari folder lokal :
+<img src="gambar1.gif" width="144" height="50">
+</p>
+<p>
+Sebuah gambar dari lain :
+<img src=".../images/gambar2.gif" width="33" height="32">
+</p>
+<p>
+Mengambil gambar dari situs lain :
+<img src="www.yahoo.com/images/ie/gif" width="73" height="68">
+</p>
+</body>
+</html>
+<!--background merupakan tag untuk menampilkan latar belakang. tag img merupakan pendefinisikan sebuah gambar. width merupakan lebar dan height tinggi. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor 8 --> 
+<h1>Nomor 8</h1>
+<body>
+<p>
+Sebuah gambar
+<img src=".../images/contoh.gif" align="bottom" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src=".../images/contoh.gif" align="middle" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src=".../images/contoh.gif" align="top" width="100" height="50">
+di antara teks
+</p>
+<p>
+Perhatikan bahwa default pengarutan adalah bottom
+</p>
+<p>
+Sebuah gambar
+<img src=".../images/contoh.gif" width="100" height="50">
+di antara teks
+</p>
+<p>
+<img src=".../images/contoh.gif" width="100" height="50">
+Sebuah gambar di depan teks
+</p>
+<p>
+Sebuah gambar di belakang teks
+<img src=".../images/contoh.gif" width="100" height="50">
+</p>
+</body>
+</html>
+<!-- Mengatur posisi gambar menggunakan syntax align. img merupakan pendefinisian sebuah gambar. align merupakan sebuah atribut yang berfungsi untuk perataan tabel secara horizontal. bottom perataan di bawah, middle perataan di tengah dan top perataan di atas-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor9 --> 
+<h1>Nomor 9</h1>
+<body>
+<img src="head.png" alt="Keterangan" width="32" height="32">
+<p>
+Browser text-
+only hanya akan menampilkan teks dalam atribut "alt", yaitu Keterangan.
+Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan
+</p>
+</body>
+</html>
+<!-- syntax untuk merubah background color adalah bgcolor. Disini kita dapat menampilkan teks alternatif pada sebuah gambar, dimana tulisan pada gambar tersebut bisa ditampilkan ketika pointer diarahkan pada gambar tersebut. alt merupakan tag yang berfungsi menampilkan teks akan tetapi berada di belakang gambar sehingga dapat diubah menjadi atribut title. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor10 --> 
+<h1>Nomor 10</h1>
+<body bgcolor="#d0d0d0">
+<p>
+Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar belakang dan warna teks sesuai.
+</p>
+</body>
+</html>
+<!-- Syntax buat merubah warna text adalah text="" dan mengatur kombinasi warna juga sangat penting Disini juga kita dapat mengubah warna teks jadi tidak hanya latar belakang saja, tetapi sangat penting untuk diingat perpaduan warna yang digunakan. bgcolor menampilkan warna pada latar belakang. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>responsi modul3</title>
+</head>
+<body>
+<!-- Nomor11 --> 
+<h1>Nomor 11</h1>
+<body bgcolor="#ffffff" text="yellow">
+<p>
+Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang tidak sesuai
+</p>
+</body>
+</html>
+<!-- Disini juga kita dapat mengubah warna teks jadi tidak hanya latar belakang saja, tetapi sangat penting untuk diingat perpaduan warna yang digunakan, seperti pada contoh ini teks warna kuning yang dipadukan dengan warna putih latar belakang. Akan susah dibaca oleh user yang membacanya. -->
+
+
+
+
+
+
+
