@@ -1,0 +1,236 @@
+<!--lat1-->
+<html>
+<head>
+	<title>Belajar</title>
+</head>
+<body>
+	<form>
+	Nama depan:
+	<input type="text" name="namadepan">
+	<br>
+	Nama belakang:
+	<input type="text" name="namabelakang">
+	<br>
+	Password:
+	<input type="password" name="password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+	</p>
+
+	</body>
+	</html>
+	<!--tag <form> diatas bertujuan mendefinisikan sebuah form untuk input dari pengunjung.
+		tag <input> diatas bertujuan medefinisikan input field dimana (type="text") merupakan tipe untuk inputan berupa teks dan (type="password") tipe untuk inputan berupa password yang akan muncul di hal web berupa asterisk atau bullet saat diisi.-->
+
+<!--lat2-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+	<form>
+	Saya memiliki sebuah sepeda:
+	<input type="checkbox" name="Sepeda">
+	<br>
+	Saya memiliki sebuah mobil:
+	<input type="checkbox" name="Mobil" value="ON">
+	<br>
+	Jenis kelamin Anda?
+	<br>
+	Pria:
+	<input type="radio" name="Sex" value="pria">
+	<br>
+	Wanita:
+	<input type="radio" name="Sex" value="wanita" checked>
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya.
+	</p>
+
+	</html>
+	<!--tag <form> diatas bertujuan mendefinisikan sebuah form untuk input dari pengunjung.
+		tag <input> diatas bertujuan medefinisikan input field dimana (type="checkbox") merupkan tipe yang digunakan jika dapat memilih lebih dari 1 pilihan dan (type="radio") tipe yang pilihan nya hanya boleh 1-->
+
+
+<!--lat3-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+	<form>
+			<select name="mobil">
+				<option value="volvo">Volvo
+				<option value="peugeot">Peugeot
+				<option value="fiat">Fiat
+				<option value="jaguar">Jaguar
+			</select>
+			</form>
+</html>
+<!--tag <form> diatas bertujuan mendefinisikan sebuah form untuk input dari pengunjung.
+	tag <select> bertujuan mendefinisikan sebuah list yang dapat dipilih (drop-down box) dan didalam nya terdapat tag <option> yang berguna untuk mendefinisikan pilihan yang ada dalam drop-down box.--> 
+
+
+<!--lat4-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+  <fieldset>
+		<legend>
+			Informasi kesehatan:
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+		Bila tidak terlihat adanya border di sekeliling form input, browser Anda sudah terlalu lama.
+	</p>
+</html>
+<!--tag <fieldset> pada hal web ini bertujuan mendefinisikan sebuah fieldset. dimana didalamnya terdapat tag <legend> yang berguna mendefinisikan suatu caption untuk sebuah fieldset.
+tag <form> diatas bertujuan mendefinisikan sebuah form untuk input dari pengunjung.
+tag <input> diatas bertujuan medefinisikan input field dimana (type="button") berarti tipe nya adalah tombol.-->
+
+
+<!--lat5-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+		Masukkan nama depan Anda:
+		<input type="text" name="namadepan" value="Mickey">
+		<br>Masukkan nama belakakng Anda:
+		<input type="text" name="namabelakang" value="Mouse">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+	<p>
+		Bila Anda meng-klik tombol "Submit", Anda akan mengirim input yang dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di situs w3c.
+	</p>
+</html>
+<!--tag <form> diatas bertujuan mendefinisikan sebuah form untuk input dari pengunjung. action diatas berisi alamat situs yang dituju saat men-submit inputan yang bertipe text yang telah diisi.-->
+
+<!--lat6-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+	<form action="@" method="post" enctype="text/plain">
+		<h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+		Nama<br>
+		<input type="text" name="nama" value="Nama Anda" size="20">
+		<br>
+		Mail:<br>
+		<input type="text" name="mail" value="Mail Anda" size="20">
+		<br>
+		Komentar:<br>
+		<input type="text" name="komentar" value="Komentar Anda" size="40">
+		<br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+	</form>
+</html>
+<!--tag <form> diatas bertujuan mendefinisikan sebuah form untuk input dari pengunjung, dengan action berisi alamat email yang dituju, inputan pertama bertipe text berisi nama anda dan size untuk ukurannya. Pada input bertipe submit bervalue send yang berarti mengirim dan reset jika terjadi kesalahan dalam menginput dapat melakukan inputan ulang-->
+
+
+<!--lat7-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body background="../pict10.jpg">
+	<h3>Lihatlah, ada gambar latar belakang!</h3>
+	<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+	<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang.</p>
+	<p>
+	Sebuah gambar dari folder lokal:
+	<img src="bloglovin.jpg" width="50" height="50">
+	</p>
+	<p>
+	Gambar dari folder lain:
+	<img src="../pict10.jpg" width="93" height="67">
+	</p>
+	<p>
+	Mengambil gambar dari situs lain:
+	<img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+	</p>
+</body>
+</html>
+<!--sintak diatas untuk menyisipkan latas belakang atau background dan juga gambar dari folder yang sama, folder lain dan juga dari situs web lain menggunakan tag <img> bisa mengatur panjang dan lebar gambar sesuai dengan kemauan.-->
+
+<!--lat8-->
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+	<p>
+	Sebuah gambar
+	<img src="bloglovin.jpg" align="bottom" width="50" height="50">
+	di antara teks
+	</p>
+	<p>
+	Sebuah gambar
+	<img src="../pict10.jpg" align="middle" width="50" height="50">
+	di antara teks
+	</p>
+	<p>
+	Sebuah gambar
+	<img src="bloglovin.jpg" align="top" width="50" height="50">
+	di antara teks
+	</p>
+	<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian bawah)</p>
+	<p>
+	Sebuah gambar
+	<img src="bloglovin.jpg" width="50" height="50">
+	di antara teks
+	</p>
+	<p>
+	<img src="bloglovin.jpg" width="50" height="50">
+	Sebuah gambar di depan teks
+	</p>
+	<p>
+	Sebuah gambar di belakang teks
+	<img src="bloglovin.jpg" width="50" height="50">
+	</p>
+</html>
+<!--sintaks diatas untuk mengatur posisi gambar menggunakan tag <img> src untuk nama file, align untuk posisinya, width lebar dan height tinggi gambarnya.-->
+
+
+<!--lat9-->
+<head>
+	<title>Belajar PW</title>
+</head>
+	<img src="../pict10.jpg" title="Okonomiyaki" width="332" height="432">
+	<p>
+	Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu Keterangan". Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+	</p>
+<!--sintak diatas menampilkan teks alternatif untu gambar dengan menggunakan tag <img> src untuk namafile, tittle berisi teks alternatifnya-->
+
+
+<!--lat10-->
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0">
+	<p>
+	Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar beakang dan warna teks yang sesuai.
+	</p>
+</body>
+<!--sintak diatas untuk memberi warna pada latar belakang hal web dengan bgcolor berisi warna yang diinginkan-->
+
+
+<!--lat11-->
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+	<p>
+		Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang tidak sesuai.
+	</p>
+</body>
+</html>
+<!--sintak diatas untuk memberi warna pada latar belakang dan teks hal web dengan bgcolor berisi warna dan text untuk warna teks-->
