@@ -1,0 +1,196 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body bgcolor="grey">
+<h1>Latihan 1</h1>
+	<form>
+	Nama depan :
+	<input type="text" name="namadepan">
+	<br>
+	Nama belakang :
+	<input type="text" name="namabelakang">
+	<br>
+	Password :
+	<input type="password" name="password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika anda mengetikkan karakter - karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+	</p>
+<!-- dari body menggunakan bgcolor berwarna grey, heading dengan heading h1, Menggunakan tag form untuk mendefinisikan sebuah form untuk input dari pengunjung dengan nama depan inputan type= text, nama belakang type=text, password dengan inputan type=text dan name=password yang berarti browser akan menampilkan bullet bukan karakter, dan menutup tag from dengan </from> dan membuat suatu paragraf dengan <p> dan menutup </p> -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 2</h1>
+<form>
+	Saya memiliki sebuah sepeda:
+	<input type="checkbox" name="sepeda">
+	<br>
+	Saya memiliki sebuah mobil:
+	<input type="checkbox" name="mobil" value="ON">
+	<br>
+	Jenis kelamin Anda?
+	<br>
+	pria:
+	<input type="radio" name="Sex" value="pria">
+	<br>
+	Wanita:
+	<input type="radio" name="Sex" value="wanita" checked>
+	</form>
+	<p>
+	ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nam yang sama akan kehilangan tanda cek-nya
+	</p>
+<!-- menggunakan tag form untuk mendefinisikan sebuah form untuk inputan dari pengunjung, yang pertama "saya memiliki sebuah sepeda" menggunakan inputan type=checkbox yang berarti menceklis jika mempunyai sepedadan begitu juga pada mobil, pada jenis kelamin ada dua pilihan yaitu wanita dan pria dengan inputan type=radio setelah itu menutup form dengan </form> -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 3</h1>
+	<form>
+		<select name="mobil">
+			<option value="volvo">Volvo
+			<option value="peugeot">Peugeot
+			<option value="fiat" selected>Fiat
+			<option value="jaguar">Jaguar
+			</select>
+			</form>
+<!-- pada latihan ketiga menggunakan from dan select yang berfungsi untuk membuat list yang dapat dipilih -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 4</h1>
+<fieldset>
+		<legend>
+			Informasi kesehatan :
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+	Bila tidak terlihat adanya border disekelilng form input, browser anda sudah terlalu lama.
+	</p>
+<!-- pada latihan 4 menggunakan tag <fieldset> untuk mendefinisikan sebuah fieldset, tag legend untuk mendefinisikan suatu caption untuk sebuat fieldset dan menutup kembali, serta menggunakan form yang berisi Tinggi yang field inputannya bertype text dan size untuk ukuran kotak pada tinggi, begitu pun pada berat. tidak lupa untuk menutup form dan fieldset. -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 5</h1>
+<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+	Masukkan nama depan anda:
+	<input type="text" name="namadepan" placeholder="Mickey">
+	<br>Masukkan nama belakang anda:
+	<input type="text" name="namabelakang" value="Mouse">
+	<br>
+	<input type="submit" value="submit">
+	</form>
+	<p>
+	Bila anda mengklik tombo; "Submit", Anda mengirim input yang dimasukkan lewat form di atas pemproses yang bernama form_action.asp di situs w3c.
+	</p>
+<!-- pada latihan 5 menggunakan tag form dengan nama depan dan belakang dengan type text serta placeholder agak menjadikan teks yang ada di browser samar samar dan nama belakang dengan value agar tulisan dalam box terlihat jelas. pada input selanjutnya dengan type=submit dan value submit untuk mengirim input yg dimasukkan langsung terkirim ke form_action.asp yang ada di situs w3c -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 6</h1>
+<form action="@" method="post" enctype="text/plain">
+		<h3>Form ini mengirim sebuah e-mail ke W3C</h3>
+		Nama<br>
+		<input type="text" name="nama" value="Nama Anda" size="20">
+		<br>
+		Mail:<br>
+		<input type="text" name="mail" value="Mail Anda" size="20">
+		<br>
+		Komentar:<br>
+		<input type="text" name="komentar" value="Komentar Anda" size="40">
+		<br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">		
+	</form>
+<!-- pada latihan 6 menggunakan tag form yang berisi nama, mail yang bertype=text value=diisi sesuai dengan text yang diberikan dengan size=20 serta komentar dengan inputan text=text name="komentar value=komentar anda dan size=40. untuk pilihan tombol terdapat sumbit dan reset, sumbit untuk mengirim dan reset untuk mereset ulang data yang dimasukkan" -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 7</h1>
+
+	<h3>Lihatlah, ada gambar latar belakang!</h3>
+	<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.</p>
+	<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditampilkan berulang-ulang.</p>
+	<p>
+		Sebuah gambar dari folder lokal:
+		<img src="1.jpg" width="144" height="50">
+	</p>
+	<p>
+		Gambar dari folder lain:
+		<img src="../images/gambar2.gif" width="33" height="32">
+	</p>
+	<p>
+		Mengambil gambar dari situs lain:
+		<img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+	</p>
+<!-- pada latihan 7 memasukkan sebuah gambar dari folder lokal dengan menyebutkan nama file dan formatnya, yang kedua gambar dari folder lain dengan memberi tanda "/" untuk membatasi nama folder lain, yang ketiga mengambil gambar dari situs lain dengan menyebutkan alamat situs tersebut -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 8</h1>
+<p>
+		Sebuah gambar
+		<img src="../images/contoh.gif" align="bottom" width="100" height="50">
+		di antara teks
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="../images/contoh.gif" align="middle" width="100" height="50">
+		di antara teks
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="../images/contoh.gif" align="top" width="100" height="50">
+		di antara teks
+	</p>
+	<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian bawah)</p>
+<!-- pada latihan 8 untuk memasukkan gambar diantara text dengan posisi gambar yang pertama di bawah, yg kedua ditengan, yg ketiga di atas  -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 9</h1>
+	<p>
+		Sebuah gambar
+		<img src="../images/contoh.gif" width="100" height="50">
+		di antara teks
+	</p>
+	<p>
+		<img src="../images/contoh.gif" width="100" height="50">
+		Sebuah gambar di depan teks
+	</p>
+	<p>
+		Sebuah gambar di belakang teks
+		<img src="../images/contoh.gif" width="100" height="50">
+	</p>
+
+	<img src="3.jpg" title="Keterangan" width="134" height="150">
+	<p>
+		Browser text-only hanya akan menampilkan teks dalam atribut "title", yaitu "Keterangan".
+		Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+	</p>
+<!-- pada latihan 9 memasukkan sebuah gambar di tenfa tulisan, yang kedua memasukkan sebuah gambar di depan tulisan, dan di belakang tulisan, dan memasukkan gambar dan menampilkan tulisan keterangan jika pointer mouse di arahkan ke gambar -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 10</h1>
+	<p>
+		Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai. 
+	</p>
+</body>
+<!-- pada latihan 10 disini menggunakan bgcolor="#d0d0d0" yg di letakkan pada tag body untuk mengganti warna latar belakang agar enak terlihat -->
+<br>
+<hr size="2" color="black">
+<br>
+<h1>Latihan 11</h1>
+	<p>
+		Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna latar belakang dan warna teks yang tidak sesuai.
+	</p>
+<!-- pada latihan 11 disini menggunakan <body bgcolor="#ffffff" text="yellow"> dan paragraf tidak nyaman dibaca karena kombinasi warna latar belakang dan warna teks yang tidak sesuai -->
+
+	</body>
+	</html>
