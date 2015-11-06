@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi modul4</title>
+<style type="text/css">
+</head>
+<body>
+<!-- Nomor 1 --> 
+<h1>Nomor 1</h1> 
+body	{
+background: #00ff00
+url("gambar.gif")
+no-repeat fixed
+center center
+}
+p {
+color:#ffffff;
+}
+</style>
+</head>
+<body>
+<p>
+<b>Catatan:</b>
+Properti background-attachment dan background-position tidak bisa digunakan
+dalam browser Netscape 4.0.
+</p>
+<p>Ada teks disini</p>
+24
+<p>Tuliskan sekehendak kalian</p>
+<p>Terserah apa saja</p>
+<p>Yang penting ada tulisannya</p>
+</body>
+</html>
+<!-- percobaan  ini  untuk memberi gambar atau warna bckground -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi modul 4</title>
+<style type="text/css">
+<!-- Nomor 2 --> 
+<h1>Nomor 2</h1>
+p.normal {font-weight: normal}
+p.tebal {font-weight: bold}
+p.teballl {font-weight: 900}
+p.lengkap
+{
+font: italic small-caps 900 12px arial
+}
+</style>
+</head>
+<body>
+<p class="normal">
+Perhatikan paragraf ini</p>
+<p class="tebal">
+Bandingkan dengan paragraf diatasnya</p>
+<p class="teballl">
+Bandingkan yang ini juga</p>
+<p class="lengkap">
+Paragraf dengan semua atribut font dimasukkan</p>
+</body>
+</html>
+<!--untuk <p class="tebal,teballl,lengkap"> tidak akan
+terpengaruh karena elemen tersebut sudah memiliki
+style sendiri yaitu p.tebal, p.teballl, p.lengkap, Apabila style p.tebal, p.teballl, p.lengkap tidak ada,
+maka elemen akan seperti default. -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi  modul4</title>
+<style type="text/css">
+<!-- Nomor 3--> 
+<h1>Nomor 3</h1>
+p.borderous
+{
+border-style: double;
+border-width: 5px 10px 1px medium;
+border-color: #ff0000
+#00ff00 #0000ff rgb(250,0,255)
+}
+</style>
+</head>
+<body>
+<p class="borderous">
+<b>Catatan:</b> Properti "border-color" dan "border-width" tidak dikenali oleh
+browser Internet Explorer bila digunakan secara langsung. Gunakan properti
+"border-style" untuk menyiapkan border dalam Internet Explorer.<br>
+25
+Internet Explorer 5.5 mendukung semua border style. Internet Explorer 4.0 - 5.0
+tidak mendukung nilai "dotted" dan "dashed" </p>
+</body>
+</html>
+<!--border-style: double; untuk membuat dua garis -->
+<!--border-width: 5px 10px 1px medium; jarak antar garis
+bagian atas 5px, jarak antar garis bagian kanan 10px, jarak
+antar garis bagian bawah 1px dan jarak antar garis bagian kiri medium -->
+<!--border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255) untuk warna garis bagian atas, kanan, bawah, kiri-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi  modul4</title>
+<style type="text/css">
+<!-- Nomor 4 --> 
+<h1>Nomor 4</h1>
+p.margin {margin: 2cm 4cm 3cm 80px}
+</style>
+</head>
+<body>
+<p>
+Yang ini adalah paragraf biasa tanpa pengaturan margin, sepertinya biasa saja.
+</p>
+<p class="margin">
+Bandingkan dengan tampilan paragraf ini. Coba Anda kecilkan ukuran window
+browser agar terlihat lebih jelas perbedaannya.
+</p>
+<p>
+This is a paragraph
+</p>
+</body>
+</html>
+<!--p.margin; untuk pengaturan margin atas 2cm, kanan 4cm, bawah 3cm dan kiri 80px -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi  modul4</title>
+<style type="text/css">
+<!-- Nomor 5 --> 
+<h1>Nomor 5</h1>
+td {padding: 1.5cm}
+td.value2 {padding: 0.5cm 2.5cm}
+</style>
+</head>
+<body>
+<table border="1">
+<tr>
+<td>
+Ini adalah tabel dengan sel yang menggunakan padding sama pada setiap sisinya
+(1,5cm).
+</td>
+</tr>
+</table>
+<br>
+<table border="1">
+<tr>
+<td class="value2">
+Bandingkan dengan tampilan tabel ini. Padding atas dan bawah memiliki nilai
+0,5cm, sedangkan padding kanan dan kiri nilainya 2,5cm.
+</td>
+26
+</tr>
+</table>
+</body>
+</html>
+<!--sudah dijelaskan didalam table-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi  modul4</title>
+<style type="text/css">
+<!-- Nomor 6 --> 
+<h1>Nomor 6</h1>
+ul
+{
+list-style: square outside url("gambarkecil.gif")
+}
+</style>
+</head>
+<body>
+<p>Disini Anda menggunakan gambar berukuran kecil sebagai bullet untuk list.
+Properti outside akan menyebabkan list menjadi lebih rapi bila terdiri atas item
+yang berupa kalimat panjang dan window browser berukuran kecil.</p>
+<ul>
+<li>Kopi</li>
+<li>Teh</li>
+<li>Coca Cola</li>
+</ul>
+</body>
+</html>
+<!--sudah dijelaskan didalam table-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi  modul4</title>
+<style type="text/css">
+<!-- Nomor 7 --> 
+<h1>Nomor 7</h1>
+img.x1
+{
+position:absolute;
+left:0;
+top:0;
+z-index:1
+}
+img.x2
+{
+position:absolute;
+left:0;
+top:100;
+z-index:-1
+}
+</style>
+</head>
+<body>
+<p><b>Catatan:</b> Netscape 4 tidak mendukung properti "z-index".</p>
+<h1>Sepertinya Heading ini terhalang oleh gambar</h1>
+27
+<img class="x1" src="../liverpoll/liverpoll1.jpg" width="100" height="80">
+<!-- prioritas gambar lebih tingggi sehingga gambar menindih paragraf-->
+<p>Nilai default z-index adalah 0. Z-index 1 memiliki prioritas lebih tinggi,
+sedangkan Z-index –1 memiliki prioritas lebih rendah.</p>
+<p></p>
+<img class="x2" src="../liverpoll/liverpoll1.jpg" width="100" height="80">
+<!-- prioritas gambar lebih rendah sehingga gambar di tindih oleh paragraf-->
+<p>Sekarang Anda bisa membandingkan dengan tampilan di bagian bawah ini.
+Apakah masih terhalang gambar?</p> <!--tidak-->
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>responsi  modul4</title>
+<style type="text/css">
+<!-- Nomor 8--> 
+<h1>Nomor 8</h1>
+a:link {color: #ff0000}
+a.one:visited {color: #0000ff}
+a.one:hover {color: blue}
+a.two:visited {color: #0000ff}
+a.two:hover {font-size: 150%}
+a.three:visited {color: #0000ff}
+a.three:hover {background: #66ff66}
+a.four:visited {color: #0000ff}
+a.four:hover {font-family: fixedsys}
+a.five:visited {color: #0000ff; text-decoration: line-through}
+a.five:hover {text-decoration: overline}
+</style>
+</head>
+<body>
+<p>Gerakkan pointer mouse di atas link-link di bawah ini untuk membuat link
+tersebut berubah tampilannya.</p>
+<p><a class="one" href="hlm1.htm">Mengubah properti color</a></p>
+<p><a class="two" href="hlm2.htm"> Mengubah properti font-size</a></p>
+<p><a class="three" href="hlm3.htm"> Mengubah properti backgroundcolor</a>
+</p>
+<p><a class="four" href="hlm4.htm"> Mengubah properti font-family</a></p>
+<p><a class="five" href="hlm5.htm"> Mengubah properti textdecoration</a>
+</p>
+</body>
+</html>
+<!--
+a:link membuat texk link berwarna merah.
+a:hover style yang muncul apabila link didekati kursor.
+a:visited style yang muncul pada link yang pernah diklik.-->
+
