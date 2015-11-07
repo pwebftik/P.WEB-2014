@@ -1,0 +1,221 @@
+<html>
+<head>
+
+<style type="text/css">
+body{
+	background: #00ff00 url("a.png") no-repeat fixed center;
+}	
+</style>
+</head>
+<body>
+
+<h1>Latihan 1</h1>
+	<p>
+	<b> Catatan : </b>
+	Properti background-attachment dan background-position tidak bisa digunakan
+	dalam browser Netscape 4.0.
+	</p>
+	<p> Ada teks disini </p>
+	<p> Tuliskan sekehendak kalian</p>
+	<p> Terserah apa saja</p>
+	<p> yang penting ada tulisannya</p>
+ <hr size="6" color="black">
+<!-- * tag style type="text/css"> menandakan bahawa halaman html menggunakan css.
+	 * pada bagian body terdapat background yang berarti untuk mengatur background,
+	 * sedangkan #00ff00 adalah warna dari background.
+	 * url("a.png") no-repeat fixed center artinya menyisipkan gambar ke dalam halaman html, 
+	   dengan posisi di tengah yang tidak akan berulang dan tidak berubah posisi pada halaman browser meskipun terdapat paragraf ataupun garis horisontal yang membentang pada gambar.
+-->
+
+<h1>Latihan 2</h1>
+<style type="text/css">
+	p.normal {font-weight: normal;}
+	p.tebal{font-weight: bold;}
+	p.teballl{font-weight: 900;}
+	p.lengkap{font: italic small-caps 900 12px arial;}
+</style>
+</head>
+<body>
+	<p class="normal">
+	Perhatikan paragraf ini </p>
+	<p class="tebal">
+	Bandingkan dengan paragraf di atasnya </p>
+	<p class="teballl">
+	Bandingkan yang ini juga</p>
+	<p class="lengkap">
+	Paragraf dengan semua atribut font dimasukkan </p>
+<hr size="6" color="black">
+<!-- * normal,tebal,teballl,dan lengkap adalah suatu variabel untuk memenuhi nilai dari class.
+	 *{font-weight: normal;} untuk mengatur font yang normal/biasa.
+	 *{font-weight: bold;} untuk mengatur menjadi font yang tebal.
+	 *{font-weight: 900;} untuk mengatur menjadi font yang tebalnya berukuran 900.
+	 *{font: italic small-caps 900 12px arial;} untuk mengatur font menjadi tulisan miring (italic), berukuran kecil dengan mengubah menjadi huruf besar (small-caps), tebal 900, font berukuran 12px, dan jenis font arial.
+	 * class adalah kelas yang berguna untuk memanggil variabel yang telah dibuat tadi. -->
+
+<h1>Latihan 3</h1>
+<style type="text/css">
+	p.borderous {
+			border-style: double;
+			border-width: 5px 10px 1px medium;
+			border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+		}
+	</style>
+</head>
+<body>
+	<p class="borderous">
+	<b> Catatan : </b>
+	tidak didukung oleh internet explorer versi lama</p>
+		<p> yang penting ada tulisannya</p>
+ <hr size="6" color="black">
+<!-- * p.borderous adalah variabel yang dibuat yang di dalamnya berisi format border.
+	 * border-style: double; untuk mengatur border menjadi double.
+	 * border-width: 5px 10px 1px medium; untuk mengatur lebar border. 5px berarti jarak border dari atas adalah 5, 10px berarti jarak dari kanan yaitu 10, dan 1px berarti jarak dari bawah yaitu 1, dan medium adalah jarak dari sebelah kiri yaitu medium.
+	 * border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255); adalah format untuk mengatur warna border. #ff0000 adalh warna merah (atas), #00ff00 adalah warna hijau (kanan), #0000ff adalah warna biru (bawah)dan rgb(red green blue) adalah paduan warna dari merah hijau dan biru (kiri).
+	 * (250,0,255) artinya
+	 * class adalah kelas yang akan memanggil dari variabel borderous tadi. -->
+
+<h1>Latihan 4</h1>
+<style type="text/css">
+	p.margin {margin: 2cm 4cm 3cm 80px}
+	</style>
+</head>
+<body>
+	<p> yang ini adalah paragraf biasa tanpa pengaturan margin, sepertinya biasa saja. </p>
+
+	<p class="margin">
+	Bandingkan dengan tampilan paragraf ini. coba anda kecilkan ukuran windows browser
+	agar terlihat lebih jelas perbedaannya. </p>
+
+	<p> this is a paragraph </p>
+		<p> yang penting ada tulisannya</p>
+ <hr size="6" color="black">
+ <!-- * p.margin adalah variabel untuk paragraf.
+ 	  * {margin: 2cm 4cm 3cm 80px} adalah atribut untuk mengatur margin. 2cm dari atas, 4cm dari kanan, 3cm dari bawah, dan 80px dari kiri.
+ 	  * class adalah kelas yang akan memanggil dari variabel margin tadi. -->
+
+<h1>Latihan 5</h1>
+ 	  <style type="text/css">
+	td {padding: 1.5cm}
+	td.value2 {padding: 0.5cm 2.5cm}
+</style>
+<body>
+	<table border="1">
+		<tr>
+			<td> ini adalah tabel dengan sel yang menggunakan padding sama 
+			pada setiap sisinya (1.5cm).
+			</td>
+		</tr>
+	</table>
+	<br>
+	<table border="1">
+		<tr>
+			<td class="value2">
+			bandingkan dengan tampilan tabel ini. padding atas dan bawah memiliki nilai
+			0.5 cm, sedangkan padding kanan dan kiri nilainya 2.5cm.
+			</td>
+		</tr>
+	</table>
+
+<hr size="6" color="black">
+<!-- * dalam mengatur padding menggunakan table. td untuk mendefinisikan kolom, dan tr untuk mendefinisikan baris.
+	 * td {padding: 1.5cm} = table pertama menggunakan padding dengan ukuran 1.5cm untuk semua sisi.
+	 * td.value2 {padding: 0.5cm 2.5cm} = table kedua menggunakan padding dengan variabel value2, berukuran 0.5cm untuk atas bawah, 2.5cm untuk sebelah kanan dan kiri. 
+	 * border="1" : ukuran border dari table yang berukuran 1. -->
+
+<h1>Latihan 6</h1>
+<style type="text/css">
+	ul {
+		list-style: square outside url("b2.jpg");
+	}
+</style>
+</head>
+<body>
+	<p> Disini Anda menggunakan gambar berukuran kecil sebagai bullet untuk list.
+	Properti outside menyebabkan list menjadi lebih rapi bila terdiri atas item 
+	yang berupa kalimat panjang dan window browser berukuran kecil. </p>
+	<ul>
+		<li>Kopi</li>
+		<li>Teh</li>
+		<li>Coca Cola</li>
+	</ul>
+
+<hr size="6" color="black">
+<!--  * list-style: untuk mengubah bentuk bullet (penanda list) pada css.
+	  * square outside url("a.png") untuk membuat penanda list menggunakan gambar dengan bentuk kotak (square).
+	  * ukuran gambar untuk penanda list yang ditampilkan mengikuti ukuran gambar aslinya, jika dimensi gambar besar maka, penanda juga besar. -->
+
+<h1>Latihan 7</h1>
+<style type="text/css">
+img.x1{
+	position: absolute;
+	left: 0; 
+	top: 0;
+	z-index: 1;
+}	
+img.x2 {
+	position: absolute;
+	left: 0;
+	top: 100;
+	z-index: -1;
+}
+</style>
+</head>
+<body>
+	<p> <b> Catatan : </b> 
+	Netscape 4 tidak mendukung properti "z.index".</p>
+
+	<h1>Sepertinya heading ini terhalang oleh gambar</h1>
+	<img class="x1" src="a.png" width="100" height="80">
+
+	<p>nilai default z-index adalah 0. z-index 1 memiliki priorotas lebih tinggi, sedangkan z-index-1 memiliki prioritas lebih rendah.</p>
+
+	<img class="x2" src="a.png" width="100" height="80">
+	<p> Sekarang Anda bisa membandingkan dengan tampilan di bagian bawah ini. apakah masih terhalang oleh gambar? </p> 
+
+<hr size="6" color="black">
+<!-- * img.x1 : untuk menyisipkan gambar dengan variabel x1
+	 * img.x2 : untuk menyisipkan gambar dengan variabel x2
+	 * position: untuk mengatur posisi gambar.
+	 * left untuk mengatur jarak dari sebelah kiri pada halaman html.
+	 * top untuk mengatur jarak dari atas pada halaman html.
+	 * z-index untuk mengatur elemen latar belakang dan latar depan. 
+	 * jika z-index: 1, gambar akan berada di depan paragraf, sehingga paragraf terhalang oleh gambar.
+	 * jika z-index:-1, gambar akan berada di belakang paragraf, sehingga paragraf/tulisan tidak akan terhalang oleh gambar. -->
+
+<h1>Latihan 8</h1>
+<style type="text/css">
+	a:link {color: #ff0000}
+	a.one:visited {color: #0000ff}
+	a.one:hover {color: #ffcc00}
+	a.two:visited {color: #0000ff}
+	a.two:hover {font-size: 150%}
+	a.three:visited {color: #0000ff}
+	a.three:hover {background: #66ff66}
+	a.four:visited {color: #0000ff}
+	a.four:hover {font-family: open sans}
+	a.five:visited {color: #0000ff; text-decoration: line-through;}
+	a.five:hover {text-decoration: overline;}
+</style>
+</head>
+<body>
+	<p>Gerakan pointer mouse di atas link-link di bawah ini untuk membuat link tersebut berubah tampilannya.</p>
+
+	<p> <a class="one" href="h1m1.html">Mengubah properti color </a></p>
+	<p> <a class="two" href="h1m2.html">Mengubah properti font-size </a></p>
+	<p> <a class="three" href="h1m3.html">Mengubah properti background-color </a></p>
+	<p> <a class="four" href="h1m4.html">Mengubah properti font-family </a></p>
+	<p> <a class="five" href="h1m5.html">Mengubah properti text-decoration </a></p>
+
+<hr size="6" color="black">
+</body>
+</html>
+<!-- * a:link {color: #ff0000} = untuk mengatur warna dari sebuah link.
+	 * a:visited = untuk mengatur tampilan link setelah dikunjungi.
+	 * a:hover = untuk mengatur tampilan link saat ditunjuk oleh kursor.
+	 * {color: #0000ff} = untuk mengatur warna.
+	 * {font-size: 150%} = untuk mengatur ukuran font.
+	 * {background: #66ff66} = untuk mengatur warna background.
+	 * {font-family: open sans} = untuk mengatur jenis font
+	 * {text-decoration: line-through;} = untuk mengatur dekorasi teks, membuat garis di atas teks link.
+	 * one,two,three,four,five adalah variabel yang akan dipanggil oleh class. 
+	 * href = untuk menyisipkan halaman html.-->
