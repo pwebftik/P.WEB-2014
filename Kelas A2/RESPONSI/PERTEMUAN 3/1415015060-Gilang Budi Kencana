@@ -1,0 +1,270 @@
+BAB 3 
+
+ percobaan 1 :
+
+<html>
+<body>
+<form>
+Nama depan:
+<input type="text" name="namadepan">
+<br>
+Nama belakang:
+<input type="text" name="namabelakang">
+<br>
+Password:
+<input type="password" name="password">
+</form>
+<p>
+Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field
+password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter
+yang diketikkan.
+</p>
+</body>
+</html>
+
+catatan : dalam percobban 1 ini kita di ajarkan 
+         untuk memebuat form dan tanpa untuk memeproses dengan meggunakan sintax
+          <form>
+        
+        <input type="text" name=
+ 
+percobaan 2
+
+<html>
+<body>
+<form>
+Saya memiliki sebuah sepeda:
+<input type="checkbox" name="Sepeda">
+<br>
+Saya memiliki sebuah mobil:
+<input type="checkbox" name="Mobil" value="ON">
+<br>
+Jenis kelamin Anda?
+<br>
+Pria:
+<input type="radio" name="Sex" value="pria">
+<br>
+Wanita:
+<input type="radio" name="Sex" value="wanita" checked>
+</form>
+<p>
+Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio,
+tombol tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada
+dalam nama yang sama akan kehilangan tanda cek-nya
+</p>
+</body>
+</html>
+
+catatan : dalam percobaan ini kita di ajarkan membuat form dengan menggunakkan
+          sintax chekbokx dan radio 
+          perbedan chekbokx di gunakan untuk pilihan di mana plihan itu akan bisa di pilih semua atau salah satu
+          namaun jika radio di gunakan maka pilihan yang kita plih hanya bias di pilih salah satu saja.
+
+
+percoban 3
+
+<html>
+<body>
+<form>
+19
+<select name="mobil">
+<option value="volvo">Volvo
+<option value="peugeot">Peugeot
+<option value="fiat" selected>Fiat
+<option value="jaguar">Jaguar
+</select>
+</form>
+</body>
+</html>
+
+catatan : dalam percobaan 3 ini kita di ajarkan menggunakan select yang mana select ini 
+          di guankan untuk membuat form yang di dalamanya di berikan pilihan untuk di select
+          
+percobaan 4 :
+
+<html>
+<body>
+<fieldset>
+<legend>
+Informasi kesehatan:
+</legend>
+<form>
+Tinggi <input type="text" size="3">
+Berat <input type="text" size="3">
+<br>
+<input type="button" value="Ada tombol disini">
+</form>
+</fieldset>
+<p>
+Bila tidak terlihat adanya border di sekeliling form input, browser Anda sudah
+terlalu lama.
+</p>
+</body>
+</html>
+
+catatan : dalam percobaan ini kita di ajarkan untuk menggunakan pengaturan tombol dengan sintax "buttom" 
+
+
+percobaan 5 :
+
+<html>
+<body>
+<form name="input" action="http://www.w3c.org/form_action.asp"
+method="get">
+Masukkan nama depan Anda:
+<input type="text" name="namadepan" value="Mickey">
+<br>Masukkan nama belakang Anda:
+<input type="text" name="namabelakang" value="Mouse">
+<br>
+<input type="submit" value="Submit">
+</form>
+<p>
+Bila Anda meng-klik tombol "Submit", Anda akan mengirim input yang
+dimasukkan lewat form di atas ke pemroses yang bernama form_action.asp di
+situs w3c.
+</p>
+</body>
+</html>
+
+catatan : dalam percobban ini kita di ajrkan untuk menggunakan link untuk lokasi pengiriman data 
+          dan dengan menggunakan sintakx <form name="input" action="http://www.w3c.org/form_action.asp"
+          method="get">
+ 
+percobaan 6 :
+
+Mengirim e-mail dari suatu form
+<html>
+<body>
+<form action="@" method="post" enctype="text/plain">
+<h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+Nama<br>
+<input type="text" name="nama" value="Nama Anda” size="20">
+<br>
+Mail:<br>
+<input type="text" name="mail" value="Mail Anda" size="20">
+<br>
+Komentar:<br>
+<input type="text" name="komentar" value="Komentar Anda" size="40">
+<br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+catatan : dalam percoban ini kita di ajarkan membuat from dan dan mengirim 
+          data kae sebuah situs yang kita akan kirim / gunakan 
+          dengan menggunakan sintax form action="@" method="post" enctype="text/plain">
+          <h3>Form ini mengirim sebuah e-mail ke W3C.</h3>
+percobaan 7 :
+<html>
+<body background="background.jpg">
+<h3>Lihatlah, ada gambar latar belakang!</h3>
+<p>Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar
+belakang HTML.</p>
+<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan
+ditampilkan berulang-ulang.</p>
+<p>
+Sebuah gambar dari folder lokal:
+<img src="gambar1.gif" width="144" height="50">
+</p>
+<p>
+Gambar dari folder lain:
+<img src="../images/gambar2.gif" width="33" height="32">
+</p>
+<p>
+Mengambil gambar dari situs lain:
+<img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+</p>
+</body>
+</html>
+catatan : dalam paercobaan ini kita di ajarkan untuk menampilkan gambar pada latar belakang 
+          dengan sintax <body background="background.jpg">
+          dan mengambil gambar pada sebuah situs dan folder lokar dengan menggunakan sintax
+         <p>
+          Sebuah gambar dari folder lokal:
+         <img src="gambar1.gif" width="144" height="50">
+         </p>
+          <p>
+         Gambar dari folder lain:
+        <img src="../images/gambar2.gif" width="33" height="32">
+        </p>
+        <p>
+         Mengambil gambar dari situs lain:
+       <img src="www.yahoo.com/images/ie.gif" width="73" height="68">
+percobaan 8 :
+  <html>
+<body>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="bottom" width="100" height="50">
+21
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="middle" width="100" height="50">
+di antara teks
+</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" align="top" width="100" height="50">
+di antara teks
+</p>
+<p>Perhatikan bahwa default pengaturan adalah bottom (diletakkan di bagian
+bawah)</p>
+<p>
+Sebuah gambar
+<img src ="../images/contoh.gif" width="100" height="50">
+di antara teks
+</p>
+<p>
+<img src ="../images/contoh.gif" width="100" height="50">
+Sebuah gambar di depan teks
+</p>
+<p>
+Sebuah gambar di belakang teks
+<img src ="../images/contoh.gif" width="100" height="50">
+</p>
+</body>
+</html>
+catatan : dalam dalam percoban ini kita di ajarkan untuk memposisikan gambar pada posisi yang akan kita atur
+          di depan teks, di belakang teks,di antara teks,dan di bawah teks;
+percoban 9 :
+<html>
+<body>
+<img src="../images/gambar.gif" alt="Keterangan" width="32" height="32">
+<p>
+Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu
+Keterangan".
+Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar
+tersebut maka teks alternatif akan ditampilkan.
+</p>
+</body>
+</html>
+
+catatan : dalam percobaan ini kita di ajarkan untuk menggunakan sebuah atribut gambar untuk menampilkan teks dengan menggunakan atribut "alt"
+
+percobaan 10
+<html>
+<body bgcolor="#d0d0d0">
+<p>
+Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar
+belakang dan warna teks yang sesuai.
+</p>
+</body>
+</html>
+
+catatan : di dalam percobaan ini kita di ajarkan untuk memberi gambar pada beckgrownd 
+         harus cocok dengan  warna tulisan agar tulisan bisa di baca/ ter lihat jelas
+
+percobban 12
+<html>
+<body bgcolor="#ffffff" text="yellow">
+<p>
+Paragraf ini terlihat tidak nyaman dibaca karena menggunakan kombinasi warna
+latar belakang dan warna teks yang tidak sesuai.
+</p>
+</body>
+</html>
+
+catatan : dalam percobaan ini kita di ajarkan untuk menesuaikan warna bg dengan tulisan agar enak di abaca.;
