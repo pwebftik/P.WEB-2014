@@ -1,0 +1,24 @@
+1. Kelebihan PHP :
+   Dalam konteks website, HTML adalah data dari output PHP ketika selesai dijalankan. 
+   HTML mendefinisikan struktur dan untuk beberapa kasus, juga untuk penampilan halaman web.    
+   -HTML digunakan untuk membuat isi dasar halaman, Tapi php memungkinkan halaman untuk 'bereaksi' dengan kondisi, dan menyesuaikan HTML yang sesuai.
+   -Program php dapat berdiri sendiri ataupun disisipkan di antara kode­ kode html sehingga dapat langsung ditampilkan bersamaan dengan kode­ kode html tersebut.
+   -PHP adalah bahasa pemrograman web yang dijalankan di server.
+   -PHP digunakan untuk membuat halaman dinamis.
+   -PHP dapat terhubung dengan database.
+   -Mendukung banyak paket Database seperti MySQL, Oracle, PostgrSQL, dan lain-lain.
+   -PHP dapat membuat halaman web dengan HTML maupun javascript.
+   -PHP dijalankan oleh server sebelum halaman ditampilkan.
+   -Bahasa pemrograman PHP adalah sebuah bahasa script yang tidak melakukan sebuah kompilasi dalam penggunaanya
+   -PHP adalah bahasa open source yang dapat digunakan di berbagai mesin ( linux, unix, windows ) dan dapat dijalankan secara runtime melalui console serta juga dapat menjalankan perintah- perintah system.
+   -Program yang dibuat dengan PHP bisa dijalankan oleh Semua Sistem Operasi karena PHP berjalan secara Web Base yag artinya semua Sistem Operasi bahkan HP yang mempunyai Web Browser dapat menggunakan program PHP.
+
+2. Sintak dasar PHP :
+   <?php
+   ?>
+
+3. contoh komentar :
+   # ini komentar
+   // ini adalah tag untuk komentar untuk satu baris //
+   /* ini adalah tag untuk komentar lebih dari satu baris */
+   
