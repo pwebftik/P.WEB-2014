@@ -1,0 +1,48 @@
+Program php harus diterjemahkan oleh webserver sehingga menghasilkan kode html yang dikirim ke browser agar dapat ditampilkan. 
+Program ini dapat berdiri sendiri ataupun disisipkan di antara kodekode html sehingga dapat langsung ditampilkan bersama dengan kodekode
+html tersebut. Program php dapat ditambahkan dengan mengapit program tersebut di antara tanda <? dan ?>. TandaTeam
+tanda tersebut biasanya disebut tanda untuk escaping (kabur) dari kode html. File html yang telah dibubuhi program php harus diganti ekstensinya menjadi .php
+atau .php3. PHP merupakan bahasa pemograman web yang bersifat serverside HTML=embedded scripting, di mana scriptnya
+menyatu dengan HTML dan berada si server. Artinya adalah sintaks dan perintahperintah yang kita berikan akan sepenuhnya dijalankan di server tetapi disertakan HTML biasa. PHP dikenal
+sebgai bahasa scripting yang menyatu dengan tag HTML, dieksekusi di server dan digunakan untuk membuat halaman web yang dinamis seperti ASP (active Server
+Pages) dan JSP (Java Server Pages).
+
+1. PHP mirip dengan HTML. Karena PHP memiliki keduanya, HTML dan kode PHP.
+2. HTML adalah bahasa Tag tapi PHP adalah bahasa scripting.
+3. Output dari PHP adalah sebagian besar dalam kode HTML. Karena browser web hanya mengirim kode HTML dan kode PHP selalu di latar.
+4. Sebenarnya halaman web membutuhkan dua angka, menambahkannya dan hadir untuk pengguna yang mudah dilakukan oleh PHP tapi yang tidak mungkin dalam HTML.
+
+PHP adalah side-server.HTML merupakan Browser side-server.
+HTML digunakan untuk membuat isi dasar halaman, Tapi php memungkinkan halaman untuk 'bereaksi' dengan kondisi, dan menyesuaikan HTML yang sesuai.
+
+Kelebihan dari PHP dibandingkan bahasa pemrograman lain:
+1.      Bisa membuat Web menjadi Dinamis.
+2.      PHP bersifat Open Source yang berarti dapat digunakan oleh siapa saja secara gratis.
+3.      Program yang dibuat dengan PHP bisa dijalankan oleh Semua Sistem Operasi karena PHP berjalan secara Web Base yag artinya semua Sistem Operasi bahkan HP yang mempunyai Web Browser dapat menggunakan program PHP.
+4.      Aplikasi PHP lebih cepat dibandingkan dengan ASP maupun Java.
+5.      Mendukung banyak paket Database seperti MySQL, Oracle, PostgrSQL, dan lain-lain.
+6.      Bahasa pemrograman PHP tidak memerlukan Kompilasi / Compile dalam penggunaannya.
+7.      Banyak Web Server yang mendukung PHP seperti Apache, Lighttpd, IIS dan lain-lain.
+8.      Pengembangan Aplikasi PHP mudah karena banyak Dokumentasi, Refrensi & Developer yang membantu dalam pengembangannya.
+9.      Banyak bertebaran Aplikasi & Program PHP yang Gratis & Siap pakai seperti WordPress, PrestaShop, dan lain-lain.
+
+
+
+<!-- 
+2. tag dasar PHP
+	<?php
+	?>
+--> 
+<!--
+3. a. memberi komentar
+	// untuk komentar 1 baris
+	# untuk komentar 1 baris juga
+	/* untuk komentar 
+	lebih dari satu baris /* 
+   b. mendeklarasi variable
+	<?php
+	$tugas = "modul lima";
+	$materi = "php"
+	echo "Tugas ini untuk memenuhi tugas di ". $tugas ." tentang ". $materi;
+	?>
+-->
