@@ -1,0 +1,37 @@
+1. Kelebihan PHP dibanding HTML
+
+Halaman web biasanya disusun dari kode - kode html yang disimpan dalam sebuah file berekstensi .html. File html dikirimkan oleh server ( atau file ) ke browser. Kemudian browser menerjemahkan kode - kode tersebut sehingga menghasilkan suatu tampilan yang indah. Lain halnya dengan program php, program ini harus diterjemahkan oleh web - server sehingga menghasilkan kode html yang dikirim ke browser agar dapat ditampilkan. Program ini dapat berisi sendiri ataupun disisipkan di antara kode - kode html sehingga dapat langsung ditampilkan bersama dengan kode - kode html tersebut.
+Program php dapat ditambahkan dengan mengapit program tersebut di antara tanda. Tanda - tanda tersebut biasanya disebut tanda untuk escaping ( kabur ) dari kode html. File html yang telah dibubuhi program php harus diganti ekstensi-nya menjadi .php3 dan php.
+PHP merupakan bahasa pemrograman web yang bersifat server - side HTML = embedded scripting, dimana scriptnya menyatu dengan HTML dan berada di server. Artinya adalah sintaks dan perintah - perintah yang kita berikan akan sepenuhnya dijalankan di server tetapi disertakan HTML biasa. PHP dikenal sebagai bahasa scripting yang menyatu dengan tag HTML, dieksekusi di server dan digunakan untuk membuat halaman web yang dinamis seperti ASP ( Active Server Pages ) dan JSP ( Java Server Pages ).
+
+
+Kelebihan PHP
+
+Ketika e-commerce semakin berkembang, situs - situs yang statis pun semakin ditinggalkan, karena dianggap sudah tidak memenuhi keinginan pasar, padahal situs tersebut harus tetap dinamis. Pada saat ini bahasa PERL dan CGI sudah jauh ketinggalan jaman sehingga sebagian besar designer web banyak beralih ke bahasa server - side scripting yang lebih dinamis seperti PHP.
+Kelebihan PHP dari bahasa pemrograman lain :
+
+-Bahasa pemrograman PHP adalah sebuah bahasa script yang tidak melakukan sebuah kompilasi dalam penggunaanya
+-Web server yang mendukung PHP dapat ditemukan dimana - mana dari mulai IIS sampai dengan apache, dengan konfigurasi yang relatif mudah
+-Dalam sisi pengembangan lebih mudah, karena banyaknya milis - milis dan developer yang siap membantu dalam pengembangan
+-Dalam sisi pemahaman, PHP adalah bahasa scripting yang paling mudah karean referensi yang banyak
+-PHP adalah bahasa open source yang dapat digunakan diberbagai mesin ( linux, unix, windows ) dan dapat dijalankan secara runtime melalui console serta juga dapat menjalankan perintah- perintah system.
+
+2. Tag dasar PHP
+	<?php
+	?>
+
+3. a. Memberi Komentar
+	// Ini adalah komentar 1 baris
+	# Ini juga komentar 1 baris
+	/* Ini adalah komentar 
+	lebih dari satu baris 
+	*/ 
+   
+   b. mendeklarasi variable
+	<?php
+	$nama = "Putri";
+	$nim = "1415015037";
+	echo "Nama saya adalah " . $nama . "nim saya " . $nim;
+	?>
+
+
