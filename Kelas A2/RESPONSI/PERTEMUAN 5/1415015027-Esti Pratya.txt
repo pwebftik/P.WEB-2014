@@ -1,0 +1,34 @@
+1.	Keunggulan php yaitu :
+-	Bisa membuat Web menjadi Dinamis.
+-	PHP bersifat Open Source yang berarti dapat digunakan oleh siapa saja secara gratis.
+-	Program yang dibuat dengan PHP bisa dijalankan oleh Semua Sistem Operasi karena PHP berjalan secara Web Base yag artinya semua Sistem Operasi bahkan HP yang mempunyai Web Browser dapat menggunakan program PHP.
+-	Aplikasi PHP lebih cepat dibandingkan dengan ASP maupun Java.
+-	Mendukung banyak paket Database seperti MySQL, Oracle, PostgrSQL, dan lain-lain.
+-	Bahasa pemrograman PHP tidak memerlukan Kompilasi / Compile dalam penggunaannya.
+-	Banyak Web Server yang mendukung PHP seperti Apache, Lighttpd, IIS dan lain-lain.
+-	Pengembangan Aplikasi PHP mudah karena banyak Dokumentasi, Refrensi & Developer yang membantu dalam pengembangannya.
+-	Banyak bertebaran Aplikasi & Program PHP yang Gratis & Siap pakai seperti WordPress, PrestaShop, dan lain-lain.
+-	PHP adalah bahasa open source yang dapat digunakan di berbagai mesin (Linux, Unix, Macintosh, windows) dan dapat dijalankan secara runtime melalui console serta juga dapat menjalankan perintah” sistem.
+
+2.	Tag dasar php 
+<?php
+?>
+
+3.
+A. Memberi komentar
+
+<?php
+// This is a single-line comment
+# this is also a single-line comment
+/*
+This is a multiple-lines comment block
+That spans over multiple
+Lines 
+*/
+
+B. Mendeklarasikan Variabel
+	<?php
+$txt=”Hello world!”;
+$x = 5;
+$y = 10.5;
+?>
