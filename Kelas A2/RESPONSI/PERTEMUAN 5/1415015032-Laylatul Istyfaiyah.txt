@@ -1,0 +1,36 @@
+1. Keunggulan PHP:
+   - Dapat membuat web menjadi lebih dinamis, dibandingkan jika menggunakan HTML
+   - Dalam sisi pemahaman, PHP adalah bahasa scripting yang paling mudah karena
+     referensi yang banyak
+   - Program yang dibuat dengan PHP bisa dijalankan oleh Semua Sistem Operasi
+     karena PHP berjalan secara Web Base yag artinya semua Sistem Operasi
+     bahkan HP yang mempunyai Web Browser dapat menggunakan program PHP
+   - Mendukung banyak paket Database seperti MySQL, Oracle, PostgrSQL, dll
+   - Banyak Web Server yang mendukung PHP seperti Apache, Lighttpd, IIS dll
+Sumber:
+http://nadyaayularasati.blogspot.co.id/2012/07/hubungan-php-dengan-html-kelebihan-php.html
+http://www.nurulimam.com/2013/09/kelebihan-kekurangan-php.html
+
+2. Tag dasar PHP
+   <?php
+	  ...
+	  ...
+   ?>
+
+3. Contoh:
+   - Memberi komentar
+     Untuk komentar yang terdiri dari 1 baris dapat menggunakan // atau #
+     Untuk komentar yang terdiri dari 2 baris atau lebih dapat menggunakan /* komentar */
+     Ex:
+     <?php
+	    //komentar Anda
+    	#komentar Anda
+      /* komentar
+        Anda */
+     ?>
+   - Mendeklarasikan variabel
+     Ex:
+     <?php
+	$x=5;
+	echo $x;
+     ?>
