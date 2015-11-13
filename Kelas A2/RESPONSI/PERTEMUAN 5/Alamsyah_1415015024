@@ -1,0 +1,26 @@
+1. Kelebihan php dari html
+	- PHP adalah bahasa open source yang dapat digunakan diberbagai mesin ( linux, unix, windows )
+	  dan dapat dijalankan secara runtime melalui console serta juga dapat menjalankan perintah- perintah system.
+	- Mendukung banyak paket Database seperti MySQL, Oracle, PostgrSQL, dan lain-lain.
+	- PHP dapat terhubung dengan database.
+	- Program yang dibuat dengan PHP bisa dijalankan oleh Semua Sistem Operasi karena PHP berjalan 
+	  secara Web Base yag artinya semua Sistem Operasi bahkan HP yang mempunyai Web Browser dapat menggunakan program PHP.
+	- Bisa membuat Web menjadi Dinamis.
+	- Bahasa pemrograman PHP tidak memerlukan Kompilasi / Compile dalam penggunaannya.
+	- dll
+
+2. Sintak dasar php
+	<?php
+	?>
+
+3.  a. Komentar
+		/* komentar lebih dari satu baris */
+		// komentar 1 baris //
+		#  komentar 1 baris
+	
+	b. mendeklarasi variable
+		<?php
+		$makan = "nasi goreng";
+		$x = 2;
+		echo "malam ini saya menghabiskan ". $x ." bungkus ". $makan;
+		?>
