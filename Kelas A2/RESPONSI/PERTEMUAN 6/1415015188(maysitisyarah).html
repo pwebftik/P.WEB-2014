@@ -1,0 +1,84 @@
+1.	Apa perbedaan if & switch
+Jawab:
+If digunakan untuk satu kondisi saja. Jika pernyataan benar (terpenuhi) maka akan dijalankan, jika salah (tidak terpenuhi) maka abaikan.
+Contohnya :
+<?php
+$i = 0;
+if ($i < 5) {
+    echo "Kecil";
+}
+?>
+Karena variabel i lebih kecil dari 5 yang berarti kondisi terpenuhi maka akan dicetak “Kecil”, dan coba ubah variabel i menjadi 10, maka tidak akan dihasilkan apapun karena kondisi tidak terpenuhi.
+
+Switch, kondisi hanya dinyatakan dengan bilangan bulat atau karakter/string. Tidak seperti if dan if-else yang dapat menggunakan operasi seperti <, >, <= dan >=.
+<?php
+$i = 1;
+switch ($i) {
+case 0:
+     echo "Bernilai 0";
+     break;
+case 1:
+     echo "Bernilai 1";
+     break;
+case 2:
+     echo "Bernilai 2";
+     break;
+}
+?>
+Cek, apakah kondisi pertama terpenuhi? Karena tidak terpenuhi,maka lanjut ke kondisi kedua. Karena pada kondisi ini terpenuhi yaitu i=1, maka kondisi ketiga tidak dilanjutkan.
+Nah kenapa switch harus pake break? Agar eksekusi dilakukan pada kondisi yang terpenuhi saja, jika telah terpenuhi maka hentikan.
+
+https://rovelatte.wordpress.com/2012/02/27/perbedaan-percabangan-if-if-else-dan-switch-pada-php/
+
+
+2.	Apa perbedaan while & do while?
+Jawab :
+#While -Perulangan while banyak digunakan pada program yang terstruktur. Perulangan ini banyak digunakan bila jumlah perulangannya belum diketahui. Proses perulangan akan terus berlanjut selama kondisinya bernilai benar (true) dan akan berhenti bila kondisinya bernilai salah atau batas yang ditentukan telah terpenuhi..
+
+#Do -While -Digunakan untuk menjalankan suatu pernyataan lalu diuji apakah kondisi sudah bernilai benar, tapi jika bernilai salah maka pernyataan tidak dijalankan. Pada dasarnya perulangan do….while sama saja dengan perulangan while, hanya saja pada proses perulangan dengan while, seleksi berada di while yang letaknya di atas sementara pada perulangan do….while, seleksi while berada di bawah batas perulangan. Jadi dengan menggunakan struktur do…while sekurang-kurangnya akan terjadi satu kali perulangan.
+
+https://khoirulpad.wordpress.com/2014/02/23/perbedaan-while-dan-do-while-pada-php/
+
+3.	Contoh :
+
+A.	Variabel Array
+Jawab:
+$nama_variabel = array
+<?php
+   $nama0="Andri";
+   $nama1="Joko";
+   $nama2="Sukma";
+   $nama3="Rina";
+   $nama4="Sari";
+   //... dst sampai $nama10
+?>
+
+B.	Nilai Array
+Jawab:
+<?php
+$cars[0]=”Saab”;
+$cars[1]=”Volvo”;
+$cars[2]=”BMW”;
+$cars[3]=”Toyota”;
+echo $cars[0] . ” and ” . $cars[1] . ” are Swedish cars.”;
+?>
+
+C.	 Indeks array
+Jawab:
+<?php
+// pembuatan array
+$nama = array("Andri","Joko","Sukma","Rina","Sari");
+ 
+// pengaksesan array
+echo $nama[1]; //Joko
+echo "<br />";
+echo $nama[2]; //Sukma
+echo "<br />";
+echo $nama[3]; //Rina
+?>
+
+http://www.duniailkom.com/mengenal-tipe-data-array-dan-cara-penulisan-array-dalam-php/
+http://tutorial.belajarweb.net/php/php-array.html
+
+
+
