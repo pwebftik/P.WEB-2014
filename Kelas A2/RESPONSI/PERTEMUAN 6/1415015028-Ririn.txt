@@ -1,0 +1,18 @@
+1. Perbedaan switch dan if :
+   Pada struktur switch, kondisi logika hanya akan diperiksa satu kali, yaitu pada awal switch, baru kemudian di bandingkan dengan nilai setiap case. 
+   Sedangkan pada struktur if, kondisi akan selalu diperiksa pada setiap blok kondisi if.
+   
+2. Perbedaan while and do-while
+   Perulangan while ini banyak digunakan bila jumlah perulangannya belum diketahui. 
+   Proses perulangan akan terus berlanjut selama kondisinya bernilai benar (true) dan akan berhenti 
+   bila kondisinya bernilai salah atau batas yang ditentukan telah terpenuhi. Sedangkan,
+   Do -While digunakan untuk menjalankan suatu pernyataan lalu diuji apakah kondisi sudah bernilai benar, 
+   tapi jika bernilai salah maka pernyataan tidak dijalankan. Pada dasarnya perulangan do….while sama saja dengan perulangan while, 
+   hanya saja pada proses perulangan dengan while, seleksi berada di while yang letaknya di atas sementara pada perulangan do….while, 
+   seleksi while berada di bawah batas perulangan. Jadi dengan menggunakan struktur do…while sekurang-kurangnya akan terjadi satu kali perulangan.
+
+3. Contoh :
+   a. variabel array = $namavariabel
+   b. nilai array = $namavariabel=array("nilaiarray", "nilaiarray", "nilaiarray");
+   c. indeks array = echo "Indeks php adalah ".$namavariabel[0] . ", " .$namavariabel[1] . ".";
+      [0],[1] merupakan indeks array.
