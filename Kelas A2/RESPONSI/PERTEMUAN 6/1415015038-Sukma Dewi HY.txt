@@ -1,0 +1,23 @@
+1. Apa perbedaan if dan switch?
+   - If : pada kondisi sederhana, if hanya akan dijalankan jika memenuhi kondisi. 
+          Di dalam struktur if, setiap kondisi akan selalu diperiksa.
+	  Statement if menggunakan operasi <, >, <= dan >=.
+	  
+   - Switch : Switch akan memeriksa nilai statement kondisi bersamaan lalu menjalankan yang nilai kondisinya sesuai.
+	      Di dalam struktur switch, kondisi logika hanya akan diperiksa satu kali saja, yaitu pada awal perintah switch, 
+	      dan hasilnya di bandingkan dengan setiap case.
+	      kondisi hanya dinyatakan dengan bilangan bulat atau karakter/string, dan akhir setiap case digunakan kata kunci break untuk keluar dari switch,
+
+2. Apa perbedaan while dan do while?
+   - while : deklarasi while terletak di atas perulangan. metode perulangannya dicek terlebih dulu, dan jika benar (true)
+	     maka perulangan dilaksanakan, jika salah (false) maka perulangan dihentikan. 
+
+   - Do while : deklarasi while terletak di bawah deklarasi do. Dijalankan lebih dulu setelah itu dicek,
+	        jika true maka perulangan dilaksanakan, jika false maka perulangan di hentikan.
+
+3. Beri contoh :
+   Contoh : $cars = array("Volvo","BMW","Toyota");
+   a. Variabel array : $cars
+   b. Nilai array : "Volvo" "BMW" "Toyota"
+   c. Indeks Array : $cars[0], $cars[1], $cars[2]
+	
