@@ -1,0 +1,23 @@
+1. Perbedaan switch dan if
+- Statement if adalah salah satu statement yang digunakan untuk penyeleksian kondisi. 
+  Statement ini merupakan statement percabangan paling dasar, jika suatu terpenuhi alias bernilai true maka akan 
+  menjalankan tertentu. Dan jika tidak maka tersebut tidak akan dijalankan.
+- Switch digunakan dalam kondisi yang hanya dinyatakan dengan bilangan bulat atau karakter/string. 
+  Tidak ada konstanta yang sama dalam sebuah switch. Harus menggunakan break,  Gunanya untuk mengakhiri statement.
+Jadi kesimpulannya SWICTH hanya dapat digunakan untuk satu kondisi, sedangkan IF dapat digunakan untuk lebih dari satu kondisi 
+
+2. perbedaan while dan do … while
+- While -Perulangan while banyak digunakan pada program yang terstruktur. Perulangan ini banyak digunakan 
+  bila jumlah perulangannya belum diketahui. Proses perulangan akan terus berlanjut selama kondisinya bernilai benar (true) 
+  dan akan berhenti bila kondisinya bernilai salah atau batas yang ditentukan telah terpenuhi.
+- Do … While -Digunakan untuk menjalankan suatu pernyataan lalu diuji apakah kondisi sudah bernilai benar, 
+  tapi jika bernilai salah maka pernyataan tidak dijalankan. Pada dasarnya perulangan do….while sama saja dengan perulangan while,
+  hanya saja pada proses perulangan dengan while, seleksi berada di while yang letaknya di atas sementara pada perulangan do….while, 
+  seleksi while berada di bawah batas perulangan. Jadi dengan menggunakan struktur do…while sekurang-kurangnya akan terjadi satu kali perulangan.
+  
+3.  Contoh :
+    a. Variabel array = $teman
+    b. nilai array = $teman = array(“heru”, “dino”, “novan”) 
+    c. index array, dalam index secara default dimulai dari nol (0), kecuali anda langsung menentukannya sendiri = $teman[] atau $teman[2]
+
+
