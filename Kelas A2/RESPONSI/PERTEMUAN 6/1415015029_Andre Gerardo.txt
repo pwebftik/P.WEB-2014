@@ -1,0 +1,36 @@
+<!-- 
+1. a.   Statement if adalah salah satu statement yang digunakan untuk penyeleksian kondisi. 
+	      Statement ini merupakan statement percabangan paling dasar, 
+	      jika suatu terpenuhi alias bernilai true maka akan menjalankan tertentu. 
+	      Dan jika tidak maka tersebut tidak akan dijalankan.
+   b.   Switch digunakan dalam kondisi yang hanya dinyatakan dengan bilangan bulat atau karakter/string.
+	      Tidak ada konstanta yang sama dalam sebuah switch.
+	      Harus menggunakan break,  Gunanya untuk mengakhiri statement.
+2. a.   While > pengecekan dilakukan pada awal blok.
+   b. 	Do...While > Pengecekan dilakukan di akhir blok.  
+3. a.   Variabel Array >  Mendeklarasikan variabel array dengan tipe data yang diinginkan 
+        dengan cara yang hampir sama dengan variabel biasa. 
+        Misalnya untuk mendeklarasikan variabel bertipe integer, dapat dilakukan dengan cara :
+	      contoh :
+ 	      int [ ] bilangan; atau int bilangan [ ];
+   b. 	Nilai Array > Untuk memasukan nilai kedalam elemen array, 
+	      dengan cara menyebutkan index untuk elemen array tersebut. 
+	      Index dimulai dari index ke 0, bukan dari index ke 1.
+	      contoh :
+	      nilai[0] = 70;
+	      nilai[1] = 60;
+	      nilai[2] = 80;
+   c. 	Indeks Array > suatu tipe data terstruktur yang dapat menyimpan banyak data dengan suatu nama yang sama dan 
+	      menempati tempat di memori yang berurutan (kontigu) serta bertipe data sama pula.
+	      Larik dapat diakses berdasarkan indeksnya. 
+	      Indeks larik umumnya dimulai dari 0 dan ada pula yang dimulai dari angka bukan 0. 
+	      Pengaksesan larik biasanya dibuat dengan menggunakan perulangan (looping).
+	      contoh : 
+    	  (nama Array)[(nomor index)]
+	      int telor[3] = ["ceplok","dadar",setengah masak];
+	
+	      Penjelasan :
+	      telor[0] = "ceplok"
+	      telor[1] = "dadar"
+	      telor[2] = "setengah masak"
+-->
