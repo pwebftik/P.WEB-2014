@@ -1,0 +1,30 @@
+1. Perbedaan switch dan if
+   Didalam struktur switch, kondisi logika hanya akan diperiksa satu kali saja,
+   yaitu pada awal perintah switch, dan hasilnya di bandingkan dengan setiap case.
+   Akan tetapi di dalam struktur if, setiap kondisi akan selalu diperiksa.
+   Sehingga jika anda memiliki struktur percabangan yang banyak, struktur switch
+   akan lebih cepat dieksekusi. Namun disisi lain, switch memiliki keterbatasan
+   dalam jenis operasi perbandingan yang dapat dilakukan. Operasi perbandingan
+   di dalam switch terbatas untuk hal-hal sederhana seperti memeriksa nilai dari sebuah variabel.
+
+2. Perbedaan while dan do...while
+   Perulangan while dan do-while pada dasarnya hampir sama. Perbedaan terletak
+   pada ’lokasi’ pengecekan kondisi perulangan. Dalam struktur while, pengecekan
+   untuk kondisi perulangan di lakukan di awal, sehingga jika kondisi tidak terpenuhi,
+   maka perulangan tidak akan pernah dijalankan. Namun pada perulangan do-while,
+   pengecekan kondisi akan dilakukan di akhir perulangan, sehingga walaupun kondisi
+   adalah FALSE, perulangan akan tetap berjalan minimal 1 kali.
+
+3. Contoh:
+   a. variabel array
+   b. nilai array
+   c. indeks array
+   Misal:
+   <?php
+	  $cars=array("Volvo","BMW","Toyota");
+	  echo "I like ".$cars[0] . ", " .$cars[1] . " and " .$cars[2] . ".";
+   ?>
+   a. variabel array didahului oleh simbol $. Pada contoh diatas, variabelnya adalah cars.
+   b. nilai array pada contoh diatas yakni Volvo, BMW dan Toyota.
+   c. indeks array ditunjukkan dengan kurung siku. Pada contoh diatas, indeks array
+      yakni [0], [1] dan [2].
