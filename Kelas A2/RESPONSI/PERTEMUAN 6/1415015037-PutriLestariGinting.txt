@@ -23,7 +23,7 @@ Namun pada logika IF kita dapat melakukan operasi perbandingan yang lebih rumit 
   Digunakan untuk menjalankan suatu pernyataan lalu diuji apakah kondisi sudah bernilai benar, 
   tapi jika bernilai salah maka pernyataan tidak dijalankan. 
   Pada dasarnya perulangan do….while sama saja dengan perulangan while, 
-  hanya saja pada proses perulangan dengan while, 
+  hanya saja pada proses perulangan dengan while,
   seleksi berada di while yang letaknya di atas sementara pada perulangan do….while, 
   seleksi while berada di bawah batas perulangan. 
   Jadi dengan menggunakan struktur do…while sekurang-kurangnya akan terjadi satu kali perulangan.
