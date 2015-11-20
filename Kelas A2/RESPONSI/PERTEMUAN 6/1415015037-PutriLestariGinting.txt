@@ -1,0 +1,34 @@
+1. Perbedaan If dan Switch
+Dari segi fungsi IF dan Switch sebenarnya memiliki tujuan yang sama. 
+Namun keduanya juga memiliki perbedaan yang mendasar. 
+  
+  - Pada struktur switch, kondisi logika hanya akan diperiksa satu kali, yaitu pada awal switch, 
+  baru kemudian di bandingkan dengan nilai setiap case. 
+  
+  - Sedangkan pada struktur if, kondisi akan selalu diperiksa pada setiap blok kondisi if. 
+  
+Sehingga untuk kasus dengan struktur percabangan yang banyak, struktur logika switch akan lebih cepat dieksekusi. 
+Pada sisi lainnya, switch juga memiliki keterbatasan pada jenis operasi perbandingan yang dapat dilakukan. 
+Operasi perbandingan pada switch terbatas pada hal-hal yang sederhana seperti memeriksa nilai dari sebuah variabel. 
+Struktur switch tidak bisa digunakan untuk percabangan dengan operasi yang lebih rumit. Misalnya menentukan nilai terbesar. 
+Namun pada logika IF kita dapat melakukan operasi perbandingan yang lebih rumit dan komplek. 
+
+2. Perbedaan while dan do while
+- while
+  Perulangan while banyak digunakan pada program yang terstruktur. 
+  Perulangan ini banyak digunakan bila jumlah perulangannya belum diketahui. 
+  Proses perulangan akan terus berlanjut selama kondisinya bernilai benar (true) 
+  dan akan berhenti bila kondisinya bernilai salah atau batas yang ditentukan telah terpenuhi.
+- do while
+  Digunakan untuk menjalankan suatu pernyataan lalu diuji apakah kondisi sudah bernilai benar, 
+  tapi jika bernilai salah maka pernyataan tidak dijalankan. 
+  Pada dasarnya perulangan do….while sama saja dengan perulangan while, 
+  hanya saja pada proses perulangan dengan while, 
+  seleksi berada di while yang letaknya di atas sementara pada perulangan do….while, 
+  seleksi while berada di bawah batas perulangan. 
+  Jadi dengan menggunakan struktur do…while sekurang-kurangnya akan terjadi satu kali perulangan.
+  
+3. Contoh : $cars = array("Volvo","BMW","Toyota");
+   A. Variabel array : $cars
+   B. Nilai array : "Volvo" "BMW" "Toyota"
+   C. Indeks Array : $cars[0], $cars[1], $cars[2]
