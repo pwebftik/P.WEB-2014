@@ -1,0 +1,111 @@
+--Koneksi.php
+<?php 
+$konek=mysql_connect("localhost","root","") or die("Cek koneksi ke server anda");
+$selekdb=mysql_select_db("belajar") or die("Database tidak ditemukan");
+ 
+ --Tambah_user.php
+  
+include("koneksi.php");
+if(isset($_POST['submit'])==1)
+{
+	 $name = $_POST['name'];
+	 $username = $_POST['username'];
+	 $password  = $_POST['password'];
+
+	 if($name && $username && $password !='')
+	 {
+	 	$sql=mysql_query("insert into user values('','$name','$username','$password')") or die(mysql_error());
+	 	?>
+	 		<script type="text/javascript">
+	 		alert("data telah tersimpan");
+	 		location="data_user.php";
+	 		</script>
+	 	<?php
+	 }
+	 else
+	 {
+	 	?>
+	 		<script type="text/javascript">
+	 		alert("Harus diisi semua");
+	 		javascript:history.go(-1);
+	 		</script>
+	 	<?php
+	 }
+}
+ ?>
+<html>
+<head>
+	<title>AddUser</title>
+</head>
+<body>
+<form name="form1" action="" method="POST">
+<table>
+	<tr>
+		<td>Name</td>
+		<td></td>
+		<td><input type="text" name="name" id="name"></td>
+	</tr>
+	<tr>
+		<td>Username</td>
+		<td></td>
+		<td><input type="text" name="username" id="username"></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td></td>
+		<td><input type="password" name="password" id="password"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><input type="submit" name="submit" id="submit" value="submit"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
+
+--Data_user.php
+
+<?php 
+include("koneksi.php");
+ ?>
+<html>
+<head>
+	<title>datauser</title>
+</head>
+<body>
+<form name="form1" method="post" action="">
+<table border="1">
+	<tr>
+		<th>No</th>
+		<th>Name</th>
+		<th>Username</th>
+		<th>Password</th>
+		<th>Action</th>
+	</tr>
+	<tr>
+			<?php
+  			$no = 1;
+ 		 	$data = mysql_query("SELECT * FROM user") or die(mysql_error());
+  			while ($row = mysql_fetch_array($data))
+  			{
+  				?>
+  					
+    					<td><?php echo $no ;?></td>
+    					<td><?php echo $row['name'] ;?></td>
+    					<td><?php echo $row['username'] ;?></td>
+    					<td><?php echo $row['password'] ;?></td>
+    					<td><a href="edituser.php?id=<?php echo $row['id'];?>">edit</a>//<a href="hapususer.php?id=<?php echo $row['id'];?>">hapus</a></td>
+  					
+ 				<?php
+ 			$no++;
+			}
+ 			?>
+			
+	</tr>
+</table>
+<a href="tambah_user.php">Tambah User</a>
+</form>
+</body>
+</html>
