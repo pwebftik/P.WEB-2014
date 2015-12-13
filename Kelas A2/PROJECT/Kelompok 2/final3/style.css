@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#333;
+	margin:0;
+	padding:0;
+	font:Verdana;
+}
+
+.styled-button-3 {
+	-webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow: rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color: #5B74A8;
+	border: 1px solid:#29447E;
+	font-family: 'Lucida Grande',Tahoma,Verdana,Arial,Sans-Serif;
+	font-size: 12px;
+	font-weight: 700;
+	padding:2px 6px;
+	height: 28px;
+	color: #fff;
+	border-radius: 5px;
+	-moz-border-radius:	5px;
+	-webkit-border-radius:5px
+}
+
+#hor-minimalist-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 10px;
+	width: 800px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#hor-minimalist-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	padding: 10px 8px;
+	border-bottom: 2px solid #333;
+}
+#hor-minimalist-a td
+{
+	color:#333;
+	padding: 9px 8px 0px 8px;
+}
+#hor-minimalist-a tbody tr:hover td
+{
+	color: #009;
+}
+
+#kotak_luar {
+	width: 1100px;
+	height:100%;
+	margin:auto;
+}
+
+#header {
+	width:1100px;
+	height:300px;
+	background:url(images/head.png);
+}
+
+#konten {
+	width:1100px;
+	padding-bottom: 500px;
+	background:#FFF;
+}
+
+#konten_kiri {
+	width:250px;
+	background:#FFF;
+	float:left;	
+}
+
+#konten_kanan {
+	width:843px;
+	background:#FFF;
+	float:right;	
+}
+
+#konten_kanan p {
+	padding-left: 5px;	
+}
+
+#konten_kanan h2 {
+	height:30px;
+	background:#9F3;
+	color:#333;
+	font-size:18px;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-top:4px;
+	padding-left:3px;
+}
+
+#menu {
+	width:250px;	
+}
+
+#menu ul {
+	list-style-type:none;	
+}
+
+#menu h2 {
+	height:30px;
+	background:#9F3;
+	color:#333;
+	font-size:18px;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-top:4px;
+	padding-left:3px;
+}
+
+#menu a {
+	font-family:"Courier New";
+	font-size:16px;
+	color:#333;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	padding-left:5px;
+	background-color:#333;
+	display:block;
+	color:#9F3;	
+}
+
+#footer {
+	width:1100px;
+	height:	150px;
+	background:#FFF;
+}
+
+#footer_kanan {
+	width:1100px;
+	height:150px;
+	background:url(images/foot.png);
+	float:right;
+}
+
+#pagar_login {
+	margin:auto;
+	margin-top:200px;
+	width:392px;
+	background-color:#999;
+}
+
+#login_atas {
+	background:#999;
+	font-family:"Courier New", Courier, monospace;
+	color:#9F3;
+	padding-left:140px;
+	padding-top:20px;
+	font-size:36px;
+	width:150px;
+	height:80px;
+}
+#login_bawah {
+	background-color:#9F3;
+	width:332px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	padding-top:10px;
+	height:37px;
+	padding-left:60px;
+}
+
+#clear {
+	clear: both;
+}
