@@ -1,5 +1,6 @@
 <?php 
 include('../include/header_admin.php'); 
+include('../include/batas.php');
 if(isset($_POST['submit']))
 {
 	$id = $_POST['id'];

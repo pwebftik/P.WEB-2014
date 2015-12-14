@@ -1,5 +1,4 @@
 <?php include('../include/header_admin.php');
-
  ?>
 <div id="kotak_luar">
 	<img src="../images/head.png"  width="1100" height="250" />	

@@ -1,5 +1,6 @@
 <?php 
 include('../include/header_admin.php'); 
+include('../include/batas.php');
 if(isset($_POST['submit'])){
 $user = $_POST['user'];
 $pass = $_POST['pass'];

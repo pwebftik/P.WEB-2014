@@ -8,7 +8,8 @@ $db = 'pajak';
 mysql_connect($local, $user, $pass);
 mysql_select_db($db);
 
-function ke($alamat){
+function ke($alamat)
+{
 	echo '<meta http-equiv="refresh" content="0;URL='.$alamat.'">';	
 	}
 	

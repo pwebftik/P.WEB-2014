@@ -1,5 +1,6 @@
 <?php
 include ('../include/konfigurasi.php');
+include('../include/batas.php');
 if ($_GET['id']){
 	$id = $_GET['id'];
 	$sql = mysql_query("DELETE FROM pembayaran WHERE id = '$id'");

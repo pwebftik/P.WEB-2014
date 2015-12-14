@@ -1,4 +1,5 @@
-<?php include('../include/header_admin.php'); ?>
+<?php include('../include/header_admin.php'); 
+include('../include/batas.php');?>
 <script type="text/javascript">
     function confirmSubmit(){
         var msg;

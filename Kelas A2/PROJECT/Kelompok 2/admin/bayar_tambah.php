@@ -1,6 +1,6 @@
 <?php 
 include('../include/header_admin.php');
-ceklogin();
+include('../include/batas.php');
 if (isset($_POST['submit'])) 
 	{
     	$nama = $_POST['nama'];
